@@ -1,0 +1,3 @@
+Claim,?,string,,Name of the certification as defined by the issuing organization.
+Identifier,?,string,,Certification identification number as defined by the issuing organization.
+Organization,?,NMTOKEN,NMOrganization,Identifier of the issuing organization: Values include: CFCC – China's National Forest Certification System FSC – Forest Stewardship Council IFCC – Sustainable Forest Management Requirements PEFC – The Programme for the Endorsement of Forest Certification

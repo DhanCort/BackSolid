@@ -1,0 +1,5 @@
+Container,,IDREF,,"@Container SHALL reference the main Product that the additional products that are referenced from AssemblyItem, BindIn, BlowIn or StickOn are assembled with. @Container SHALL NOT reference the parent Product of this AssemblingIntent."
+AssemblyItem,*,element,,Each AssemblyItem element describes an individual item that is assembled with the main Product that is referenced by @Container.
+BindIn,*,element,,Each BindIn element describes an individual insert that is glued into the main Product that is referenced by @Container.
+BlowIn,*,element,,Each BlowIn element describes an individual insert that is loosely inserted into the main Product that is referenced by @Container.
+StickOn,*,element,,Each StickOn element describes an individual child Product that is glued onto the main Product that is referenced by @Container. StickOn is typically used for labels.

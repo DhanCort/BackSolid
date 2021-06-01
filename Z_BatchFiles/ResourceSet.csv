@@ -1,0 +1,12 @@
+CombinedProcessIndex,?,IntegerList,,@CombinedProcessIndex specifies the zero based indices of individual processes within the complete list of XJDF/@Types that this ResourceSet SHALL apply to. Multiple entries in @CombinedProcessIndex specify that the ResourceSet is used by the respective multiple processes.
+CommentURL,?,URL,,"URL to an external, human-readable description of the ResourceSet."
+DescriptiveName,?,string,,Human-readable descriptive name of the ResourceSet.
+ID,?,ID,,Identifier of the ResourceSet.
+Name,,NMTOKEN,,@Name SHALL specify the name of the explicit resource that this ResourceSet represents.
+ProcessUsage,?,NMTOKEN,,@ProcessUsage identifies the context of a Resource if multiple Resource elements of the same type are supplied for an individual process type.
+Unit,?,NMTOKEN,NMUnits,"Unit of measurement for the values of AmountPool/PartAmount/@Amount, AmountPool/PartAmount/@MaxAmount, AmountPool/PartAmount/ @MinAmount and AmountPool/PartAmount/@Waste."
+Usage,?,enumeration,Usage,@Usage shows that the resource is either consumed or produced within this XJDF document.
+Comment,*,element,,Any human-readable text that relates to the ResourceSet.
+Dependent,*,element,,Reference to an XJDF that produces this ResourceSet[@Usage=”Input”] or consumes this ResourceSet[@Usage=”Output”]. Multiple Dependent elements specify that the Dependent relates to multiple consuming or producing processes.
+GeneralID,*,element,,Additional identifiers related to the ResourceSet.
+Resource,*,,,List of Resource elements.

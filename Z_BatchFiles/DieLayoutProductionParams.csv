@@ -1,0 +1,4 @@
+Estimate,?,boolean,,Determines if the process SHALL run in estimate mode or not. When in estimate mode multiple solutions SHOULD be generated.
+Position,?,enumeration,Anchor,The position of the DieLayout on the sheet
+ConvertingConfig,+,element,,A ConvertingConfig element describes a range of sheet sizes that can be taken into account to create a new DieLayout. Typically a ConvertingConfig will correspond to a single combination of printing press and further finishing equipment such as die cutters.
+RepeatDesc,+,element,,Step and repeat parameters for a set of ShapeDef.

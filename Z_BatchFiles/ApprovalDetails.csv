@@ -1,0 +1,5 @@
+ApprovalState,,enumeration,,Decision made by the approver.
+ApprovalStateDetails,?,string,,Additional details on the decision made by the approver are specified in this @ApprovalStateDetails. This value provides additional machine readable details of @ApprovalState. Hand written comments and notes MAY be specified in ApprovalDetails/Comment.
+ApprovalPerson,?,element,,"Details of the person (e.g., a customer, printer or manager) who processed the approval."
+Comment,?,element,,This Comment provides a container for human readable notes that are provided by the approver.
+FileSpec,?,element,,The file that contains the approval signature.

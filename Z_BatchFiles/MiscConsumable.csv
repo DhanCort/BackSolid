@@ -1,0 +1,8 @@
+Color,?,enumeration,,@Color specifies the machine readable color of the consumable.
+ColorDetails,?,string,,@ColorDetails specifies additional details of the color of the consumable that MAY be site specific and MAY be human readable. @Color SHOULD be specified if @ColorDetails is supplied.
+Type,,NMTOKEN,NMTypeAttributeValues,Identifies the type of MiscConsumable (machine-readable). A human-readable description of the consumable SHOULD also be supplied in Resource/ @DescriptiveName. Additional machine readable details MAY be provided in @TypeDetails.
+TypeDetails,?,NMTOKEN,,Additional details of the consumable such as material.
+Height,?,float,,To know box deep.
+HeightUnit,?,enumeration,HeightUnit,It could be cm or in.
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this MiscConsumable.
+ResourceWeightUnit,?,enumeration,ResourceWeightUnit,It could be pounds or grams.

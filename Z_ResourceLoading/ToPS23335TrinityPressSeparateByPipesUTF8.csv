@@ -1,0 +1,442 @@
+strTemplateName|strAliasTemplate|strNameResource|XJDFDescriptiveName|XJDFMediaType|XJDFWidth|XJDFLength|XJDFDimensionsUnit|XJDFWeight|XJDFMediaColorName|XJDFTexture|XJDFThickness|XJDFThicknessUnit|numPriceTemplateOrResourcePerThousand
+||20# Capitol Bond|20# Capitol Bond|Paper|35|22.5|in|84|White|Light Cockle|0.005|point|331.07
+||24# Classic Crest Writing|24# Classic Crest Writing|Paper|35|23|in|103|Solar White|Smooth|0.004|point|262.65
+||24# Classic Linen Writing|24# Classic Linen Writing|Paper|35|23|in|103|Solar White|Linen|0.004|point|326.65
+||24# Strathmore Writing Wove|24# Strathmore Writing Wove|Paper|35|23|in|103|Bright White|Wove|0.005|point|348.83
+||24# Strathmore Writing Wove|24# Strathmore Writing Wove|Paper|23|35|in|103|Bright White|Wove|0.005|point|492.3
+||24# Strathmore Writing Wove|24# Strathmore Writing Wove|Paper|38|25|in|122|Bright White|Wove|0.005|point|388.75
+||20# 2 NCR Superior Precollated|20# 2 NCR Superior Precollated|Paper|8.5|14|in|26|Canary/White|Bond|||51.7
+||20# 2 NCR Superior Precollated|20# 2 NCR Superior Precollated|Paper|11|17|in|40|Canary/White|Bond|||80.5
+20# 2 NCR Superior Precollated|A|||Paper|8.5|11|in|20||Bond|||40.65
+||20# 2 NCR Superior Precollated - Pink/White|20# 2 NCR Superior Precollated - Pink/White|{A}|{A}|{A}|{A}|{A}|Pink/White|{A}|||{A}
+||20# 2 NCR Superior Precollated - Canary/White|20# 2 NCR Superior Precollated - Canary/White|{A}|{A}|{A}|{A}|{A}|Canary/White|{A}|||{A}
+||20# 5 NCR Superior Precollated|20# 5 NCR Superior Precollated|Paper|8.5|11|in|50|Gold/Pink/Canary/Green/White|Bond|||125.55
+||20# 3 NCR Superior Precollated|20# 3 NCR Superior Precollated|Paper|8.5|11|in|30|Pink/Canary/White|Bond|||68.55
+||20# 3 NCR Superior Precollated|20# 3 NCR Superior Precollated|Paper|11|17|in|30|Pink/Canary/White|Bond|||136.1
+||20# 4 NCR Superior Precollated|20# 4 NCR Superior Precollated|Paper|11|17|in|40|Gold/Pink/Canary/White|Bond|||193.95
+||20# 2 NCR Superior Precollated Micro|20# 2 NCR Superior Precollated Micro|Paper|8.5|11.5|in|20|Canary/White|Bond|||70.35
+||105# NCR Specialties|105# NCR Specialties|Paper|8.5|11|in|23|Manila|Smooth|0.008|point|118.1
+||21# NCR Superior Uncollated - CB - White|21# NCR Superior Uncollated - CB - White|Paper|8.5|11|in|10.5|White|Bond|0.004|point|31.05
+||21# NCR Superior Uncollated - CB - Blue|21# NCR Superior Uncollated - CB - Blue|Paper|8.5|11|in|10.5|Blue|Bond|0.004|point|31.45
+||20# NCR Superior Uncollated - CF - White|20# NCR Superior Uncollated - CF - White|Paper|8.5|11|in|10|White|Bond|0.003|point|22.3
+||20# NCR Superior Uncollated - CF - Pink|20# NCR Superior Uncollated - CF - Pink|Paper|8.5|11|in|10|Pink|Bond|0.003|point|22.7
+||21# NCR Superior Uncollated - CB|21# NCR Superior Uncollated - CB|Paper|8.5|11|in|10.5|Canary|Bond|0.004|point|31.45
+||22# NCR Superior Uncollated - CFB - White|22# NCR Superior Uncollated - CFB - White|Paper|8.5|11|in|11|White|Bond|0.003|point|37.7
+||22# NCR Superior Uncollated - CFB - Canary|22# NCR Superior Uncollated - CFB - Canary|Paper|8.5|11|in|11|Canary|Bond|0.004|point|20
+22# NCR Superior Uncollated - CFB|B|||Paper|8.5|11|in|11||Bond|0.004|point|38.1
+||22# NCR Superior Uncollated - CFB - Pink|22# NCR Superior Uncollated - CFB - Pink|{B}|{B}|{B}|{B}|{B}|Pink|{B}|{B}|{B}|{B}
+||22# NCR Superior Uncollated - CFB - Green|22# NCR Superior Uncollated - CFB - Green|{B}|{B}|{B}|{B}|{B}|Green|{B}|{B}|{B}|{B}
+||20# NCR Superior Uncollated - CF|20# NCR Superior Uncollated - CF|Paper|8.5|11|in|10|Canary|Bond|0.003|point|22.7
+||20# NCR Superior Uncollated - CF|20# NCR Superior Uncollated - CF|Paper|17.5|22.5|in|42.1|Goldenrod|Bond|0.003|point|99.6
+||120# McCoy Silk Cover - Weight 372|120# McCoy Silk Cover - Weight 372|Paper|23|35|in|372|White|Silk|0.012|point|492.84
+||120# McCoy Silk Cover - Weight 403|120# McCoy Silk Cover - Weight 403|Paper|23|35|in|403|White|Silk|0.013|point|500.51
+||80# Accent Opaque Cover Digital|80# Accent Opaque Cover Digital|Paper|18|12|in|66.47|White|Smooth|0.011|point|69.05
+||100# Accent Opaque Cover Digital|100# Accent Opaque Cover Digital|Paper|18|12|in|83.05|White|Smooth|0.014|point|86.3
+||80# Accent Opaque Cover Digital|80# Accent Opaque Cover Digital|Paper|8.5|11|in|28.77|White|Smooth|0.011|point|28.45
+||80# Accent Opaque Cover Digital|80# Accent Opaque Cover Digital|Paper|19|13|in|76|White|Smooth|0.011|point|79
+||80# Accent Opaque Cover Digital|80# Accent Opaque Cover Digital|Paper|17|11|in|57.53|White|Smooth|0.011|point|59.8
+||65# Accent Opaque Cover Digital|65# Accent Opaque Cover Digital|Paper|18|12|in|54|White|Smooth|0.008|point|56.1
+||120# Accent Opaque Cover Digital|120# Accent Opaque Cover Digital|Paper|18|12|in|99.68|White|Smooth|0.016|point|154.65
+||80# Accent Opaque Super Smth Cover|80# Accent Opaque Super Smth Cover|Paper|18|12|in|66.46|White|Super Smooth|0.011|point|69
+||100# Accent Opaque Super Smth Cover|100# Accent Opaque Super Smth Cover|Paper|19|13|in|95|White|Super Smooth|0.014|point|102.65
+||100# Accent Opaque Text Digital|100# Accent Opaque Text Digital|Paper|12|18|in|45.45|White|Smooth|0.007|point|46.1
+||60#Accent Opaque Text Digital|60#Accent Opaque Text Digital|Paper|8.5|11|in|11.8|White|Smooth|0.004|point|11.4
+||70# Accent Opaque Text Digital|70# Accent Opaque Text Digital|Paper|8.5|11|in|13.76|White|Smooth|0.005|point|13.3
+||60# Accent Opaque Text Digital|60# Accent Opaque Text Digital|Paper|12|18|in|27.28|White|Smooth|0.004|point|27.7
+||70# Accent Opaque Text Digital|70# Accent Opaque Text Digital|Paper|12|18|in|31.81|White|Smooth|0.005|point|32.25
+||80# Accent Opaque Text Digital|80# Accent Opaque Text Digital|Paper|12|18|in|36.37|White|Smooth|0.006|point|36.9
+||80# Accent Opaque Text Digital|80# Accent Opaque Text Digital|Paper|8.5|11|in|15.74|White|Smooth|0.006|point|15.2
+||65# Astrobrights Cover|65# Astrobrights Cover|Paper|8.5|11|in|23.38|Pulsar Pink|Smooth|0.009|point|40.55
+65# Astrobrights Cover|C|||Paper|11|17|in|46.75||Smooth|0.009|point|81.05
+||65# Astrobrights Cover - Solar Yellow|65# Astrobrights Cover - Solar Yellow|{C}|{C}|{C}|{C}|{C}|Solar Yellow|{C}|{C}|{C}|{C}
+||65# Astrobrights Cover - Gamma Green|65# Astrobrights Cover - Gamma Green|{C}|{C}|{C}|{C}|{C}|Gamma Green|{C}|{C}|{C}|{C}
+||65# Astrobrights Cover - Re-Entry Red|65# Astrobrights Cover - Re-Entry Red|{C}|{C}|{C}|{C}|{C}|Re-Entry Red|{C}|{C}|{C}|{C}
+||65# Astrobrights Cover - Celestial Blue|65# Astrobrights Cover - Celestial Blue|{C}|{C}|{C}|{C}|{C}|Celestial Blue|{C}|{C}|{C}|{C}
+||65# Astrobrights Cover - Planetary Purple|65# Astrobrights Cover - Planetary Purple|{C}|{C}|{C}|{C}|{C}|Planetary Purple|{C}|{C}|{C}|{C}
+||65# Astrobrights Cover - Re-Entry Red|65# Astrobrights Cover - Re-Entry Red|Paper|8.5|11|in|23.38|Re-Entry Red|Smooth|0.009|point|40.55
+60# Astrobrights Text|D|||Paper|8.5|11|in|11.8||Smooth|0.004|point|20.45
+||60# Astrobrights Text - Rocket Red|60# Astrobrights Text - Rocket Red|{D}|{D}|{D}|{D}|{D}|Rocket Red|{D}|{D}|{D}|{D}
+||60# Astrobrights Text - Lunar Blue|60# Astrobrights Text - Lunar Blue|{D}|{D}|{D}|{D}|{D}|Lunar Blue|{D}|{D}|{D}|{D}
+||60# Astrobrights Text - Solar Yellow|60# Astrobrights Text - Solar Yellow|{D}|{D}|{D}|{D}|{D}|Solar Yellow|{D}|{D}|{D}|{D}
+65# Astroparche Cover|E|||Paper|8.5|11|in|23.38||Vellum|0.01|point|53.1
+||65# Astroparche Cover - White|65# Astroparche Cover - White|{E}|{E}|{E}|{E}|{E}|White|{E}|{E}|{E}|{E}
+||65# Astroparche Cover - Aged|65# Astroparche Cover - Aged|{E}|{E}|{E}|{E}|{E}|Aged|{E}|{E}|{E}|{E}
+24# Atlas Bond|F|||Paper|8.5|11|in|12||Light Cockle|0.005|point|29.7
+||24# Atlas Bond - Recycled Bright White|24# Atlas Bond - Recycled Bright White|{F}|{F}|{F}|{F}|{F}|Recycled Bright White|{F}|{F}|{F}|{F}
+||24# Atlas Bond - Ultra Bright White|24# Atlas Bond - Ultra Bright White|{F}|{F}|{F}|{F}|{F}|Ultra Bright White|{F}|{F}|{F}|{F}
+||80# Blazer Digital Gloss Cover|80# Blazer Digital Gloss Cover|Paper|18|12|in|66|White|Glossy|0.007|point|57.05
+||100# Blazer Digital Gloss Cover|100# Blazer Digital Gloss Cover|Paper|18|12|in|83|White|Glossy|0.009|point|71.8
+||100# Blazer Digital Gloss Cover|100# Blazer Digital Gloss Cover|Paper|19|13|in|95|White|Glossy|0.009|point|82.15
+||110# Blazer Digital Gloss Cover|110# Blazer Digital Gloss Cover|Paper|18|12|in|91|White|Glossy|0.01|point|78.7
+||130# Blazer Digital Gloss Cover|130# Blazer Digital Gloss Cover|Paper|18|12|in|108|White|Glossy|0.012|point|93.4
+||130# Blazer Digital Gloss Cover|130# Blazer Digital Gloss Cover|Paper|19|13|in|124|White|Glossy|0.012|point|107.2
+||80# Blazer Digital Gloss Text|80# Blazer Digital Gloss Text|Paper|12|18|in|36|White|Glossy|0.003|point|30.25
+||80# Blazer Digital Gloss Text|80# Blazer Digital Gloss Text|Paper|13|19|in|42|White|Glossy|0.003|point|35.3
+||100# Blazer Digital Gloss Text|100# Blazer Digital Gloss Text|Paper|12|18|in|45|White|Glossy|0.004|point|37.8
+||100# Blazer Digital Gloss Text|100# Blazer Digital Gloss Text|Paper|13|19|in|52|White|Glossy|0.004|point|43.7
+||100# Blazer Digital Satin Cover|100# Blazer Digital Satin Cover|Paper|18|12|in|83|White|Satin|0.011|point|71.8
+||100# Blazer Digital Satin Cover|100# Blazer Digital Satin Cover|Paper|19|13|in|95|White|Satin|0.011|point|82.15
+||80# Blazer Digital Satin Cover|80# Blazer Digital Satin Cover|Paper|18|12|in|66|White|Satin|0.009|point|57.05
+||80# Blazer Digital Satin Cover|80# Blazer Digital Satin Cover|Paper|19|13|in|76|White|Satin|0.009|point|65.7
+||130# Blazer Digital Satin Cover|130# Blazer Digital Satin Cover|Paper|18|12|in|108|White|Satin|0.015|point|93.4
+||80# Blazer Digital Satin Text|80# Blazer Digital Satin Text|Paper|12|18|in|36|White|Satin|0.004|point|30.25
+||100# Blazer Digital Satin Text|100# Blazer Digital Satin Text|Paper|12|18|in|45|White|Satin|0.005|point|37.8
+||100# Blazer Digital Satin Text|100# Blazer Digital Satin Text|Paper|13|19|in|52|White|Satin|0.005|point|43.7
+||65# BriteHue Cover|65# BriteHue Cover|Paper|8.5|11|in|23.38|Ultra Orange|Semi-Vellum|0.009|point|34.6
+||60# BriteHue Text Recycled|60# BriteHue Text Recycled|Paper|8.5|11|in|11.82|Orange|Semi-Vellum|0.004|point|17.15
+||24# Capitol Bond|24# Capitol Bond|Paper|17|11|in|24|White|Light Cockle|0.005|point|57.1
+||24# Classic Columns Writing|24# Classic Columns Writing|Paper|8.5|11|in|12|Solar White|Lineal|0.005|point|38.2
+||110# Classic Crest Cover - Solar White - W39.54|110# Classic Crest Cover - Solar White - W39.54|Paper|8.5|11|in|39.54|Solar White|Smooth|0.014|point|109.8
+||80# Classic Crest Cover - Antique Gray|80# Classic Crest Cover - Antique Gray|Paper|8.5|11|in|28.76|Antique Gray|Smooth|0.01|point|76.75
+||65# Classic Crest Cover|65# Classic Crest Cover|Paper|8.5|11|in|23.36|Solar White|Smooth|0.008|point|62.35
+||80# Classic Crest Cover - Solar White|80# Classic Crest Cover - Solar White|Paper|8.5|11|in|28.76|Solar White|Smooth|0.01|point|76.75
+||110# Classic Crest Cover - Classic Natural White|110# Classic Crest Cover - Classic Natural White|Paper|8.5|11|in|39.54|Classic Natural White|Smooth|0.014|point|108.3
+||110# Classic Crest Cover - Solar White - W91.38|110# Classic Crest Cover - Solar White - W91.38|Paper|18|12|in|91.38|Solar White|Smooth|0.014|point|271.05
+||80# Classic Crest Smooth Digtl Cvr - Solar White|80# Classic Crest Smooth Digtl Cvr - Solar White|Paper|18|12|in|66.46|Solar White|Smooth|0.01|point|204.8
+||100# Classic Crest Smooth Digtl Cvr|100# Classic Crest Smooth Digtl Cvr|Paper|18|12|in|83.06|Solar White|Smooth|0.012|point|208.2
+||80# Classic Crest Smooth Digtl Cvr - Classic Natural White|80# Classic Crest Smooth Digtl Cvr - Classic Natural White|Paper|18|12|in|66.46|Classic Natural White|Smooth|0.01|point|202.1
+||80# Classic Crest Smooth Digtl Txt - Classic Natural White|80# Classic Crest Smooth Digtl Txt - Classic Natural White|Paper|12|18|in|36.36|Classic Natural White|Smooth|0.005|point|107.6
+||80# Classic Crest Smooth Digtl Txt - Solar White|80# Classic Crest Smooth Digtl Txt - Solar White|Paper|12|18|in|36.36|Solar White|Smooth|0.005|point|109.1
+||70# Classic Crest Text - Avalanche White|70# Classic Crest Text - Avalanche White|Paper|8.5|11|in|13.76|Avalanche White|Smooth|0.005|point|38.5
+||70# Classic Crest Text - Classic Natural White|70# Classic Crest Text - Classic Natural White|Paper|8.5|11|in|13.76|Classic Natural White|Smooth|0.005|point|37.9
+||70# Classic Crest Text - Solar White|70# Classic Crest Text - Solar White|Paper|8.5|11|in|13.76|Solar White|Smooth|0.005|point|37
+24# Classic Crest Writing|G|||Paper|8.5|11|in|12||Smooth|0.004|point|32.8
+||24# Classic Crest Writing - Avon Brilliant White|24# Classic Crest Writing - Avon Brilliant White|{G}|{G}|{G}|{G}|{G}|Avon Brilliant White|{G}|{G}|{G}|{G}
+||24# Classic Crest Writing - Classic Natural White|24# Classic Crest Writing - Classic Natural White|{G}|{G}|{G}|{G}|{G}|Classic Natural White|{G}|{G}|{G}|{G}
+||24# Classic Crest Writing - Solar White|24# Classic Crest Writing - Solar White|Paper|8.5|11|in|12|Solar White|Smooth|0.004|point|32.25
+||24# Classic Crest Writing - Whitestone|24# Classic Crest Writing - Whitestone|Paper|8.5|11|in|12|Whitestone|Smooth|0.004|point|33.85
+||80# Classic Laid Cover - Baronial Ivory|80# Classic Laid Cover - Baronial Ivory|Paper|8.5|11|in|28.76|Baronial Ivory|Laid|0.013|point|82.2
+||80# Classic Laid Cover - Classic Natural White|80# Classic Laid Cover - Classic Natural White|Paper|8.5|11|in|28.76|Classic Natural White|Laid|0.013|point|82.4
+24# Classic Laid Writing|H|||Paper|8.5|11|in|12||Imaging|0.005|point|34
+||24# Classic Laid Writing - Classic Natural White|24# Classic Laid Writing - Classic Natural White|{H}|{H}|{H}|{H}|{H}|Classic Natural White|{H}|{H}|{H}|33.5
+||24# Classic Laid Writing - Baronial Ivory|24# Classic Laid Writing - Baronial Ivory|{H}|{H}|{H}|{H}|{H}|Baronial Ivory|{H}|{H}|{H}|{H}
+||24# Classic Laid Writing - Antique Gray|24# Classic Laid Writing - Antique Gray|{H}|{H}|{H}|{H}|{H}|Antique Gray|{H}|{H}|{H}|{H}
+||24# Classic Laid Writing - Solar White|24# Classic Laid Writing - Solar White|{H}|{H}|{H}|{H}|{H}|Solar White|{H}|{H}|{H}|{H}
+||80# Classic Linen Cover - Classic Natural White|80# Classic Linen Cover - Classic Natural White|Paper|8.5|11|in|28.76|Classic Natural White|Linen|0.01|point|84.5
+||80# Classic Linen Cover - Solar White|80# Classic Linen Cover - Solar White|Paper|8.5|11|in|28.76|Solar White|Linen|0.01|point|85.6
+||80# Classic Linen Digital Cover|80# Classic Linen Digital Cover|Paper|18|12|in|66.46|Solar White|Linen|0.01|point|207.7
+||100# Classic Linen Digital Cover|100# Classic Linen Digital Cover|Paper|18|12|in|83.06|Antique Gray|Linen|0.012|point|259.55
+24# Classic Linen Writing|I|||Paper|8.5|11|in|12||Linen|0.004|point|37.1
+||24# Classic Linen Writing - Classic Natural White|24# Classic Linen Writing - Classic Natural White|{I}|{I}|{I}|{I}|{I}|Classic Natural White|{I}|{I}|{I}|36.6
+||24# Classic Linen Writing - Antique Gray|24# Classic Linen Writing - Antique Gray|{I}|{I}|{I}|{I}|{I}|Antique Gray|{I}|{I}|{I}|{I}
+||24# Classic Linen Writing - Baronial Ivory|24# Classic Linen Writing - Baronial Ivory|{I}|{I}|{I}|{I}|{I}|Baronial Ivory|{I}|{I}|{I}|{I}
+||24# Classic Linen Writing - Whitestone|24# Classic Linen Writing - Whitestone|{I}|{I}|{I}|{I}|{I}|Whitestone|{I}|{I}|{I}|{I}
+||130# Cougar Digital Color Copy Cover|130# Cougar Digital Color Copy Cover|Paper|18|12|in|108|White|Super Smooth|0.016|point|197.95
+||100# Cougar Digital Cover - Natural|100# Cougar Digital Cover - Natural|Paper|18|12|in|83.08|Natural|Smooth|0.013|point|103.85
+||100# Cougar Digital Cover - White|100# Cougar Digital Cover - White|Paper|18|12|in|83.08|White|Smooth|0.013|point|102.8
+||65# Cougar Digital Cover|65# Cougar Digital Cover|Paper|8.5|11|in|23.38|Natural|Smooth|0.008|point|28.05
+||110# Cougar Digital Cover|110# Cougar Digital Cover|Paper|18|12|in|91.38|White|Smooth|0.014|point|118.8
+||70# Cougar Digital Text - Weight13.78|70# Cougar Digital Text - Weight13.78|Paper|8.5|11|in|13.78|White|Smooth|0.005|point|16
+||70# Cougar Digital Text - Weight27.56|70# Cougar Digital Text - Weight27.56|Paper|11|17|in|27.56|White|Smooth|0.005|point|33.4
+||60# Cougar Digital Text|60# Cougar Digital Text|Paper|8.5|11|in|11.81|White|Smooth|0.004|point|13.75
+||70# Cougar Digital Text|70# Cougar Digital Text|Paper|11|17|in|27.56|Natural|Smooth|0.005|point|33.75
+||60# Cougar Digital Text|60# Cougar Digital Text|Paper|11|17|in|23.62|Natural|Smooth|0.004|point|28.95
+||80# Environment Smooth Cover|80# Environment Smooth Cover|Paper|8.5|11|in|28.76|Ultra Bright White|Smooth|0.01|point|75.1
+||100# Everyday Digital Vellum Cover|100# Everyday Digital Vellum Cover|Paper|18|12|in|83.08|White|Vellum|0.014|point|114.05
+||110# Exact Index|110# Exact Index|Paper|18|12|in|61.08|White|Smooth|0.009|point|75.25
+||80# Finch Opaque Cover Digital|80# Finch Opaque Cover Digital|Paper|18|12|in|66.44|Bright White|Smooth|0.01|point|70.2
+||24# Fox River Select 25% Cotton|24# Fox River Select 25% Cotton|Paper|8.5|11|in|12|Bright White|Wove|0.005|point|39.1
+20# HammerMill Fore MP Colors Weight 20|J|||Paper|11|17|in|20||Bond|0.004|point|21.7
+||20# HammerMill Fore MP Colors - Blue|20# HammerMill Fore MP Colors - Blue|{J}|{J}|{J}|{J}|{J}|Blue|{J}|{J}|{J}|{J}
+||20# HammerMill Fore MP Colors - Green|20# HammerMill Fore MP Colors - Green|{J}|{J}|{J}|{J}|{J}|Green|{J}|{J}|{J}|{J}
+||20# HammerMill Fore MP Colors - Pink|20# HammerMill Fore MP Colors - Pink|{J}|{J}|{J}|{J}|{J}|Pink|{J}|{J}|{J}|{J}
+20# HammerMill Fore MP Colors Weight 10|K|||Paper|8.5|11|in|10||Bond|0.004|point|
+||20# HammerMill Fore MP Colors - Gray|20# HammerMill Fore MP Colors - Gray|{K}|{K}|{K}|{K}|{K}|Gray|{K}|{K}|{K}|10.1
+||20# HammerMill Fore MP Colors - Buff|20# HammerMill Fore MP Colors - Buff|{K}|{K}|{K}|{K}|{K}|Buff|{K}|{K}|{K}|10.5
+||20# HammerMill Fore MP Colors - Green|20# HammerMill Fore MP Colors - Green|{K}|{K}|{K}|{K}|{K}|Green|{K}|{K}|{K}|10.1
+||20# HammerMill Fore MP Colors|20# HammerMill Fore MP Colors|Paper|11|17|in|20|Orchid|Bond|0.004|point|22.45
+||24# HammerMill Fore MP White|24# HammerMill Fore MP White|Paper|8.5|14|in|15.26|White|Bond|0.004|point|16.9
+||20# HammerMill Fore MP White|20# HammerMill Fore MP White|Paper|8.5|14|in|12.72|White|Bond|0.004|point|14.1
+||24# Howard Linen Writing|24# Howard Linen Writing|Paper|8.5|11|in|12|Bright White|Linen|0.005|point|30.5
+||93# Kromekote C1S Cover|93# Kromekote C1S Cover|Paper|18|12|in|77|White|C1S|0.012|point|169.75
+||24# Loop 25% Cotton Lt Cockle Wtg|24# Loop 25% Cotton Lt Cockle Wtg|Paper|8.5|11|in|12|Pure White|Light Cockle|0.005|point|28
+||100# Lynx Digital Smooth Cover - Super Smooth|100# Lynx Digital Smooth Cover - Super Smooth|Paper|18|12|in|83.08|White|Super Smooth|0.012|point|125.05
+||100# Lynx Digital Smooth Cover - Smooth|100# Lynx Digital Smooth Cover - Smooth|Paper|18|12|in|83.08|White|Smooth|0.014|point|85.15
+||80# Mohawk Via Felt iTone Cover|80# Mohawk Via Felt iTone Cover|Paper|18|12|in|66.46|Warm White|Felt|0.011|point|179.55
+||80# Mohawk Via Laid Cover|80# Mohawk Via Laid Cover|Paper|8.5|11|in|28.76|Natural|Laid|0.012|point|76.5
+||24# Mohawk Via Laid Writing|24# Mohawk Via Laid Writing|Paper|8.5|11|in|12|Natural|Laid|0.005|point|32.8
+||70# Mohawk Via Smooth Text|70# Mohawk Via Smooth Text|Paper|8.5|11|in|13.78|Bright White|Smooth|0.005|point|30.5
+||24# Mohawk Via Smooth Writing - Bright White|24# Mohawk Via Smooth Writing - Bright White|Paper|8.5|11|in|12|Bright White|Smooth|0.004|point|27.85
+||24# Mohawk Via Smooth Writing - Ivory|24# Mohawk Via Smooth Writing - Ivory|Paper|8.5|11|in|12|Ivory|Smooth|0.004|point|29.85
+60# Springhill Colors Digital|L|||Paper|8.5|11|in|11.8||Smooth|0.004|point|11.5
+||60# Springhill Colors Digital - Blue|60# Springhill Colors Digital - Blue|{L}|{L}|{L}|{L}|{L}|Blue|{L}|{L}|{L}|{L}
+||60# Springhill Colors Digital - Canary|60# Springhill Colors Digital - Canary|{L}|{L}|{L}|{L}|{L}|Canary|{L}|{L}|{L}|{L}
+||60# Springhill Colors Digital - Ivory|60# Springhill Colors Digital - Ivory|{L}|{L}|{L}|{L}|{L}|Ivory|{L}|{L}|{L}|11.75
+||60# Springhill Colors Digital - Pink|60# Springhill Colors Digital - Pink|{L}|{L}|{L}|{L}|{L}|Pink|{L}|{L}|{L}|{L}
+||60# Springhill Colors Digital|60# Springhill Colors Digital|Paper|11|17|in|23.63|Blue|Smooth|0.004|point|24.15
+||70# Springhill Colors Digital|70# Springhill Colors Digital|Paper|8.5|11|in|13.76|Canary|Smooth|0.005|point|14.45
+||90# Springhill Index Color Digital - Blue|90# Springhill Index Color Digital - Blue|Paper|8.5|11|in|21.62|Blue|Smooth|0.007|point|20.7
+||110# Springhill Index Color Digital - blue|110# Springhill Index Color Digital - blue|Paper|8.5|11|in|26.44|Blue|Smooth|0.009|point|24.8
+||90# Springhill Index Color Digital - Green|90# Springhill Index Color Digital - Green|Paper|8.5|11|in|21.62|Green|Smooth|0.007|point|20.7
+110# Springhill Index Color Digital|M|||Paper|8.5|11|in|26.44|||||
+||110# Springhill Index Color Digital - Green|110# Springhill Index Color Digital - Green|{M}|{M}|{M}|{M}|{M}|Green|{M}|{M}|{M}|{M}
+||110# Springhill Index Color Digital - Gray|110# Springhill Index Color Digital - Gray|{M}|{M}|{M}|{M}|{M}|Gray|{M}|{M}|{M}|{M}
+||#90 Springhill Index Color Digital|#90 Springhill Index Color Digital|Paper|8.5|11|in|21.62|Cherry|Smooth|0.007|point|20.7
+110# Springhill Index Colors|N|||Paper|11|17|in|52.88||Standard|0.009|point|52
+||110# Springhill Index Colors - Green|110# Springhill Index Colors - Green|{N}|{N}|{N}|{N}|{N}|Green|{N}|{N}|{N}|{N}
+||110# Springhill Index Colors - Ivory|110# Springhill Index Colors - Ivory|{N}|{N}|{N}|{N}|{N}|Ivory|{N}|{N}|{N}|{N}
+||110# Springhill Index Colors - Blue|110# Springhill Index Colors - Blue|{N}|{N}|{N}|{N}|{N}|Blue|{N}|{N}|{N}|{N}
+||110# Springhill Index Colors - Canary|110# Springhill Index Colors - Canary|{N}|{N}|{N}|{N}|{N}|Canary|{N}|{N}|{N}|{N}
+||90# Springhill Index White Digital|90# Springhill Index White Digital|Paper|8.5|11|in|21.62|White|Smooth|0.007|point|20.7
+||90# Springhill Index White Digital|90# Springhill Index White Digital|Paper|9|11|in|22.9|White|Smooth|0.007|point|22.05
+||90# Springhill Index White Digital|90# Springhill Index White Digital|Paper|11|17|in|43.27|White|Smooth|0.007|point|40.5
+||110# Springhill Index White Digital|110# Springhill Index White Digital|Paper|8.5|11|in|26.44|White|Smooth|0.009|point|22.9
+||110# Springhill Index White Digital|110# Springhill Index White Digital|Paper|11|17|in|52.88|White|Smooth|0.009|point|48.15
+67# Springhill VB Colors Digital|O|||Paper|11|17|in|39.06||Vellum|0.008|point|43.75
+||67# Springhill VB Colors Digital - Blue|67# Springhill VB Colors Digital - Blue|{O}|{O}|{O}|{O}|{O}|Blue|{O}|{O}|{O}|{O}
+||67# Springhill VB Colors Digital - Ivory|67# Springhill VB Colors Digital - Ivory|{O}|{O}|{O}|{O}|{O}|Ivory|{O}|{O}|{O}|{O}
+||67# Springhill VB White Digital|67# Springhill VB White Digital|Paper|8.5|11|in|19.52|White|Vellum|0.008|point|19.35
+||67# Springhill VB White Digital|67# Springhill VB White Digital|Paper|11|17|in|39.06|White|Vellum|0.008|point|40.7
+||80# Strathmore Premium Smooth Covr|80# Strathmore Premium Smooth Covr|Paper|8.5|11|in|28.76|Bright White|Smooth|0.011|point|85.1
+||24# Strathmore Pure Cotton|24# Strathmore Pure Cotton|Paper|8.5|11|in|12|Bright White|Wove|0.004|point|53.8
+||88# Strathmore Writing CB Wove - Bright White|88# Strathmore Writing CB Wove - Bright White|Paper|8.5|11|in|31.5|Bright White|Wove|0.013|point|93.2
+||88# Strathmore Writing CB Wove - Natural White|88# Strathmore Writing CB Wove - Natural White|Paper|8.5|11|in|31.5|Natural White|Wove|0.013|point|94.1
+||110# Strathmore Writing CB Wove - Ultimate White|110# Strathmore Writing CB Wove - Ultimate White|Paper|8.5|11|in|39.56|Ultimate White|Wove|0.016|point|121.8
+||110# Strathmore Writing CB Wove - Bright white|110# Strathmore Writing CB Wove - Bright white|Paper|8.5|11|in|39.56|Bright White|Wove|0.016|point|116.85
+||110# Strathmore Writing CB Wove - Natural White|110# Strathmore Writing CB Wove - Natural White|Paper|8.5|11|in|39.56|Natural White|Wove|0.016|point|118.7
+||88# Strathmore Writing CB Wove - Ultimate White|88# Strathmore Writing CB Wove - Ultimate White|Paper|8.5|11|in|31.5|Ultimate White|Wove|0.013|point|97
+||88# Strathmore Writing CB Wv iTone|88# Strathmore Writing CB Wv iTone|Paper|18|12|in|73.11|Ultimate White|Wove|0.013|point|266.8
+||24# Strathmore Writing Laid - Ultimate White|24# Strathmore Writing Laid - Ultimate White|Paper|8.5|11|in|12|Ultimate White|Laid|0.005|point|36.85
+||24# Strathmore Writing Wove - Natural White|24# Strathmore Writing Wove - Natural White|Paper|8.5|11|in|12|Natural White|Wove|0.005|point|35.05
+||24# Strathmore Writing Wove - Ultimate White -  - Weight12|24# Strathmore Writing Wove - Ultimate White -  - Weight12|Paper|8.5|11|in|12|Ultimate White|Wove|0.005|point|32.3
+||28# Strathmore Writing Wove - Ultimate White - Weight14|28# Strathmore Writing Wove - Ultimate White - Weight14|Paper|8.5|11|in|14|Ultimate White|Wove|0.005|point|44.45
+||24# Strathmore Writing Wove - Bright White - Weight12|24# Strathmore Writing Wove - Bright White - Weight12|Paper|8.5|11|in|12|Bright White|Wove|0.005|point|31.3
+||28# Strathmore Writing Wove - Bright White - Weight14|28# Strathmore Writing Wove - Bright White - Weight14|Paper|8.5|11|in|14|Bright White|Wove|0.005|point|43.4
+||24# Strathmore Writing Wove - Ultimate White  - Weight24|24# Strathmore Writing Wove - Ultimate White  - Weight24|Paper|17|11|in|24|Ultimate White|Wove|0.005|point|76.8
+||24# Strathmore Writing Wove - Recycled Bright White|24# Strathmore Writing Wove - Recycled Bright White|Paper|8.5|11|in|12|Recycled Bright White|Wove|0.005|point|37.5
+||24# Strathmore Writing Wove - Soft Blue|24# Strathmore Writing Wove - Soft Blue|Paper|8.5|11|in|12|Soft Blue|Wove|0.005|point|38.1
+||24# Strathmore Writing Wove iTone - Ultimate White|24# Strathmore Writing Wove iTone - Ultimate White|Paper|18|12|in|27.75|Ultimate White|Wove|0.005|point|105.8
+100# Superfine Eggshell Cover iTone|P|||Paper|18|12|in|83.08|||||
+||100# Superfine Eggshell Cover iTone - White|100# Superfine Eggshell Cover iTone - White|{P}|{P}|{P}|{P}|{P}|White|{P}|0.012|point|279.5
+||100# Superfine Eggshell Cover iTone - Ultrawhite|100# Superfine Eggshell Cover iTone - Ultrawhite|{P}|{P}|{P}|{P}|{P}|Ultrawhite|{P}|0.014|point|279.5
+||80# Superfine Smooth Text iTone|80# Superfine Smooth Text iTone|Paper|12|18|in|36.38|Ultrawhite|Smooth|0.005|point|118.8
+||124# Tango C1S Cover Digital|124# Tango C1S Cover Digital|Paper|18|12|in|62|White|C1S|0.01|point|66.6
+||145# Tango C1S Cover Digital|145# Tango C1S Cover Digital|Paper|18|12|in|73|White|C1S|0.012|point|75.6
+||163# Tango C1S Cover Digital|163# Tango C1S Cover Digital|Paper|18|12|in|82|White|C1S|0.014|point|84.95
+||182# Tango C1S Cover Digital|182# Tango C1S Cover Digital|Paper|18|12|in|91|White|C1S|0.016|point|94.25
+||167# Tango C2S Cover Digital - Weight84|167# Tango C2S Cover Digital - Weight84|Paper|18|12|in|84|White|C2S|0.012|point|98.7
+||167# Tango C2S Cover Digital - Weight95|167# Tango C2S Cover Digital - Weight95|Paper|19|13|in|95|White|C2S|0.012|point|111.6
+||113# Tango C2S Cover Digital|113# Tango C2S Cover Digital|Paper|18|12|in|94|White|C2S|0.014|point|110.45
+||188# Tango C2S Cover Digital|188# Tango C2S Cover Digital|Paper|19|13|in|107|White|C2S|0.014|point|125.7
+||123# Tango C2S Cover Digital|123# Tango C2S Cover Digital|Paper|18|12|in|102|White|C2S|0.016|point|119.45
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|3.5|6|in|7|White Wove|Wove|||21.95
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|3.625|6.5|in|8|White Wove|Wove|||15.85
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|3.75|6.75|in|9|White Wove|Wove|||25.4
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|3.875|7.5|in|10|White Wove|Wove|||24.05
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|3.875|8.875|in|11|White Wove|Wove|||15.85
+||24# OSDS - Regular - Chip Box - Weight13 - Price 15.85|24# OSDS - Regular - Chip Box - Weight13 - Price 15.85|Paper|4.125|9.5|in|13|White Wove|Wove|||15.85
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|4.5|10.375|in|15|White Wove|Wove|||32.05
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|4.75|11|in|16|White Wove|Wove|||47.55
+||24# OSDS - Regular - Chip Box|24# OSDS - Regular - Chip Box|Paper|5|11.5|in|18|White Wove|Wove|||56.7
+||24# OSDS - Regular - Chip Box - Weight15|24# OSDS - Regular - Chip Box - Weight15|Paper|4.125|9.5|in|15|White Wove|Wove|||29.2
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|3.625|6.5|in|8|White Wove|Wove|||18.1
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|3.875|7.5|in|10|White Wove|Wove|||26.85
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|3.875|8.875|in|11|White Wove|Wove|||18.1
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box - Price 18.1|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box - Price 18.1|Paper|4.125|9.5|in|13|White Wove|Wove|||18.1
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|4.5|10.375|in|15|White Wove|Wove|||34.85
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|3.75|6.75|in|9|White Wove|Wove|||28.8
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|4.75|11|in|16|White Wove|Wove|||51.65
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box|Paper|5|11.5|in|18|White Wove|Wove|||60.8
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Bulk|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Bulk|Paper|4.125|9.5|in|13|White Wove|Wove|||17.9
+||24# OSDS - Regular - Blue Confetti Tint - Chip Box|24# OSDS - Regular - Blue Confetti Tint - Chip Box|Paper|3.625|6.5|in|8|White Wove|Wove|||18.05
+||24# OSDS - Regular - Blue Confetti Tint - Chip Box|24# OSDS - Regular - Blue Confetti Tint - Chip Box|Paper|4.125|9.5|in|13|White Wove|Wove|||18.05
+||24# OSDS - Regular - Black Confetti Tint - Chip Box|24# OSDS - Regular - Black Confetti Tint - Chip Box|Paper|3.875|8.875|in|11|White Wove|Wove|||18.05
+||24# OSDS - Regular - Black Confetti Tint - Chip Box|24# OSDS - Regular - Black Confetti Tint - Chip Box|Paper|4.125|9.5|in|13|White Wove|Wove|||18.05
+||24# OSDS - Regular - Blue FDIC Tint - Chip Box|24# OSDS - Regular - Blue FDIC Tint - Chip Box|Paper|4.125|9.5|in|13|White Wove|Wove|||18.05
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Blue Confetti Tint - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Blue Confetti Tint - Chip Box|Paper|3.875|8.875|in|11|White Wove|Wove|||20.3
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Blue Confetti Tint - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Blue Confetti Tint - Chip Box|Paper|4.125|9.5|in|13|White Wove|Wove|||20.3
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Black Confetti Tint - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Black Confetti Tint - Chip Box|Paper|3.875|8.875|in|11|White Wove|Wove|||20.3
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Black Confetti Tint - Chip Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B)- Black Confetti Tint - Chip Box|Paper|4.125|9.5|in|13|White Wove|Wove|||20.3
+||24# OSSS - Peel & Seal - Regular - Hard Box|24# OSSS - Peel & Seal - Regular - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||33.3
+||24# OSSS - Peel & Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|24# OSSS - Peel & Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||36.3
+||24# OSSS - Peel & Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Black Confetti Tint - Hard Box|24# OSSS - Peel & Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Black Confetti Tint - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||38.3
+||24# OSSS - Simple Seal - Regular - Hard Box|24# OSSS - Simple Seal - Regular - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||27.15
+||24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|Paper|3.875|8.875|in|11|White Wove|Wove|||50.2
+||24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||30.15
+||24# OSSS - Simple Seal - Regular - Blue Confetti Tint - Hard Box|24# OSSS - Simple Seal - Regular - Blue Confetti Tint - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||29.15
+||24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Blue Confetti Tint - Hard Box|24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Blue Confetti Tint - Hard Box|Paper|3.875|8.875|in|11|White Wove|Wove|||52.75
+||24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Blue Confetti Tint - Hard Box|24# OSSS - Simple Seal - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Blue Confetti Tint - Hard Box|Paper|4.125|9.5|in|13|White Wove|Wove|||32.15
+||24# OSDS - Regular - Chip Box - Weight11|24# OSDS - Regular - Chip Box - Weight11|Paper|3.875|8.875|in|11|Recycled White Wove|Wove|||20.4
+||24# OSDS - Regular - Chip Box - Weight13 - Price 20.4|24# OSDS - Regular - Chip Box - Weight13 - Price 20.4|Paper|4.125|9.5|in|13|Recycled White Wove|Wove|||20.4
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box - Price 22.75|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Chip Box - Price 22.75|Paper|4.125|9.5|in|13|Recycled White Wove|Wove|||22.75
+||24# OSDS - Regular - Hard Box|24# OSDS - Regular - Hard Box|Paper|3.625|6.5|in|8|Brown Kraft|Kraft|||21.9
+||24# OSDS - Regular - Hard Box|24# OSDS - Regular - Hard Box|Paper|3.875|8.875|in|11|Brown Kraft|Kraft|||23.35
+||24# OSDS - Regular - Hard Box|24# OSDS - Regular - Hard Box|Paper|4.125|9.5|in|13|Brown Kraft|Kraft|||23.35
+||24# OSDS - Regular - Hard Box|24# OSDS - Regular - Hard Box|Paper|4.5|10.375|in|15|Brown Kraft|Kraft|||35.7
+||24# OSDS - Regular - Hard Box|24# OSDS - Regular - Hard Box|Paper|4.75|11|in|16|Brown Kraft|Kraft|||58.65
+||24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|24# OSDS - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|Paper|4.125|9.5|in|13|Brown Kraft|Kraft|||25.6
+24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Weight11|Q|||Paper|3.875|8.875|in|11||Smooth|||21.3
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Blue|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Blue|{Q}|{Q}|{Q}|{Q}|{Q}|Blue|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box -Canary|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box -Canary|{Q}|{Q}|{Q}|{Q}|{Q}|Canary|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Cream|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Cream|{Q}|{Q}|{Q}|{Q}|{Q}|Cream|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Goldenrod|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Goldenrod|{Q}|{Q}|{Q}|{Q}|{Q}|Goldenrod|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Gray|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Gray|{Q}|{Q}|{Q}|{Q}|{Q}|Gray|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Green|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Green|{Q}|{Q}|{Q}|{Q}|{Q}|Green|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Ivory|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Ivory|{Q}|{Q}|{Q}|{Q}|{Q}|Ivory|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Pink|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Pink|{Q}|{Q}|{Q}|{Q}|{Q}|Pink|{Q}|||{Q}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Tan|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Tan|{Q}|{Q}|{Q}|{Q}|{Q}|Tan|{Q}|||25.65
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Orchid|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Orchid|{Q}|{Q}|{Q}|{Q}|{Q}|Orchid|{Q}|||25.65
+24# OSDS - Springhill Opaque Smooth - Regular - Hard Box -  Weight13|R|||Paper|4.125|9.5|in|13||Smooth|||21.3
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Blue|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Blue|{R}|{R}|{R}|{R}|{R}|Blue|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Canary|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Canary|{R}|{R}|{R}|{R}|{R}|Canary|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Cream|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Cream|{R}|{R}|{R}|{R}|{R}|Cream|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Goldenrod|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Goldenrod|{R}|{R}|{R}|{R}|{R}|Goldenrod|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Gray|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Gray|{R}|{R}|{R}|{R}|{R}|Gray|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Green|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Green|{R}|{R}|{R}|{R}|{R}|Green|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Ivory|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Ivory|{R}|{R}|{R}|{R}|{R}|Ivory|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Pink|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Pink|{R}|{R}|{R}|{R}|{R}|Pink|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Tan|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Tan|{R}|{R}|{R}|{R}|{R}|Tan|{R}|||{R}
+||24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Orchid|24# OSDS - Springhill Opaque Smooth - Regular - Hard Box - Orchid|{R}|{R}|{R}|{R}|{R}|Orchid|{R}|||{R}
+24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box|S|||Paper|4.125|9.5|in|13||Smooth|||23.6
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Blue|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Blue|{S}|{S}|{S}|{S}|{S}|Blue|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Canary|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Canary|{S}|{S}|{S}|{S}|{S}|Canary|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Cream|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Cream|{S}|{S}|{S}|{S}|{S}|Cream|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Goldenrod|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Goldenrod|{S}|{S}|{S}|{S}|{S}|Goldenrod|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Gray|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Gray|{S}|{S}|{S}|{S}|{S}|Gray|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Green|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Green|{S}|{S}|{S}|{S}|{S}|Green|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Ivory|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Ivory|{S}|{S}|{S}|{S}|{S}|Ivory|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Pink|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Pink|{S}|{S}|{S}|{S}|{S}|Pink|{S}|||{S}
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Tan|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Tan|{S}|{S}|{S}|{S}|{S}|Tan|{S}|||28.45
+||24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Orchid|24# OSDS - Springhill Opaque Smooth - Window (1-1/8 x 4-1/2; 7/8L 1/2B) - Hard Box - Orchid|{S}|{S}|{S}|{S}|{S}|Orchid|{S}|||28.45
+||24# Remittance|24# Remittance|Paper|3.5|6|in|11| White Wove|Wove|||33.1
+||24# Remittance|24# Remittance|Paper|3.5|6.25|in|11| White Wove|Wove|||26
+||24# Remittance|24# Remittance|Paper|3.625|6.5|in|12| White Wove|Wove|||23
+||24# Remittance|24# Remittance|Paper|3.875|8.875|in|16| White Wove|Wove|||24.7
+||24# Baronial|24# Baronial|Paper|3.625|5.125|in|7| White Wove|Wove|||30.15
+||24# Baronial|24# Baronial|Paper|4.375|5.75|in|9| White Wove|Wove|||35.55
+||24# Baronial|24# Baronial|Paper|5.25|7.25|in|13| White Wove|Wove|||42.5
+||24# A2 A-Line - Hard Box|24# A2 A-Line - Hard Box|Paper|4.375|5.75|in|9| White Wove|Wove|||22.9
+||24# A6 A-Line - Hard Box|24# A6 A-Line - Hard Box|Paper|4.75|6.5|in|10| White Wove|Wove|||26
+||24# A7 A-Line - Hard Box|24# A7 A-Line - Hard Box|Paper|5.25|7.25|in|13| White Wove|Wove|||28.5
+||24# A8 A-Line - Hard Box|24# A8 A-Line - Hard Box|Paper|5.5|8.125|in|15| White Wove|Wove|||42.6
+||24# A9 A-Line - Hard Box|24# A9 A-Line - Hard Box|Paper|5.75|8.75|in|16| White Wove|Wove|||43.8
+||24# A10 A-Line - Hard Box|24# A10 A-Line - Hard Box|Paper|6|9.5|in|18| White Wove|Wove|||57.35
+||24# Booklet - Price 23.35|24# Booklet - Price 23.35|Paper|6|9|in|17| White Wove|Wove|||23.35
+||24# Booklet - White Wove|24# Booklet - White Wove|Paper|6.5|9.5|in|19| White Wove|Wove|||45
+||24# Booklet - White Wove|24# Booklet - White Wove|Paper|7|10|in|22| White Wove|Wove|||44.05
+||24# Booklet - White Wove|24# Booklet - White Wove|Paper|7.5|10.5|in|24| White Wove|Wove|||42.85
+||24# Booklet - White Wove|24# Booklet - White Wove|Paper|9|12|in|32| White Wove|Wove|||42.55
+||24# Booklet - White Wove|24# Booklet - White Wove|Paper|9.5|12.625|in|36| White Wove|Wove|||63.55
+||28# Booklet -  - White Wove|28# Booklet -  - White Wove|Paper|6|9|in|20| White Wove|Wove|||25.85
+||28# Booklet - White Wove|28# Booklet - White Wove|Paper|6.5|9.5|in|22| White Wove|Wove|||45
+||28# Booklet - White Wove|28# Booklet - White Wove|Paper|7.5|10.5|in|28| White Wove|Wove|||62.75
+||28# Booklet - White Wove|28# Booklet - White Wove|Paper|9|12|in|38| White Wove|Wove|||46.3
+||28# Booklet - White Wove|28# Booklet - White Wove|Paper|9.5|12.625|in|42| White Wove|Wove|||58.9
+||24# Booklet - Price 39.4|24# Booklet - Price 39.4|Paper|6|9|in|17| Brown Kraft|Kraft|||39.4
+||24# Booklet - Brown Kraft|24# Booklet - Brown Kraft|Paper|9|12|in|32| Brown Kraft|Kraft|||65.85
+||28# Booklet -  Brown Kraft|28# Booklet -  Brown Kraft|Paper|6|9|in|20| Brown Kraft|Kraft|||28.3
+||28# Booklet -  Brown Kraft|28# Booklet -  Brown Kraft|Paper|9|12|in|38| Brown Kraft|Kraft|||51.3
+||28# Booklet - Brown Kraft|28# Booklet - Brown Kraft|Paper|9.5|12.625|in|42| Brown Kraft|Kraft|||82.35
+||28# Booklet -  Gray Kraft|28# Booklet -  Gray Kraft|Paper|9|12|in|38| Gray Kraft|Kraft|||89.85
+||28# Booklet - Peel & Seal|28# Booklet - Peel & Seal|Paper|9|12|in|38| White Wove|Wove|||57.75
+||28# Booklet - Peel & Seal|28# Booklet - Peel & Seal|Paper|9.5|12.625|in|42| White Wove|Wove|||121.6
+||28# Booklet - Peel & Seal|28# Booklet - Peel & Seal|Paper|10|13|in|45| White Wove|Wove|||71.25
+||24# Catalog - White Wove|24# Catalog - White Wove|Paper|6|9|in|18| White Wove|Wove|||29
+||24# Catalog -  White Wove|24# Catalog -  White Wove|Paper|6.5|9.5|in|20| White Wove|Wove|||35.35
+||24# Catalog -  White Wove|24# Catalog -  White Wove|Paper|7.5|10.5|in|25| White Wove|Wove|||57.05
+||24# Catalog -  White Wove|24# Catalog -  White Wove|Paper|9|12|in|33| White Wove|Wove|||48.15
+||24# Catalog -  White Wove|24# Catalog -  White Wove|Paper|9.5|12.5|in|36| White Wove|Wove|||62.3
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|6|9|in|21| White Wove|Wove|||32.75
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|6.5|9.5|in|24| White Wove|Wove|||45.6
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|7.5|10.5|in|29| White Wove|Wove|||59.4
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|9|12|in|39| White Wove|Wove|||51.95
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|9.5|12.5|in|42| White Wove|Wove|||66.05
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|10|13|in|46| White Wove|Wove|||63.25
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|10|15|in|53| White Wove|Wove|||94.45
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|11.5|14.5|in|58| White Wove|Wove|||112.35
+||28# Catalog -  White Wove|28# Catalog -  White Wove|Paper|12|15.5|in|64| White Wove|Wove|||116.4
+||24# Catalog -  Brown Kraft|24# Catalog -  Brown Kraft|Paper|6|9|in|18| Brown Kraft|Kraft|||35
+||24# Catalog - Brown Kraft|24# Catalog - Brown Kraft|Paper|6.5|9.5|in|20| Brown Kraft|Kraft|||43.3
+||24# Catalog - Brown Kraft|24# Catalog - Brown Kraft|Paper|9|12|in|33| Brown Kraft|Kraft|||58.95
+||24# Catalog - Brown Kraft|24# Catalog - Brown Kraft|Paper|10|13|in|39| Brown Kraft|Kraft|||70.9
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|6|9|in|21| Brown Kraft|Kraft|||35.25
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|6.5|9.5|in|24| Brown Kraft|Kraft|||49.1
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|7.5|10.5|in|29| Brown Kraft|Kraft|||62.9
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|9|12|in|39| Brown Kraft|Kraft|||56.95
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|9.5|12.5|in|42| Brown Kraft|Kraft|||69.65
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|10|15|in|53| Brown Kraft|Kraft|||99.15
+||28# Catalog - Brown Kraft|28# Catalog - Brown Kraft|Paper|12|15.5|in|64| Brown Kraft|Kraft|||121.15
+||28# Catalog - Gray Kraft|28# Catalog - Gray Kraft|Paper|9|12|in|39| Gray Kraft|Kraft|||93.3
+||28# Catalog - Gray Kraft|28# Catalog - Gray Kraft|Paper|10|13|in|46| Gray Kraft|Kraft|||101.45
+||28# Catalog - Manilla Kraft|28# Catalog - Manilla Kraft|Paper|6|9|in|18| Manilla Kraft|Kraft|||70.25
+||28# Catalog  Manilla Kraft|28# Catalog  Manilla Kraft|Paper|9|12|in|39| Manilla Kraft|Kraft|||98.05
+||28# Catalog - Peel & Seal - White Wove|28# Catalog - Peel & Seal - White Wove|Paper|6|9|in|21| White Wove|Wove|||56.95
+||28# Catalog - Peel & Seal - White Wove|28# Catalog - Peel & Seal - White Wove|Paper|6.5|9.5|in|24| White Wove|Wove|||75.05
+||28# Catalog - Peel & Seal - White Wove|28# Catalog - Peel & Seal - White Wove|Paper|7.5|10.5|in|29| White Wove|Wove|||88.85
+||28# Catalog - Peel & Seal - White Wove|28# Catalog - Peel & Seal - White Wove|Paper|9.5|12.5|in|42| White Wove|Wove|||95.5
+||28# Catalog - Peel & Seal - Brown Kraft|28# Catalog - Peel & Seal - Brown Kraft|Paper|6|9|in|21| Brown Kraft|Kraft|||66.15
+||28# Catalog - Peel & Seal - Brown Kraft|28# Catalog - Peel & Seal - Brown Kraft|Paper|9|12|in|39| Brown Kraft|Kraft|||92.55
+||28# Catalog - Peel & Seal - Brown Kraft|28# Catalog - Peel & Seal - Brown Kraft|Paper|9.5|12.5|in|42| Brown Kraft|Kraft|||92.05
+||28# Catalog - Peel & Seal - Brown Kraft|28# Catalog - Peel & Seal - Brown Kraft|Paper|10|13|in|46| Brown Kraft|Kraft|||103.25
+||28# Catalog - Clasp - Boxed - Brown Kraft|28# Catalog - Clasp - Boxed - Brown Kraft|Paper|6|9|in|21| Brown Kraft|Kraft|||83.5
+||28# Catalog - Clasp - Boxed - Brown Kraft|28# Catalog - Clasp - Boxed - Brown Kraft|Paper|9|12|in|39| Brown Kraft|Kraft|||109.85
+||28# Catalog - Clasp - Boxed - Brown Kraft|28# Catalog - Clasp - Boxed - Brown Kraft|Paper|12|15.5|in|64| Brown Kraft|Kraft|||168.3
+||60# OSDSWindow (1-1/8 x 4-1/2; 7/8L 1/2B) - Accent Opaque Smooth Finish|60# OSDSWindow (1-1/8 x 4-1/2; 7/8L 1/2B) - Accent Opaque Smooth Finish|Paper|4.125|9.5|in|13|White|Smooth|||24.55
+||60# Accent Opaque Text Envelope|60# Accent Opaque Text Envelope|Paper|4.125|9.5|in|13|White|Smooth|||28.35
+||60# A8 Accent Opaque Text Envelope|60# A8 Accent Opaque Text Envelope|Paper|5.5|8.125|in|16|White|Vellum|||48.3
+||60# A10 Accent Opaque Text Envelope|60# A10 Accent Opaque Text Envelope|Paper|6|9.5|in|21|White|Vellum|||66.25
+||60# A9 Accent Opaque Text Envelope|60# A9 Accent Opaque Text Envelope|Paper|5.75|8.75|in|19|White|Smooth|||49.8
+||60# A9 Accent Opaque Vellum Text Env|60# A9 Accent Opaque Vellum Text Env|Paper|5.75|8.75|in|19|White|Vellum|||51.3
+||80# A6 Classic Crest Text Envelope|80# A6 Classic Crest Text Envelope|Paper|4.75|6.5|in|16|Avon Brilliant White|Smooth|0.005|point|93.7
+||70# A10 Classic Crest Text Envelope|70# A10 Classic Crest Text Envelope|Paper|6|9.5|in|23|Solar White|Smooth|||125.4
+||70# A6 Classic Crest Text Envelope|70# A6 Classic Crest Text Envelope|Paper|4.75|6.5|in|14|Solar White|Smooth|||82.3
+||70# Classic Crest Text Envelope|70# Classic Crest Text Envelope|Paper|4.125|9.5|in|16|Classic Natural White|Smooth|||75.9
+||70# A2 Classic Crest Text Envelope|70# A2 Classic Crest Text Envelope|Paper|4.375|5.75|in|11|Solar White|Smooth|||71.95
+||24# Classic Crest Writing Envelope|24# Classic Crest Writing Envelope|Paper|4.125|9.5|in|13|Baronial Ivory|Smooth|||73.55
+||24# Classic Laid Writing Envelope - Classic Natural White - Traditional Laid|24# Classic Laid Writing Envelope - Classic Natural White - Traditional Laid|Paper|4.125|9.5|in|13|Classic Natural White|Traditional Laid|||72.7
+||24# Classic Laid Writing Envelope - Baronial Ivory - Traditional Laid|24# Classic Laid Writing Envelope - Baronial Ivory - Traditional Laid|Paper|4.125|9.5|in|13|Baronial Ivory|Traditional Laid|||73.5
+||24# Classic Laid Writing Envelope - baronial Ivory - Imaging|24# Classic Laid Writing Envelope - baronial Ivory - Imaging|Paper|4.125|9.5|in|13|Baronial Ivory|Imaging|||79.6
+||70# A7 Classic Linen Text Envelope|70# A7 Classic Linen Text Envelope|Paper|5.25|7.25|in|15|Solar White|Linen|||99.95
+||70# A2 Classic Linen Text Envelope|70# A2 Classic Linen Text Envelope|Paper|4.375|5.75|in|9|Classic Natural White|Linen|||76.2
+24# Classic Linen Writing Envelope|T|||Paper|4.125|9.5|in|13||Linen|||
+||24# Classic Linen Writing Envelope - Whitestone|24# Classic Linen Writing Envelope - Whitestone|{T}|{T}|{T}|{T}|{T}|Whitestone|{T}|||78.6
+||24# Classic Linen Writing Envelope - Antique Gray|24# Classic Linen Writing Envelope - Antique Gray|{T}|{T}|{T}|{T}|{T}|Antique Gray|{T}|||77.5
+||24# Classic Linen Writing Envelope - Baronial Ivory|24# Classic Linen Writing Envelope - Baronial Ivory|{T}|{T}|{T}|{T}|{T}|Baronial Ivory|{T}|||77.5
+||60# A2 Cougar Opaque Text Envelope|60# A2 Cougar Opaque Text Envelope|Paper|4.375|5.75|in|9|White|Smooth|||32.45
+||60# A7 Cougar Opaque Text Envelope - White|60# A7 Cougar Opaque Text Envelope - White|Paper|5.25|7.25|in|15|White|Smooth|||44.4
+||70# A6 Cougar Opaque Text Envelope|70# A6 Cougar Opaque Text Envelope|Paper|4.75|6.5|in|12|White|Smooth|||43.1
+||60# Cougar Opaque Text Envelope - White|60# Cougar Opaque Text Envelope - White|Paper|4.125|9.5|in|13|White|Vellum|||35.9
+||70# A7 Cougar Opaque Text Envelope|70# A7 Cougar Opaque Text Envelope|Paper|5.25|7.25|in|17|White|Vellum|||48.45
+||70# Cougar Opaque Text Envelope|70# Cougar Opaque Text Envelope|Paper|4.125|9.5|in|16|White|Smooth|||51.6
+||60# Cougar Opaque Text Envelope - Natural|60# Cougar Opaque Text Envelope - Natural|Paper|4.125|9.5|in|13|Natural|Smooth|||35.75
+||60# A7 Cougar Opaque Text Envelope - Natural|60# A7 Cougar Opaque Text Envelope - Natural|Paper|5.25|7.25|in|15|Natural|Smooth|||45.85
+||28# Printmaster Catalog Envelope|28# Printmaster Catalog Envelope|Paper|10|13|in|53|Brown Kraft|Kraft|||128.45
+||60# Springhill Colors Envelope|60# Springhill Colors Envelope|Paper|4.125|9.5|in|13|Cream|Smooth|||28.75
+||24# Springhill Colors Envelope|24# Springhill Colors Envelope|Paper|3.875|8.875|in|11|Goldenrod|Smooth|||23.85
+||70# A6 Strathmore Premium Wove Env|70# A6 Strathmore Premium Wove Env|Paper|4.75|6.5|in|14|Natural White|Wove|||88.35
+||80# A7 Strathmore Premium Wove Env|80# A7 Strathmore Premium Wove Env|Paper|5.25|7.25|in|18|Bright White|Wove|||107.9
+||70# A7 Strathmore Premium Wove Env|70# A7 Strathmore Premium Wove Env|Paper|5.25|7.25|in|17|Bright White|Wove|||103
+||80# A6 Strathmore Premium Wove Env|80# A6 Strathmore Premium Wove Env|Paper|4.75|6.5|in|16|Bright White|Wove|||94.8
+||24# Strathmore Writing Wove Env|24# Strathmore Writing Wove Env|Paper|4.125|9.5|in|13|Soft Blue|Wove|||94.9
+||28# Strathmore Writing Wove Env|28# Strathmore Writing Wove Env|Paper|4.125|9.5|in|16|Ultimate White|Wove|||89.25
+||70# Superfine Eggshell Text Env|70# Superfine Eggshell Text Env|Paper|5.25|7.25|in|17|White|Eggshell|||98.4
+||130# Classic Crest Cover|130# Classic Crest Cover|Paper|35|23|in|402|Solar White|Smooth|||1,175.05
+||165# Classic Crest Cover|165# Classic Crest Cover|Paper|26|40|in|660|Solar White|Smooth|||1,924.40
+||100# Classic Crest Cover|100# Classic Crest Cover|Paper|35|23|in|310|Avon Brilliant White|Smooth|||1,009.38
+||130# Classic Crest Cover|130# Classic Crest Cover|Paper|26|40|in|520|Avalanche White|Eggshell|||1,516.20
+||70# Classic Crest Text|70# Classic Crest Text|Paper|25|38|in|140|Solar White|Smooth|||375.55
+||120# Classic Laid Cover|120# Classic Laid Cover|Paper|26|40|in|480|Solar White|Laid|||1,490.55
+||130# Classic Linen Cover|130# Classic Linen Cover|Paper|25.5|38|in|485|Solar White|Linen|||1,552.55
+||120# Environment Smooth Cover|120# Environment Smooth Cover|Paper|26|40|in|480|PC 100 White|Smooth|||1,328.80
+||110# Loop Antique Vellum Cover|110# Loop Antique Vellum Cover|Paper|26|40|in|440|Snow|Antique Vellum|||1,206.45
+||80# Mohawk Via Felt Cover|80# Mohawk Via Felt Cover|Paper|26|40|in|320|Pure White|Felt|||714.65
+||60# Mohawk Via Smooth Text|60# Mohawk Via Smooth Text|Paper|23|35|in|102|Pure White|Smooth|||293.18
+||100# Strathmore Premium Wove Cover|100# Strathmore Premium Wove Cover|Paper|35|23|in|310|Bright White|Wove Unwatermarked|||1,007.70
+||80# Strathmore Premium Wove Text|80# Strathmore Premium Wove Text|Paper|23|35|in|136|Bright White|Wove Unwatermarked|||355.85
+||88# Strathmore Writing CB Wove|88# Strathmore Writing CB Wove|Paper|26|40|in|352|Bright White|Wove Unwatermarked|||1,281.00
+||130# Strathmore Writing CB Wove - Ultimate White|130# Strathmore Writing CB Wove - Ultimate White|Paper|26|40|in|520|Ultimate White|Wove Unwatermarked|||1,618.20
+||130# Strathmore Writing CB Wove - Bright White|130# Strathmore Writing CB Wove - Bright White|Paper|26|40|in|520|Bright White|Wove Unwatermarked|||1,577.00
+||110# Strathmore Writing CB Wove|110# Strathmore Writing CB Wove|Paper|26|40|in|440|Ultimate White|Wove Unwatermarked|||1,369.25
+||100# Superfine Eggshell Cover|100# Superfine Eggshell Cover|Paper|23|35|in|310|Ultrawhite|Eggshell|||845.9
+||130# Superfine Eggshell Cover|130# Superfine Eggshell Cover|Paper|23|35|in|403|Ultrawhite|Eggshell|||1,402.68
+||160# Superfine Smooth Cover|160# Superfine Smooth Cover|Paper|23|35|in|495|Ultrawhite|Smooth|||1,435.75
+||100# Superfine Smooth Cover|100# Superfine Smooth Cover|Paper|23|35|in|310|White|Smooth|||845.9
+||130# Superfine Smooth Cover|130# Superfine Smooth Cover|Paper|23|35|in|403|Ultrawhite|Smooth|||1,402.68
+||80# Astrobrights Cover|80# Astrobrights Cover|Paper|26|40|in|320|Terra Green|Smooth|||655.68
+||100# Cougar Opaque Cover|100# Cougar Opaque Cover|Paper|23|35|in|310|White|Smooth|||351.85
+||160# Cougar Opaque Cover|160# Cougar Opaque Cover|Paper|35|23|in|495|White|Smooth|||809.25
+||130# Cougar Opaque Cover|130# Cougar Opaque Cover|Paper|35|23|in|403|White|Smooth|||741.21
+||70# Cougar Opaque Text|70# Cougar Opaque Text|Paper|23|35|in|119|White|Smooth|||158.58
+||80# Finch Fine Antique Text|80# Finch Fine Antique Text|Paper|25|38|in|160|Bright White|Antique|||182
+||130# Finch Fine VHF Cover|130# Finch Fine VHF Cover|Paper|23|35|in|403|Bright White|Ultra Smooth|||732.48
+||75# Williamsburg Return Postcard|75# Williamsburg Return Postcard|Paper|23|35|in|127|White|Vellum|||134.28

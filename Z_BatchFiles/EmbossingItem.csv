@@ -1,0 +1,10 @@
+Direction,?,enumeration,EmbossDirection,The direction of the image.
+EmbossingType,,enumeration,EmbossType,The embossing type required.
+Face,?,enumeration,Face,Position of the embossing on the product.
+FoilColor,?,enumeration,,Defines the color of the foil material that is used for embossing.
+FoilColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @FoilColorDetails is supplied, @FoilColor SHOULD also be supplied."
+Height,?,float,,"The height of the levels. This value specifies the vertical distance between the highest and lowest point of the stamp, regardless of the value of @Direction."
+ImageSize,?,XYPair,,The size of the bounding box of one single image.
+Position,?,XYPair,,Position of the lower left corner of the bounding box of the embossed image in the coordinate system of the surface of the Component that is selected by @Face.
+Separation,?,NMTOKEN,,"@Separation identifies the separation within the PDL whose color values SHALL be used as the embossing values. A value of 0.0 in the PDL SHALL specify no embossing, a value of 1.0 in the PDL SHALL specify embossing with full depth. If a ResourceSet/Resource/Color element is specified for this separation, the value of Color/@ColorType SHALL be ""DieLine""."
+ToolName,?,NMTOKEN,,Name of the embossing tool.

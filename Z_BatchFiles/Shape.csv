@@ -1,0 +1,7 @@
+CutBox,?,rectangle,,Specification of a rectangular window
+CutOut,?,boolean,,"If ""true"", the inside of a specified shape SHALL be removed. If ""false"", the outside of a specified shape SHALL be removed. An example of an inside shape is a window. An example of an outside shape is a shaped greeting card."
+CutPath,?,PDFPath,,Specification of a complex path.
+DDESCutType,?,integer,,Type of cut or perforation used.
+ShapeDepth,?,float,,"Depth of the shape cut, measured in microns [µm]. If not specified, the shape SHALL be completely cut."
+ShapeType,,enumeration,,Describes any precision cutting other than hole making.
+TeethPerDimension,?,float,,"Number of teeth in a given perforation extent, in teeth/point. MicroPerforation is defined by specifying a large number of teeth (n > 1000)."

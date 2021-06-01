@@ -1,0 +1,8 @@
+BindingType,,enumeration,,Type of binding that is performed.
+CoverMaterial,?,NMTOKEN,NMCoverMaterial,@CoverMaterial describes the binder materials used.
+ChannelBindingDetails,?,element,,"ChannelBindingDetails specifies additional details for channel binding. ChannelBindingDetails SHALL NOT be specified unless @BindingType=""ChannelBinding""."
+CoilBindingDetails,?,element,,"CoilBindingDetails specifies additional details for coil binding. CoilBindingDetails SHALL NOT be specified unless @BindingType=""CoilBinding""."
+CombBindingDetails,?,element,,"CombBindingDetails specifies additional details for comb binding. CombBindingDetails SHALL NOT be specified unless @BindingType=""CombBinding""."
+HolePattern,*,element,,Details of the holes for binding. Values for HolePattern/@Pattern SHALL be taken from ?Appendix G Hole Pattern Catalog and SHALL follow the conventions specified in ?Appendix G.1 Naming Scheme.
+RingBindingDetails,?,element,,"RingBindingDetails specifies additional details for ring binding. RingBindingDetails SHALL NOT be specified unless @BindingType=""RingBinding""."
+StripBindingDetails,?,element,,"StripBindingDetails specifies additional details for strip binding. StripBindingDetails SHALL NOT be specified unless @BindingType=""StripBinding""."

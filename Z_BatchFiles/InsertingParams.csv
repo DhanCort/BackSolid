@@ -1,0 +1,4 @@
+FinishedPage,?,integer,,"Finished page number of the mother Component on which the child Component SHALL be placed. @FinishedPage SHALL NOT be specified unless @InsertLocation=""FinishedPage"". Corresponds to AssemblingIntent/*/@Folio."
+InsertLocation,,enumeration,,Where to place the “child” sheet.
+Method,?,enumeration,,Inserting method.
+Glue,*,element,,Array of all Glue elements. The coordinate system is defined by the mother Component.

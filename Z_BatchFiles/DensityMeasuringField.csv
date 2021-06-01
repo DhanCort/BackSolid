@@ -1,0 +1,10 @@
+Center,,XYPair,,"Position of the center of the density measuring field in the coordinates of the MarkObject that contains this mark. If the measuring field is defined within a ColorControlStrip, @Center SHALL refer to the rectangle defined by @Center and @Size of the ColorControlStrip."
+Density,,FloatList,,Density value for each process color measured with filter. The sequence of colors SHALL be C M Y K.
+Diameter,,float,,Diameter of the density measuring field.
+DotGain,,float,,Percentage of dot gain.
+Separation,,NMTOKEN,,Separation identifier that this DensityMeasuringField applies to. Additional details of the colorants SHOULD be provided in ResourceSet[@Name=”Color”].
+ToleranceBlack,?,XYPair,,Upper and lower black measurement limits (in density units).
+ToleranceCyan,?,XYPair,,Upper and lower cyan measurement limits (in density units).
+ToleranceDotGain,?,XYPair,,Upper and lower measurement limits (in%).
+ToleranceMagenta,?,XYPair,,Upper and lower magenta measurement limits (in density units).
+ToleranceYellow,?,XYPair,,Upper and lower yellow measurement limits (in density units).

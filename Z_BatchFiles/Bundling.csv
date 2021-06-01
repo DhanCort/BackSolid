@@ -1,0 +1,16 @@
+Input,ApprovalDetails
+Input,Color
+Input,Contact
+Input,CustomerInfo
+Input,Device
+Input,MiscConsumable
+Input,NodeInfo
+Input,Preview
+Input,Tool
+Input,TransferCurve
+Input,UsageCounter
+Input,Bundle
+Input,BundlingParams
+Input,Component
+Input,Media
+Output,Component

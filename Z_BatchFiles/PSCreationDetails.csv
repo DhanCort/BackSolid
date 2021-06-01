@@ -1,0 +1,36 @@
+BinaryOK,?,boolean,,"If ""false"", binary data SHALL NOT be included in the PostScript stream"
+BoundingBox,?,rectangle,,@BoundingBox is used for the BoundingBox DSC comment in @CenterCropBox calculations and for PostScript’s setpagedevice.
+CenterCropBox,?,boolean,,"If ""true"", the CropBox from the source document SHALL be centered on the page when the CropBox is smaller than MediaBox"
+GeneratePageStreams,?,boolean,,"If ""true"", the process SHALL emit individual streams of data for each page in the RunList"
+IgnoreAnnotForms,?,boolean,,"If ""true"", annotations that contain a PDF XObject form SHALL be ignored. (PDF source only)."
+IgnoreBG,?,boolean,,"If ""true"", the BG and BG2 parameters in the PDF ExtGState dictionary, and the operand of any calls to the PostScript setblackgeneration operator SHALL be ignored."
+IgnoreColorSeps,?,boolean,,"If ""true"", images for Level-1 separations SHALL be ignored."
+IgnoreDSC,?,boolean,,"If ""true"", DSC (Document Structuring Conventions) SHALL be ignored."
+IgnoreExternStreamRef,?,boolean,,"If a PDF image resource uses an external stream and @IgnoreExternStreamRef=""true"", code that points to the external file SHALL be ignored. (PDF source only)."
+IgnoreHalftones,?,boolean,,"If ""true"", any halftone screening in the source file SHALL be ignored."
+IgnoreOverprint,?,boolean,,"If ""true"", OP parameters in a source PDF ExtGState dictionary and setoverprint in a source PostScript file, etc. SHALL be ignored."
+IgnorePageRotation,?,boolean,,"If ""true"", a “concatenation” provided at the beginning of each page that orients the page so that it is properly rotated SHALL be ignored. Used when emitting EPS"
+IgnoreRawData,?,boolean,,"If ""true"", no unnecessary filters SHALL be added when emitting image data."
+IgnoreSeparableImagesOnly,?,boolean,,"If ""true"", and if emitting EPS, only CMYK and gray images SHALL be ignored."
+IgnoreShowPage,?,boolean,,"If ""true"", save-and-restore showpage in PostScript files SHALL be ignored."
+IgnoreTransfers,?,boolean,,"If ""true"", TR and TR2 parameters are in a source PDF ExtGState dictionary and settransfer and setcolortransfer in a source PostScript file, etc. SHALL be ignored"
+IgnoreTTFontsFirst,?,boolean,,"If ""true"", TrueType fonts SHALL be ignored before any other fonts."
+IgnoreUCR,?,boolean,,"If ""true"", UCR and UCR2 parameters in a source PDF ExtGState dictionary and setundercolorremoval in a source PostScript file, etc. SHALL be ignored."
+IncludeBaseFonts,?,enumeration,IncludeResources,"Determines when to embed the base fonts. The base fonts are ""Symbol"" and the plain, bold, italic and bold-italic faces of ""Courier"", ""Times"" and ""Helvetica"". Allowed value is from: ?IncludeResources."
+IncludeCIDFonts,?,enumeration,IncludeResources,Determines when to embed CID fonts. Allowed value is from: ?IncludeResources
+IncludeEmbeddedFonts,?,enumeration,IncludeResources,Determines when to embed fonts in the document that are embedded in the source file. Allowed value is from: ?IncludeResources.
+IncludeOtherResources,?,enumeration,IncludeResources,Determines when to include all other types of resources in the file. Allowed value is from: ?IncludeResources.
+IncludeProcSets,?,enumeration,IncludeResources,Determines when to include ProcSets in the file. Allowed value is from: ?IncludeResources.
+IncludeTrueTypeFonts,?,enumeration,IncludeResources,Determines when to embed TrueType fonts. Allowed value is from: ?IncludeResources.
+IncludeType1Fonts,?,enumeration,IncludeResources,Determines when to embed Type-1 fonts. Allowed value is from: ?IncludeResources.
+IncludeType3Fonts,?,enumeration,IncludeType3Fonts,Determines when to embed Type-3 fonts. It is included here to complete the precedence hierarchy. It has only one value. Allowed values are: IncludeOncePerPage
+OutputType,?,enumeration,OutputType,Describes the kind of output to be generated. Allowed values are: EPS PostScript
+PSLevel,?,integer,,"Number that indicates the PostScript level. Values include ""1"", ""2"" or ""3"""
+Scale,?,float,,"Number that indicates the wide-scale factor of documents. Full size = ""100""."
+SetPageSize,?,boolean,,"If ""true"", sets the page size on each page automatically. For PDF source, use MediaBox for outputting PostScript files and CropBox for EPS. This applies for PostScript Levels 2 and 3 only."
+SetupProcsets,?,boolean,,"If ""true"", indicates that if ProcSets are included, the init/term code SHALL also be included."
+ShrinkToFit,?,boolean,,"If ""true"", the page SHALL be scaled to fit the printer page size. This field SHALL override scale"
+SuppressCenter,?,boolean,,"If ""true"", page contents whose crop box is smaller than the page size SHALL NOT be automatically centered."
+SuppressRotate,,boolean,,"If ""true"", pages with dimensions that are better suited to landscape orientation SHALL NOT be automatically rotated. More specifically, the application that generates the PostScript compares the dimensions of the page. If the width is greater than the height, then pages are SHALL NOT be rotated if @SuppressRotate=""true"". On the other hand, if @SuppressRotate=""false"", the orientation of each source page (e.g., as set by the PDF Rotate key) is honored, regardless of the dimensions of the pages (as defined by the MediaBox attribute)."
+TTasT42,?,boolean,,"If ""true"", and if including TrueType fonts, the fonts SHALL be converted to Type-42 rather than Type-1 fonts."
+UseFontAliasNames,?,boolean,,"If ""true"", font alias names SHALL be used when printing with system fonts."

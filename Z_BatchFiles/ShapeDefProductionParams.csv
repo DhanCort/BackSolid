@@ -1,0 +1,2 @@
+ObjectModel,*,element,,A 3D model of the objects that need to be packed.
+ShapeTemplate,?,element,,"A structural template sometimes referred to as a parametric structural design. Given a set of parametric values, a structural template can be instantiated to an actual structural design."

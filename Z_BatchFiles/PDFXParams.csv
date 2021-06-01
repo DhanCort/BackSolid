@@ -1,0 +1,8 @@
+PDFXBleedBoxtoTrimBoxOffset,?,rectangle,,"If the BleedBox entry is not specified in the page object of the source document, BleedBox SHALL be set to PDF TrimBox with offsets. All numbers SHALL be greater than or equal to 0.0. PDF BleedBox will be completely outside PDF TrimBox."
+PDFXCheck,?,NMTOKENS,NMSPDFXCheck,List of PDF/X versions that the output SHALL be compliant with. Values include: X1a – See the PDF/X-1a standard ?[ISO15930-1:2001]. X3 – See the PDF/X-3 standard ?[ISO15930-3:2002]. X4 – See the PDF/X-4 standard ?[ISO15930-7:2010]. X5 – See the PDF/X-5 standard ?[ISO15930-8:2010].
+PDFXCompliantPDFOnly,?,boolean,,"If ""true"", PDF document SHALL be produced only if PDF/X compliance tests are passed."
+PDFXNoTrimBoxError,?,boolean,,"If ""true"" and both TrimBox and ArtBox entries are not specified in the page object of the source document, the condition SHALL be reported as an error."
+PDFXSetBleedBoxToMediaBox,?,boolean,,"If ""true"" and the BleedBox entry is not specified in the page object of the source document, BleedBox SHALL be set to MediaBox."
+PDFXTrapped,?,enumeration,,"If a source document does not specify a Trapped state, then the value provided here SHALL be used. The value ""Unknown"" SHALL be used for workflows requiring 1) that the document specify a Trapped state and 2) that compliance checking fail if Trapped is not present in the document."
+PDFXTrimBoxToMedi aBoxOffset,?,rectangle,,"If both the TrimBox and ArtBox entries are not specified in the page object of the source document, TrimBox SHALL be set to MediaBox with offsets. All numbers SHALL be greater than or equal to 0.0. The TrimBox SHALL be completely inside MediaBox."
+FileSpec,?,element,,An ICC profile that describes the reference output conditions.

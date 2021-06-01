@@ -1,0 +1,4 @@
+ZoneHeight,?,float,,The width of one zone in the feed direction of the printing machine being used.
+ZoneSettingsX,,FloatList,,"Each entry of the @ZoneSettingsX attribute is the value of one ink zone in the X direction. The first entry is the first zone, and the number of entries equals the number of zones of the printing device being used. Allowed values are in the range [0, 1] where 0 SHALL specify no ink and 1 SHALL specify 100% coverage."
+ZoneSettingsY,?,FloatList,,"Each entry of the @ZoneSettingsY attribute is the value of one ink zone in the Y direction. The first entry is the first zone, and the number of entries equals the number of zones of the printing device being used. Allowed values are in the range [0, 1] where 0 SHALL specify no ink and 1 SHALL specify 100% coverage."
+ZoneWidth,,float,,"The width of one zone of the printing machine being used. Typically, the width of a zone is the width of an ink slide."

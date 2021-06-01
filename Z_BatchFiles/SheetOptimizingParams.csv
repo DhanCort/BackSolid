@@ -1,0 +1,2 @@
+ConvertingConfig,+,element,,Specification of the device configurations for destination sheet sizes.
+GangElement,+,element,,"Each GangElement describes an individual product or product part that SHALL be placed completely on a gang form. If an individual product MAY be distributed over multiple separate gangs (e.g., cover and body with different paper), it SHALL be represented as multiple gang elements."

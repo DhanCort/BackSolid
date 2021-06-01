@@ -1,0 +1,3 @@
+CombShape,?,NMTOKEN,NMCombAndCoilShapes,The shape of the wire comb binding.
+Diameter,?,float,,Specifies the diameter of the comb to be produced. The diameter is determined by the height of the block of sheets to be bound.
+FlipBackCover,?,boolean,,"The spine is typically hidden between the last page of the Component and the back cover. @FlipBackCover=""true"" specifies that the cover SHALL be flipped after the wire was “closed”, otherwise the cover SHALL be kept open. The latter makes sense if further processing is needed before closing the book, e.g. inserting a CD."

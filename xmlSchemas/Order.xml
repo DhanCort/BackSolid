@@ -1,0 +1,389 @@
+<cXML payloadID="ORDER:61089921" timestamp="07/23/2020 00:45:04" xml:lang="en-US">
+    <Header>
+        
+        <From>        
+            <Credential domain="towaso">
+                <Identity>13832</Identity>
+            </Credential>
+        </From>
+        
+        
+        <To>        
+            <Credential domain="WisnetAlerts">
+                <Identity>MIS13832</Identity>
+            </Credential>
+        </To>
+        
+        <Sender>
+            <Credential domain="">
+                <Identity>13832towaso</Identity>
+                <SharedSecret>MyPassword</SharedSecret>
+            </Credential>
+        </Sender>    
+    </Header>
+    <Request>
+        
+  
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+
+  
+  
+
+
+
+   
+
+
+
+
+
+  
+  
+    
+  
+  
+  
+  
+    
+          
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+	
+  
+  
+  
+    
+  
+  
+    
+    
+      
+    
+    
+      
+      
+        
+      
+      
+    
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+      
+    
+    
+      
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    
+  
+
+  
+
+
+    
+    
+        
+    
+
+    
+    
+
+  
+  
+  
+
+
+
+        <OrderRequest>
+           <OrderRequestHeader orderDate="7/23/2020 12:45 AM" type="new">
+             <ID domain="ws4p">61089921</ID>
+             
+             
+             <Total>
+              <Money currency="USD">0.00</Money>
+             </Total>
+             <Shipping>
+               <Money currency="USD">0.00</Money>
+       
+               
+             </Shipping>
+             <Tax>
+               <Money currency="USD">0.00</Money>
+             </Tax>             
+                 <ShipTo>
+        
+                 </ShipTo>
+                 <BillTo>
+                           
+                 </BillTo>
+       
+          <Contact role="buyer">
+              
+
+             <ID domain="ws4p">1012023</ID>
+             
+             <Name><![CDATA[Ivan Ulises Guzman Sanchez]]></Name>
+             <Email><![CDATA[ivan.guzman@towasoftware.com]]></Email>
+             
+             
+             <Phone name="Work">
+               <TelephoneNumber>
+                 <Number><![CDATA[+52 56 1495 4610]]></Number>
+               </TelephoneNumber>
+             </Phone>
+             
+             
+                          
+            
+            
+            <Department><![CDATA[]]></Department>
+            <Position><![CDATA[]]></Position>         
+            
+            
+
+
+
+          </Contact>
+       
+
+       
+			 
+           </OrderRequestHeader>
+
+  
+     
+  
+
+
+  
+                 
+                 
+                 
+
+                                             
+
+
+      
+      <ItemOut quantity="500" lineNumber="1">
+        
+   
+
+
+
+  
+  
+    
+  
+    
+        
+       
+      
+        
+         
+          
+      
+    
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+     
+         
+         
+                
+        <ID domain="ws4p">5553208</ID>
+        
+        <ItemID>
+         <SupplierPartID><![CDATA[]]></SupplierPartID>
+         
+            <ID domain="ws4p">271937</ID>
+            
+         
+        </ItemID>
+        <ItemDetail>
+          <UnitPrice>       
+             
+             <Money currency="USD">0</Money>
+          </UnitPrice>          
+          <Description xml:lang="en"> 
+            <ShortName><![CDATA[Flyers ]]></ShortName>
+          </Description>
+          <UnitOfMeasure>EA</UnitOfMeasure>
+
+      
+        
+                         
+           
+        <URL><![CDATA[https://13832TOWASo.secureprintorder.com/13832TOWASo/data/7013AcmePr/flyer.png]]></URL>
+               
+
+        <Extrinsic name="Size"><![CDATA[8.5 in. x 11 in.]]></Extrinsic>
+        <Extrinsic name="Color Options"><![CDATA[Full-Color Front - Unprinted Back]]></Extrinsic>
+        <Extrinsic name="Paper Choices"><![CDATA[80 lb. Matte Text]]></Extrinsic>
+        <Extrinsic name="Folding Options"><![CDATA[No Fold]]></Extrinsic>
+        <Extrinsic name="Shrink Wrapping"><![CDATA[None]]></Extrinsic>
+        <Extrinsic name="Aqueous Coating"><![CDATA[None]]></Extrinsic>
+        <Extrinsic name="Turnaround Times"><![CDATA[Economy]]></Extrinsic>
+        <Extrinsic name="Job Name"><![CDATA[WisnetAlerts6]]></Extrinsic>
+        <Extrinsic name="Comments"><![CDATA[]]></Extrinsic>
+                            
+        </ItemDetail>
+    
+      </ItemOut>
+
+        
+         </OrderRequest>
+
+
+
+
+    </Request>
+</cXML> 

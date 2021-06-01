@@ -1,0 +1,14 @@
+EmitPDFBG,?,boolean,,Indicates whether BlackGeneration functions SHALL be emitted.
+EmitPDFHalftones,?,boolean,,Indicates whether halftones SHALL be emitted.
+EmitPDFTransfers,?,boolean,,Indicates whether transfer functions SHALL be emitted.
+EmitPDFUCR,?,boolean,,Indicates whether under color removal functions SHALL be emitted.
+HonorPDFOverprint,?,boolean,,"Indicates whether or not overprint settings in the file SHALL be honored. If ""true"", the setting for overprint SHALL be honored. If ""false"", it is expected that the device does not directly support overprint and that the PDF is preprocessed to simulate the effect of the overprint settings."
+ICCColorAsDeviceColor,?,boolean,,Indicates whether colors specified by ICC color spaces are to be treated as device colorants.
+OCGIntent,?,NMTOKEN,NMOCGIntent,The value of @OCGIntent sets the intent for which OCGs SHALL be selected. Values include: Design – As described in ?[PDF1.6]. View – As described in ?[PDF1.6].
+OCGProcess,?,NMTOKEN,NMOCGProcess,"The value of @OCGProcess sets the purpose for which the Interpreting process is being performed. This, in turn, sets which value from a relevant optional content usage dictionary SHALL be used to determine whether each OCG is included in the output. Values include: Export – PDF ExportState in the export subdictionary. Print – PDF PrintState in the print subdictionary. View – PDF ViewState in the view subdictionary. Additional values are defined in ?[ISO19593-1:2016] or MAY be site specific."
+OCGZoom,?,float,,The value of @OCGZoom sets the magnification that SHALL be assumed in comparisons with the zoom dictionary in a relevant optional content usage dictionary to determine whether each OCG is included in the RunList. A @OCGZoom value of 1.0 corresponds to be a magnification of 100%.
+PrintPDFAnnotations,?,boolean,,Indicates whether the contents of annotations on PDF pages SHALL be included in the output. This only refers to annotations that are set to print in the PDF file excluding trap annotations. Trap annotations are controlled with @PrintTrapAnnotations.
+PrintTrapAnnotations,?,boolean,,Indicates whether the contents of trap annotations on PDF pages SHALL be included in the output.
+TransparencyRenderingQuality,?,float,,Values are 0 to 1. A value of 0 represents the lowest allowable quality; 1 represents the highest achievable quality.
+OCGControl,*,element,,OCGControl provides a list of the OCGs (layers) that SHALL be explicitly included or excluded in the RunList. Any OCGs not listed in an OCGControl element SHALL follow the rules set by the referenced PDF.
+ReferenceXObjParams,?,element,,Describes how the interpreter should handle PDF Reference XObjects.

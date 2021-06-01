@@ -1,0 +1,5 @@
+Depth,?,float,,"Depth of the perforation, in microns [µm]."
+StartPosition,?,XYPair,,Starting position of the tool.
+TeethPerDimension,?,float,,Number of teeth in a given perforation extent in teeth/point. MicroPerforation is defined by specifying a large number of teeth (@TeethPerDimension > 1000).
+WorkingDirection,?,enumeration,WorkingDirection,Direction from which the tool is working.
+WorkingPath,?,XYPair,,Working path of the tool beginning at @StartPosition.

@@ -1,0 +1,18 @@
+BackCoverColor,?,enumeration,,Defines the color of the back cover material of the binding.
+BackCoverColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @BackCoverColorDetails is supplied, @BackCoverColor SHOULD also be supplied."
+BindingColor,?,enumeration,,Defines the color of the spine material of the binding.
+BindingColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @BindingColorDetails is supplied, @BindingColor SHOULD also be supplied."
+BindingOrder,?,enumeration,BindingOrder,Specifies whether the child Component resources are to be collected or gathered if multiple child Component resources are combined.
+BindingSide,?,enumeration,Edge,"@BindingSide indicates which side of the product SHALL be bound. Each of these values SHALL identify the binding edge. @BindingSide is defined in the coordinate system of the product. @BindingSide SHALL NOT be provided if @BindingOrder=""None""."
+BindingType,,enumeration,BindingType,Describes the desired binding for the job.
+ChildRefs,?,IDREFS,,"Reference to one or more child products each identified by Product/@ID (e.g., cover and body of a book) that SHALL be bound together."
+CoverColor,?,enumeration,,Defines the color of the cover material of the binding.
+CoverColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @CoverColorDetails is supplied, @CoverColor SHOULD also be supplied."
+AdhesiveNote,?,element,,"Details of AdhesiveNote binding. AdhesiveNote SHALL NOT be provided unless BindingIntent/@BindingType=""AdhesiveNote""."
+EdgeGluing,?,element,,"Details of EdgeGluing. EdgeGluing SHALL NOT be provided unless BindingIntent/@BindingType=""EdgeGluing""."
+HardCoverBinding,?,element,,"Details of HardCoverBinding. HardCoverBinding SHALL NOT be provided unless BindingIntent/@BindingType=""HardCover""."
+LooseBinding,?,element,,"Details of LooseBinding. LooseBinding SHALL NOT be provided unless BindingIntent/@BindingType is one of ""ChannelBinding"", ""CoilBinding"", ""CombBinding"", ""RingBinding"" or ""StripBinding""."
+SaddleStitching,?,element,,"Details of SaddleStitching. SaddleStitching SHALL NOT be provided unless BindingIntent/@BindingType=""SaddleStitch"""
+SideStitching,?,element,,"Details of SideStitching. SideStitching SHALL NOT be provided unless BindingIntent/@BindingType=""SideStitch""."
+SoftCoverBinding,?,element,,"Details of SoftCoverBinding. SoftCoverBinding SHALL NOT be provided unless BindingIntent/@BindingType=""SoftCover""."
+Tabs,?,element,,Details of Tabs.

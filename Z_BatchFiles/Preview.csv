@@ -1,0 +1,4 @@
+Compensation,?,enumeration,Compensation,Compensation of the image to reflect the application of transfer curves to the image.
+CTM,?,matrix,,"Orientation of the Preview with respect to the Layout coordinate system. CTM is applied after any transformation defined within the referenced image file (e.g., the transformation defined in the CIP3PreviewImageMatrix of a PPF file). In case of PPF, @CTM is applied to the native Postscript coordinate system of the preview. In case of PNG, the origin of the object is defined as the lower left corner of the image."
+PreviewFileType,?,enumeration,,The file type of the preview. @PreviewFileType SHALL NOT be specified unless the Preview describes an ink zone preset in CIP3 or PNG format. The file type of all other previews SHOULD be identified in FileSpec/@MimeType.
+FileSpec,?,element,,"FileSpec SHALL identify the preview (e.g., the PNG image or ?[CIP3 - PPF] file that represents this Preview)."

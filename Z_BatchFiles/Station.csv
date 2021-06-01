@@ -1,0 +1,3 @@
+BinderySignatureIDs,?,NMTOKENS,,"If specified, @BinderySignatureIDs SHALL list the BinderySignature/ @BinderySignatureID of all BinderySignatures that are processed by this Station."
+ShapeDefRef,?,IDREF,,"If present, @ShapeDefRef SHALL reference a ShapeDef that defines the shape of the Station in the DieLayout."
+StationName,,NMTOKEN,,The name of the 1-up design in the DieLayout. Multiple stations with the same @StationName MAY be specified.

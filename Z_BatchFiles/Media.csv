@@ -1,0 +1,55 @@
+Width,?,float,,One of two specifiers of dimensions of the media resource.
+Length,?,float,,One of two specifiers of dimensions of the media resource.
+DimensionsUnit,?,enumeration,DimensionsUnit,It could be cm or in.
+WidthUnit,?,enumeration,DimensionsUnit,It could be cm or in.
+LengthUnit,?,enumeration,LengthUnit,It could be cm, in, ft or m.
+BackBrightness,?,float,,"Equivalent to @Brightness (see below), but applied to the back surface of the Media. If not specified, the value of @Brightness SHALL be applied to the front and back surfaces of the Media."
+BackCoating,?,enumeration,Coating,"Identical to @Coating (see below), but applied to the back surface of the media. If not specified, the value of @Coating SHALL be applied to the front and back surfaces of the Media."
+BackCoatingDetail,?,NMTOKEN,NMBackCoatingDetail,"Identical to @CoatingDetail (see below), but applied to the back surface of the media. If not specified, the value of @CoatingDetail SHALL be applied to the front and back surfaces of the Media."
+BackGlossValue,?,float,,"Identical to @GlossValue (see below), but applied to the back surface of the media. If not specified, the value of @GlossValue SHALL be applied to the front and back surfaces of the Media."
+BackISOPaperSubstrate,?,enumeration,ISOPaperSubstrate,"Identical to @ISOPaperSubstrate (see below), but applied to the back surface of paper material defined in accordance with the print substrate set forth in ?[ISO12647-2:2013]. If not specified, the value of @ISOPaperSubstrate SHALL be applied to the front and back surfaces of the Media."
+Brightness,?,float,,Reflectance percentage of diffuse blue reflectance as defined by ?[ISO2470- 1:2016]. The reflectance is reported per ?[ISO2470-1:2016] as the diffuse blue reflectance factor of the media in percent to the nearest 0.5% reflectance factor. See also @BackBrightness.
+CIETint,?,float,,Average CIE tint value. Average CIE tint is calculated according to equations given in ?[TAPPI T560].
+CIEWhiteness,?,float,,Average CIE whiteness value. Average CIE whiteness is calculated according to equations given in ?[TAPPI T560].
+Coating,?,enumeration,Coating,The pre-process coating that has been applied to the media.
+CoatingDetail,?,NMTOKEN,NMCoatingDetail,Describes additional details of the coating that has been applied to the media and possibly the technology used to apply the coating.
+CoreWeight,?,float,,"Weight of the core of a roll, in grams [g]."
+Dimension,?,XYPair,,"The X and Y dimensions of the Media, measured in points. @Dimension specifies the outer bounding box of the Media."
+Flute,?,NMTOKEN,NMFluteTypes,"Single, capital letter that specifies the flute type of corrugated media."
+FluteDirection,?,enumeration,MediaDirection,Direction of the flute of corrugated media in the coordinate system of the Media.
+GlossValue,?,float,,Gloss of the media in gloss units as defined by ?[ISO8254-1:2009].
+GrainDirection,?,enumeration,MediaDirection,"Direction of the grain in the coordinate system of the Media. A value of ""SameDirection"" SHALL NOT be specified."
+ImagableSide,?,enumeration,,Side of the chosen medium that can be marked.
+InnerCoreDiameter,?,float,,"Specifies the inner diameter of the core of a roll, in points. See also @OuterCoreDiameter and @RollDiameter."
+InsideLoss,?,float,,The inside loss of corrugated board material in microns [µm]. See ?Section 6.57.2.1 Inside Loss and Outside Gain.
+ISOPaperSubstrate,?,enumeration,ISOPaperSubstrate,@ISOPaperSubstrate SHALL specify the type of paper material defined in ?[ISO12647-2:2013].
+LabColorValue,?,LabColor,,"@LabColorValue is the CIELAB color value of the media, computed as specified in ?[TAPPI T527]."
+MediaColorName,?,enumeration,,"A name for the color. If more specific, specialized or site-defined media color names are needed, use @MediaColorNameDetails."
+MediaColorNameDetails,?,string,,"A more specific, specialized or site-defined name for the media color. If @MediaColorNameDetails is supplied, @MediaColorName SHOULD also be supplied. @MediaColorNameDetails SHOULD be used to specify specialized media properties such as holographic or transparent foils."
+MediaQuality,?,string,,"Named quality description of the media. Media with the same properties except for @Dimension SHOULD have the same value of @MediaQuality. For folding carton quality, multiple named quality description systems are in use (e.g., GC1, SBB, etc.)."
+MediaSetCount,?,integer,,"When the input media is grouped in sets, identifies the number of pieces of media in each set. For example, if the @MediaTypeDetails is ""PreCutTabs"", a @MediaSetCount of ""5"" would indicate that each set includes five tab sheets."
+MediaType,?,enumeration,MediaType,Describes the general type of the Media.
+MediaTypeDetails,?,NMTOKEN,NMMediaTypeDetails,Additional details of the chosen medium.
+MediaUnit,?,enumeration,MediaUnit,Describes the format of the media as it is delivered to the device.
+Opacity,?,enumeration,Opacity,The opacity of the media. See @OpacityLevel to specify the degree of opacity for any of these values.
+OpacityLevel,?,float,,"Normalized TAPPI opacity (Cn), as defined and computed in ?[ISO2471:2008]. Refer also to ?[TAPPI T519] for calculation examples."
+OuterCoreDiameter,?,float,,"Specifies the outer diameter of the core of a roll, in points. See also @InnerCoreDiameter and @RollDiameter."
+OutsideGain,?,float,,The outside gain of corrugated board material in microns [µm]. See ?Section 6.57.2.1 Inside Loss and Outside Gain.
+PlateTechnology,?,enumeration,,Exposure technology of the plates.
+Polarity,?,enumeration,Polarity,Polarity of the chosen medium.
+PrintingTechnology,?,NMTOKEN,NMPrintingTechnologies,Describes the printing technology that the media or coatings on the media are intended for or optimized for.
+RecycledPercentage,?,float,,"The percentage, between 0 and 100, of recycled material that the media SHALL contain."
+ReliefThickness,?,float,,"The thickness of the relief, measured in microns [µm]. The floor thickness can be calculated as (@Thickness - @ReliefThickness)."
+RollDiameter,?,float,,"Specifies the diameter of a roll, in points. See also @InnerCoreDiameter and @OuterCoreDiameter."
+ShrinkIndex,?,XYPair,,"Specifies the ratio of the media linear dimension after shrinking to that prior to shrinking. The X value specifies the index in the major shrink axis, whereas the Y value specifies the index in the minor shrink axis. Used to describe shrink wrap media."
+SleeveInterlock,?,NMTOKEN,,The type of interlock (or notch) to use for a flexo sleeve.
+StockType,?,NMTOKEN,NMMediaWeight,@StockType defines the base size when calculating North American or Japanese paper weights.
+Texture,?,NMTOKEN,NMTexture,The texture of paper media.
+Thickness,?,float,,"The thickness of the chosen medium, measured in microns [µm]."
+ThicknessUnit,?,enumeration,ThicknessUnit,It could be mm, um or point.
+Weight,?,float,,"Weight of the chosen medium, measured in grams per square meter [g/m2]. See ?Appendix C Media Weight for details on converting anachronistic paper weights to g/m2."
+Certification,*,element,,Certification SHALL specify a paper certification level that the paper fulfills.
+HolePattern,*,element,,List of holes in the Media.
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this Media.
+MediaLayers,?,element,,MediaLayers describes the layer structure of media such as corrugated or self adhesive materials.
+TabDimensions,?,element,,"Specifies the dimensions of the tabs when @MediaTypeDetails=""TabStock"", ""PreCutTabs"" or ""FullCutTabs""."

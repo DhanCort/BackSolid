@@ -1,0 +1,8 @@
+AdvanceDistance,?,float,,Additional media advancement beyond the media dimensions on a web fed device.
+BurnOutArea,?,XYPair,,"Size of the burnout area. The area defined by @BurnOutArea is exposed, regardless of the size of the image. If not specified or ""0 0"", only the area defined by the image is exposed."
+CenterAcross,?,enumeration,Axis,Specifies the axis around which a device SHALL center an image.
+CutMedia,?,boolean,,Indicates whether or not to cut the media (Web-Fed).
+ManualFeed,?,boolean,,Indicates whether the media will be fed manually.
+MirrorAround,?,enumeration,Axis,This attribute specifies the axis around which a device SHALL mirror an image.
+Polarity,?,enumeration,Polarity,Definition of the polarity of the image
+RollCut,?,float,,"Length of media to be cut off of a roll, in points."

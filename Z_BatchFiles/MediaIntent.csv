@@ -1,0 +1,21 @@
+BackCoating,?,enumeration,Coating,@BackCoating SHALL specify the pre-process coating of the back surface of the media. If not specified the value of @Coating SHALL be applied.
+BackISOPaperSubstr ate,?,enumeration,ISOPaperSubstrate,"@ISOPaperSubstrate SHALL specify the back surface of paper material defined in accordance with the print substrate set forth in ?[ISO12647-2:2013]. If not specified, the value of @ISOPaperSubstrate SHALL be applied."
+Brand,?,string,,Strings providing available brand names. The customer might know exactly what paper is to be used. Example is “Lustro” or “Warren Lustro” even though the manufacturer name is included.
+BuyerSupplied,?,boolean,,Indicates whether the customer will supply the media.
+Coating,?,enumeration,Coating,@Coating SHALL specify the pre-process coating of the media.
+Flute,?,NMTOKEN,NMFluteTypes,"Single, capital letter that specifies the flute type of corrugated media."
+FluteDirection,?,enumeration,MediaDirection,Direction of the flute of corrugated media in the coordinate system of the product.
+GrainDirection,?,enumeration,MediaDirection,Direction of the grain in the coordinate system of the Product.
+ISOPaperSubstrate,?,enumeration,ISOPaperSubstrate,@ISOPaperSubstrate SHALL specify the type of paper material defined in accordance with the print substrate set forth in ?[ISO12647-2:2013].
+LabColorValue,?,LabColor,,"@LabColorValue is the CIELAB color value of the media, computed as specified in ?[TAPPI T527]."
+MediaColor,?,enumeration,,"Color of the media. If more-specific, specialized or site-specific media color names are needed, use @MediaColorDetails."
+MediaColorDetails,?,string,,"A more specific, specialized or site-defined name for the media color. If @MediaColorDetails is supplied, @MediaColor SHOULD also be supplied. Note: There is a one-to-many relationship between entries in @MediaColor and @MediaColorDetails (e.g., @MediaColorDetails values of ""Burgundy"" and ""Ruby"" both correspond to a @MediaColor of ""DarkRed"")."
+MediaQuality,?,string,,"Named quality description of the media. Media with the same @MediaQuality are identical from the customer point of view. Thus characteristics such as weight, coatings or recycling percentage are identical whereas lot or sheet dimension may vary based on production or warehousing requirements."
+MediaType,,enumeration,MediaType,Describes the medium being employed.
+MediaTypeDetails,?,NMTOKEN,NMMediaTypeDetails,Describes additional details of the medium described in @MediaType.
+Opacity,?,enumeration,Opacity,The opacity of the media.
+PrePrinted,?,boolean,,Indicates whether the media is preprinted.
+StockType,?,NMTOKEN,NMMediaWeight,@StockType defines the base size when calculating North American or Japanese paper weights. See ?Appendix C Media Weight for details including predefined values.
+Texture,?,NMTOKEN,NMTexture,The intended texture of the media.
+Thickness,?,float,,The thickness of the chosen medium. Measured in microns [µm].
+Weight,?,float,,"The intended weight of the media, measured in grammage (g/m2) of the media. See ?Appendix C Media Weight for an explanation of how to calculate the US weight from the grammage for different stock types."

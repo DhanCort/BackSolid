@@ -1,0 +1,2 @@
+FolderProduction,*,element,,Specifies the folder setup for newspaper presses.
+ProductionPath,?,element,,ProductionPath describes the paper path that is used through the press and describes exactly one particular product that has to be produced.

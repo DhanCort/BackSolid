@@ -1,0 +1,2 @@
+Copies,?,integer,,Number of products within a bundle. @Copies SHALL NOT be specified if @Length is present
+Length,?,float,,Length of a bundle. @Length SHALL NOT be specified if @Copies is present

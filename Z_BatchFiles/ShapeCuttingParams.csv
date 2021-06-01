@@ -1,0 +1,5 @@
+DeliveryMode,?,enumeration,,Allowed values are: FullSheet – The output of the die-cutter SHALL be complete sheets. The blanks are kept in place with nicks. Front waste (gripper margin) SHALL NOT be removed. RemoveGripperMargin – The output of the die-cutter SHALL be complete sheets. The blanks are kept in place with nicks. Front waste (gripper margin) SHALL be removed. SeparateBlanks – The output of the die-cutter SHALL be blanks that have been removed from the sheets.
+DieLayoutRef,?,IDREF,,Reference to a DieLayout containing the reference of an external file describing the cutting and other paths.
+ModuleID,?,NMTOKEN,,"Identifier of the shape-cutting module in a multi-function device, such as a printing press. See Module for details."
+SheetLay,?,enumeration,SheetLay,Lay of input media. Reference edge of where the sheets are placed in the feeder.
+Shape,*,element,,Details of each individual cut shape.

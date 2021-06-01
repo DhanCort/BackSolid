@@ -1,0 +1,4 @@
+CompanyID,?,NMTOKEN,,An ID of the company. The @CompanyID attribute for each specified company SHALL be globally unique across all companies.
+DescriptiveName,?,string,,Human readable representation of Company including any OrganizationalUnit elements.
+OrganizationName,,string,,"Name of the organization or company (vCard: ORG:orgnam, e.g. “ABC Inc.”)."
+OrganizationalUnit,,string,,"Describes one or more organizational units (vCard: ORG:orgunit), e.g. if two elements are present: 1. “North American Division” and 2. “Marketing”."

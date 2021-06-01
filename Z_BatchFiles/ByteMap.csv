@@ -1,0 +1,10 @@
+BandOrdering,?,enumeration,BandOrdering,Identifies the precedence given when ordering the produced bands. @BandOrdering SHALL be specified for non-interleaved data and SHALL be ignored for interleaved data if specified. Allowed values are: BandMajor – The position of the bands on the page is prioritized over the color. ColorMajor – All bands of a single color are played in order before progressing to the next plane. This is only possible with non-interleaved data.
+FrameHeight,?,integer,,Height of the overall image that MAY be broken into multiple bands
+FrameWidth,?,integer,,Width of overall image that MAY be broken into multiple columns.
+Halftoned,?,boolean,,"Indicates whether or not the data has been halftoned, e.g. in a previous Screening process."
+Interleaved,?,boolean,,"If ""true"", the data are interleaved or chunky. Otherwise the data are non-interleaved or planar"
+PixelColorants,?,NMTOKENS,,Ordered list of separation identifiers containing information about which colorants are represented. Additional details of the colorants SHOULD be provided in ResourceSet[@Name=”Color”].
+PixelDepth,?,integer,,Number of bits per pixel for each colorant.
+PixelSkip,?,integer,,Number of bits to skip between pixels of interleaved data.
+Resolution,?,integer,,Output resolution of the ByteMap in dpi.
+Band,?,element,,Description of the structure of the bands or tiles containing the raster data.

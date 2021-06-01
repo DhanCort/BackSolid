@@ -1,0 +1,13 @@
+Amount,?,integer,,"Total number of products or product parts of this type to produce. For product parts, if present @Amount SHALL specify the number of copies of the product part that are needed in order to produce one product."
+CommentURL,?,URL,,"URL to an external, human-readable description of the product or product part."
+DescriptiveName,?,string,,Human-readable descriptive name of the product or product part.
+ExternalID,?,NMTOKEN,,Identifier of the product in an MIS.
+ID,?,ID,,Internal identifier of this product.
+IsRoot,?,boolean,,"If true, this Product is a self-contained product. If false, this Product is a product part of another Product, such as a cover or insert. Multiple Product elements with @IsRoot=”true” MAY be specified, for instance in a gang job. If the parent ProductList element contains multiple Product elements, @IsRoot SHOULD be specified."
+MaxAmount,?,integer,,Maximum total number of products to produce including the maximum overage that the customer is willing to accept. @MaxAmount SHOULD NOT be specified for product parts.
+MinAmount,?,integer,,Minimum total number of products to produce including the maximum underage that the customer is willing to accept. @MinAmount SHOULD NOT be specified for product parts.
+ProductType,?,NMTOKEN,NMProductTypes,Classification of this product or product part.
+ProductTypeDetails,?,ProductTypeDetails,,@ProductTypeDetails specifies additional details of the product or product part that MAY be site specific and MAY be human readable. @ProductType SHOULD be present if @ProductTypeDetails is specified.
+Comment,*,element,,Any human-readable text that relates to the product or product part
+GeneralID,*,element,,Additional identifiers related to the product or product part.
+Intent,*,element,,Container elements for intents.

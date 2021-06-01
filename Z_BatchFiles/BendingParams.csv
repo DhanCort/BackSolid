@@ -1,0 +1,3 @@
+Bend,?,boolean,,"If ""true"", indicates that the device SHALL bend."
+Punch,?,boolean,,"If ""true"", indicates that the device SHALL create registration punch holes."
+PunchType,?,NMTOKEN,,"Name of the registration punch scheme (e.g., Bacher)."

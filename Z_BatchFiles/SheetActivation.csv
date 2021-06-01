@@ -1,0 +1,1 @@
+Condition,+,element,,This SheetActivation shall be applied when all Condition elements evaluate to true for any ContentObject that is supplied on the unconditional Layout partition that is currently active.

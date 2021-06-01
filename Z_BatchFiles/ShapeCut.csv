@@ -1,0 +1,7 @@
+CutBox,?,rectangle,,Specification of a rectangular window. An orthogonal line MAY be defined by specifying a rectangle with identical dimensions.
+CutDepth,?,enumeration,,
+CutOut,?,boolean,,"@CutOut specifies whether the inside or outside of the ShapeCut SHALL be removed. If @CutOut=""true"", the inside of a specified shape SHALL be removed, otherwise the outside of a specified shape SHALL be removed. An example of an inside shape is a window, while an example of an outside shape is a shaped greeting card."
+CutPath,?,PDFPath,,Specification of a complex path. This MAY be an open path in the case of a single line.
+CutType,?,enumeration,,Type of cut or perforation used.
+ShapeType,,enumeration,,Describes any precision cutting other than hole making.
+ShapeTypeDetails,?,string,,"A more specific, specialized or site-defined name for the shape of the ShapeCut."

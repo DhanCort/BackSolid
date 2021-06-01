@@ -1,0 +1,10 @@
+AreaGlue,?,boolean,,Specifies that this Glue SHOULD cover the complete width of the Component it is applied to.
+GlueLineWidth,?,float,,"Width of the glue line in points. If not specified, the default behavior depends on the value of @AreaGlue: If @AreaGlue = ""true"", then the implied width is the width of the Component. If @AreaGlue = ""false"", then the implied width is the system dependent glue line width."
+GlueRef,?,IDREF,,Reference to a MiscConsumable that represents the physical glue.
+GlueType,?,enumeration,,Glue type.
+GluingPattern,?,FloatList,,"Glue line pattern defined by the length of a glue line segment (1st element, 3rd and all odd elements of the list of values) and glue line gap (2nd element, 4th and all even elements of the list of values). A solid line SHALL be expressed by the pattern (1 0). @GluingPattern SHALL contain an even number of entries. If the total length of @GluingPattern is less than @WorkingPath, the pattern restarts after the last gap. If the total length of @GluingPattern is larger than @WorkingPath, the pattern SHALL be clipped at the end."
+GluingTechnique,?,enumeration,,"When glue is specified in the context of hardcover binding, then @GluingTechnique specifies the technique of gluing operation."
+MeltingTemperature,?,integer,,"Temperature needed for melting the glue, in degrees centigrade. @MeltingTemperature SHALL NOT be specified unless @GlueType=""Hotmelt"" or @GlueType=""PUR""."
+StartPosition,?,XYPair,,Start position of the glue line.
+WorkingDirection,?,enumeration,Face,Direction from which the glue should be applied to the Component.
+WorkingPath,?,XYPair,,Relative working path of the gluing tool.

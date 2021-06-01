@@ -1,0 +1,4 @@
+ChannelType,,NMTOKEN,NMChannelType,Type of the communication channel.
+ChannelUsage,?,NMTOKENS,NMSChannelUsage,Communication channel usage
+DescriptiveName,?,string,,Human readable representation of ComChannel
+Locator,,string,,"Locator of this type of channel in a form, such as a phone number, a URL or an email address. If a URL is defined for the @ChannelType, it is RECOMMENDED to use the URL syntax specified in ?[RFC6068] for “mailto” URLs, ?[RFC3966] for “tel” URLs and ?[RFC3986] for URLs in general."

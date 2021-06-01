@@ -1,0 +1,7 @@
+ContactTypeDetails,?,string,,"@ContactTypeDetails specifies the details of the contact's role or roles. If Part/@ContactType=""Employee"", then @ContactTypeDetails SHALL define the list of roles that the employee fills."
+CostCenterID,?,NMTOKEN,,"Identifier of the cost center that this Contact belongs to if Part/ @ContactType=""Employee""."
+UserID,?,string,,"User ID of user, as specified when logging into the operating system or into the submitting application."
+Address,?,element,,Element describing the address.
+ComChannel,,element,,Communication channels such as phone number or email of the contact.
+Company,?,element,,Company that this Contact is associated with.
+Person,?,element,,Name of the contact person.

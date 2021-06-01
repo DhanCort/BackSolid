@@ -1,0 +1,5 @@
+InnerDimensions,?,shape,,"Width x, height y and depth z coordinates of the 3D shape. For a box these are the inner dimensions"
+Name,?,NMTOKEN,,The name of a parametric structural design or CAD template.
+Standard,?,NMTOKEN,,"The name of the standard this template belongs to (e.g., FEFCO, ECMA or the name of a company internal standard)."
+FileSpec,?,element,,The FileSpec of the parametric structural design.
+ShapeDimension,*,element,,ShapeDimension elements define additional parametric values of the ShapeTemplate.

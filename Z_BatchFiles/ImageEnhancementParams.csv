@@ -1,0 +1,1 @@
+ImageEnhancementOp,+,element,,Each ImageEnhancementOp describes an individual enhancement operation. The XML order of ImageEnhancementOp elements is significant. Multiple elements that apply to the same object SHALL be applied in that XML order.

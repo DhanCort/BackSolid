@@ -1,0 +1,6 @@
+GapList,?,FloatList,,"List of non-laminated gap positions in the X direction of the laminating tool in the coordinate system of the Component. The zero-based even entries define the absolute position of the start of a gap, and the odd entries define the end of a gap. If not specified, the complete area defined by @LaminatingBox is laminated."
+LaminatingBox,?,rectangle,,Area on the Component that SHALL be laminated
+LaminatingMethod,?,enumeration,,Laminating technology that SHALL be applied.
+ModuleID,?,NMTOKEN,,"Identifier of the laminating module in a multi-function device, such as a printing press. See Module for details."
+NipWidth,?,float,,Width of the nip in points that SHALL be formed between the fusing rollers and the component in the Laminating process.
+Temperature,?,float,,Temperature that SHALL be used in the Laminating process.

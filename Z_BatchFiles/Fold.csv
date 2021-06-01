@@ -1,0 +1,3 @@
+From,,enumeration,,Edge from which the page SHALL be folded.
+To,,enumeration,,Direction in which the page SHALL be folded.
+Travel,?,float,,Distance of the reference edge relative to @From

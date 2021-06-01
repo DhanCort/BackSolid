@@ -1,0 +1,7 @@
+Center,?,XYPair,,Position of the center of the color control strip in the coordinates of the MarkObject that contains this mark.
+Rotation,?,float,,Rotation in degrees. Positive graduation figures indicate counter-clockwise rotation; negative figures indicate clockwise rotation.
+Separations,?,NMTOKENS,,"Ordered list of separation identifiers that comprise the ColorControlStrip. If neither CIELABMeasuringField nor DensityMeasuringField are specified, the geometry is implied by the value of @StripType. Additional details of the colorants SHOULD be provided in ResourceSet[@Name=”Color”]."
+Size,?,XYPair,,"Size, in points, of the color control strip"
+StripType,?,string,,"Type of color control strip. This attribute MAY be used for specifying a predefined, company-specific color control strip."
+CIELABMeasuringField,*,element,,Details of a CIELAB measuring field that is part of this ColorControlStrip.
+DensityMeasuringField,*,element,,Details of a density measuring field that is part of this ColorControlStrip.

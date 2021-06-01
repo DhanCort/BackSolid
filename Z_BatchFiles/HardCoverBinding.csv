@@ -1,0 +1,14 @@
+BlockThreadSewing,?,boolean,,Specified if the block is thread sewn.
+CoverStyle,?,NMTOKEN,NMCoverStyle,Defines the style of the cover board.
+EndSheets,?,boolean,,"@EndSheets SHALL be specified if end sheets SHALL be applied. Additional details of the end sheets MAY be specified by supplying a Product that is referenced by the parent BindingIntent/@ChildRefs with @ProductType=""EndSheet""."
+HeadBands,?,boolean,,"The following case binding choice specifies the use of head bands on a case bound book. If ""true"", head bands are inserted both top and bottom."
+HeadBandColor,?,enumeration,,Defines the color of the head band.
+HeadBandColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @HeadBandColorDetails is supplied, @HeadBandColor SHOULD also be supplied."
+Jacket,?,enumeration,,enumeration
+JacketFoldingWidth,?,float,,Dimension of the jacket folds. 
+JapanBind,?,boolean,,"Bind the book block at the open edge, so that the folds are visible on the outside. If not specified, explicitly, this option is never selected."
+SpineGlue,?,enumeration,Glue,Glue type used to glue the book block to the cover.
+SpineOperations,?,NMTOKENS,NMSSpineOperations,@SpineOperations lists the operations that SHOULD be performed when preparing the spine.
+Thickness,?,float,,"Specifies the thickness of the board that is wrapped as front and back covers of a case bound book, in points."
+TightBacking,?,enumeration,TightBacking,Definition of the geometry of the back of the book block.
+RegisterRibbon,*,element,,"Number, materials, colors and details of register ribbons."

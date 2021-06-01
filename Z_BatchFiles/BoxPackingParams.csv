@@ -1,0 +1,12 @@
+BoxType,,enumeration,,@BoxType specifies the general category of the package to be packed.
+BoxTypeDetails,?,string,,Additional details of @BoxType. @BoxType MAY be a site specific identifier.
+Columns,?,integer,,"Columns per shipping box. Columns are in the 3rd Dimension in ?Figure 6- 4: Box packing, and are thus not illustrated."
+ComponentsPerRow,?,integer,,"Components or Products per row in the shipping box, as illustrated by A in ?Figure 6-4: Box packing. If the Components represent Bundles, the number of Bundles SHALL be specified."
+Copies,?,integer,,Number of copies in the box. @Copies SHALL NOT be specified if @MaxWeight is present.
+FaceDown,?,enumeration,Face,"Defines the surface that is facing the bottom of the box, defining the horizontal plane."
+Layers,?,integer,,"Layers per shipping box, as illustrated."
+MaxWeight,?,float,,Maximum weight of a packed box in grams. @MaxWeight SHALL NOT be specified if @Copies is present.
+Pattern,?,NMTOKEN,,Name of the box packing pattern. Used to store a predefined pattern that defines the layers and positioning of individual component in the box or carton.
+Rows,?,integer,,"Rows per shipping box, as illustrated by R in Box packing."
+Ties,?,IntegerList,,"Number of tie sheets at each row, as illustrated by T in ?Figure 6-4: Box packing. The first value is outside the first row, the next value between the first and second row and so forth. If more rows than values are specified, counting SHALL restart at the 0 position. If fewer rows than values are specified, all tie sheets that are not adjacent to a row SHALL be ignored."
+UnderLays,?,IntegerList,,"Number of underlay sheets at each layer, as illustrated by U in Box packing. The first value is underneath the bottom layer, the next value above the first layer and so forth. If more layers than values are specified, counting SHALL restart at the 0 position. If fewer layers than values are specified, all underlay sheets that are not adjacent to a layer SHALL be ignored."

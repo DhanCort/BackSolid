@@ -1,0 +1,5 @@
+PostBakeTemp,?,float,,Temperature of the post-baking process in °C. @PostBakeTemp SHALL NOT be specified if @PostExposeTime is present.
+PostBakeTime,?,duration,,Duration of the post-baking process. @PostBakeTime SHALL NOT be specified if @PostExposeTime is present.
+PostExposeTime,?,duration,,Duration of the post-exposing process. @PostExposeTime SHALL NOT be specified if @PostBakeTime is present.
+PreHeatTemp,?,float,,Temperature of the preheating process in °C.
+PreHeatTime,?,duration,,Duration of the preheating process.

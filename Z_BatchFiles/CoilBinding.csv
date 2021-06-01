@@ -1,0 +1,2 @@
+CoilShape,?,NMTOKEN,NMCombAndCoilShapes,The shape of the wire coil used for the binding.
+Material,?,enumeration,,"The material available for forming the coil binding when BindingIntent/ @BindingType=""CoilBinding"" or ""WireComb""."

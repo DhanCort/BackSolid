@@ -1,0 +1,10 @@
+AdditionalNames,?,string,,Additional names of the contact person.
+DescriptiveName,?,string,,Human readable representation of Person. @DescriptiveName SHOULD be a combination of the name related attributes of Person. Note: The sequence of individual name parts is language dependent.
+FamilyName,?,string,,The family name of the contact person.
+FirstName,?,string,,The first name of the contact person.
+JobTitle,?,string,,Job function of the person in the company or organization.
+Languages,?,languages,,"List of languages related to the person, ordered by decreasing preference."
+NamePrefix,?,string,,"Prefix of the name, can include title"
+NameSuffix,?,string,,Suffix of the name.
+PhoneticFirstName,?,string,,"Alternative spelling of a first name, used to assist with pronunciation, e.g. for use with Kanji (Japanese) names)."
+PhoneticLastName,?,string,,"ion, e.g. for use with Kanji (Japanese) names)."

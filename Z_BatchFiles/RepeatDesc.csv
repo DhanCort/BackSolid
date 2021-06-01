@@ -1,0 +1,9 @@
+AllowedRotate,?,enumeration,,Allowed methods to rotate structural designs with respect to grain/flute.
+GutterX,?,float,,Gutter between columns (see also @GutterX2).
+GutterX2,?,float,,Secondary gutter between columns. The gutter between columns (2n+0) and (2n+1) is @GutterX and between columns (2n+1) and (2n+2) is @GutterX2. When @GutterX2 is not specified @GutterX2=@GutterX.
+GutterY,?,float,,Gutter between rows (see also @GutterY2).
+GutterY2,?,float,,Secondary gutter between rows. The gutter between rows (2n+0) and (2n+1) is @GutterY and between rows (2n+1) and (2n+2) is @GutterY2. When @GutterY2 is not specified @GutterY2=@GutterY.
+LayoutStyle,?,NMTOKENS,NMSLayoutStyle,The allowed styles for the layout.
+OrderQuantity,?,integer,,The order quantity for the 1-up for which this layout will be optimized. This information SHALL be present when a layout is being made for more than one ShapeDef.
+ShapeDefRef,,IDREF,,Reference to a ShapeDef describing the 1-up structural design that SHALL to be stepped and repeated on the DieLayout.
+UseBleed,?,boolean,,"If true, the print bleed defined in the structural design SHALL be used to calculate the layout. If false, the outer cut SHALL be used."

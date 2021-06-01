@@ -1,0 +1,5 @@
+IsWaste,?,boolean,,"Specifies whether the InsertSheet is waste. If ""true"", the InsertSheet SHALL be discarded when finishing the document."
+SheetFormat,?,NMTOKEN,NMSheetFormat,Identifies that device dependent information SHALL be included on the InsertSheet. @SheetFormat MAY specify site dependent or customer dependent values. Values include: Blank - Empty sheet. Brief - Site specific sheet with minimal information. Full - Site specific sheet with maximum information. Standard - Site specific sheet with default information.
+SheetType,,enumeration,SheetType,"Identifies the type of sheet. Allowed values are: AccountingSheet – A sheet that reports accounting information for the job. ErrorSheet – A sheet that reports errors for the job. JobSheet – A sheet that delimits the job. SeparatorSheet – A sheet that delimits pages, sections, copies or instance documents of the job."
+SheetUsage,,enumeration,SheetUsage,Indicates where this InsertSheet SHALL be produced and inserted into the set of output pages. Allowed values are from: ?Table 6.175 SheetUsage Attribute Values.
+StripMark,*,element,,StripMark provides formatting and content for the InsertSheet.

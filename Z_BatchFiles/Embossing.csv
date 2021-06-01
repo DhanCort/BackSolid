@@ -1,0 +1,16 @@
+Input,Component
+Input,EmbossingParams
+Input,Media
+Input,Tool
+Input,ApprovalDetails
+Input,Color
+Input,Contact
+Input,CustomerInfo
+Input,Device
+Input,MiscConsumable
+Input,NodeInfo
+Input,Preview
+Input,Tool
+Input,TransferCurve
+Input,UsageCounter
+Output,Component

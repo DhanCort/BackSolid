@@ -1,0 +1,6 @@
+PrintableArea,?,rectangle,,Position and size of the printable area of the print cylinder in the coordinates of the Preview resource.
+ZoneHeight,?,float,,The width of one zone in the feed direction of the printing machine being used.
+Zones,?,integer,,The number of ink zones of the press.
+ZonesY,?,integer,,Number of ink zones in feed direction of the press.
+ZoneWidth,?,float,,The width of one zone of the printing machine being used. The width of a zone SHOULD be the width of an ink slide.
+Device,?,element,,Device provides a reference to the press that the InkZoneProfile is defined for and MAY be used to gather information on ink zone geometry.

@@ -1,0 +1,7 @@
+Center,,XYPair,,"Position of the center of the color measuring field in the coordinates of the MarkObject that contains this mark. If the measuring field is defined within a ColorControlStrip, @Center refers to the rectangle defined by @Center and @Size of the ColorControlStrip."
+CIELab,,LabColor,,L*a*b* color specification
+Diameter,?,float,,Diameter of the measuring field
+Percentages,?,FloatList,,Percentage values for each separation. The number of array elements SHALL match the number of separations.
+ScreenRuling,?,FloatList,,Screen ruling values in lines per inch for each separation. The number of array elements SHALL match the number of separations.
+ScreenShape,?,string,,Shape of screening dots
+Tolerance,?,float,,Tolerance in ?E.

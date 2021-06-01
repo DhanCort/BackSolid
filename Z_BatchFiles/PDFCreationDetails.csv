@@ -1,0 +1,16 @@
+AllowJBIG2Globals,?,boolean,,"If ""true"", JBIG2 compressed images MAY share a single global dictionary in the resulting PDF file instead of a dictionary per image."
+ASCII85EncodePages,?,boolean,,"If ""true"", binary streams (e.g., page content streams, sampled images, and embedded fonts) SHALL be ASCII85-encoded, resulting in a PDF file that is almost pure ASCII. If ""false"", they NEED NOT be encoded, resulting in a PDF file that can contain substantial amounts of binary data."
+AutoRotatePages,?,enumeration,,"Allows the device to try to orient pages based on the predominant text orientation. If the source is PostScript, this attribute is only used if the file does not contain “%%ViewingOrientation”, “%%PageOrientation” or “%%Orientation” DSC comments. If the file does contain such DSC comments, it honors them. “%%ViewingOrientation” takes precedence over others, then “%%PageOrientation”, then “%%Orientation”."
+Binding,?,enumeration,,Determines how the printed pages SHALL be bound.
+CompressPages,?,boolean,,"Enables compression of pages and other content streams like forms, patterns and Type 3 fonts. If ""true"", use Flate compression."
+DefaultRenderingIntent,?,enumeration,RenderingIntent,Selects the rendering intent for the current job. See ?[PDF1.6] for more information on rendering intent.
+DetectBlend,?,boolean,,"Enables or disables blend detection. If ""true"" and if @PDFVersion is 1.3 or higher, then blends will be converted to smooth shadings."
+DoThumbnails,?,boolean,,"If ""true"", thumbnails are created."
+InitialPageSize,?,XYPair,,"Defines the initial page dimensions, in points, that will be used to set MediaBox. This will be overridden by any page size attribute found in the source document, such as the PostScript PageSize page device parameter. The use of this attribute is strongly encouraged when processing EPS files (“%%BoundingBox” comments do not override @InitialPageSize)."
+InitialResolution,?,XYPair,,"Defines the initial horizontal and vertical resolution, in dpi. This will be overridden by any resolution attribute found in the source document, such as the PostScript HWResolution page device parameter. The use of this attribute is strongly encouraged when processing EPS files."
+Optimize,?,boolean,,"If ""true"", the PDF file SHALL be optimized for size. See ?[PDF1.6] for more information on optimization."
+OverPrintMode,?,integer,,"Controls the overprint mode strategy of the job. Set to ""0"" for full overprint or ""1"" for non-zero overprint. For more information, see ?[ColorPS]."
+PDFVersion,?,NMTOKEN,,"Specifies the version number of the PDF file produced. Values include all legal version designators (e.g., 1.2, 1.5, 2.0)."
+AdvancedParams,?,element,,Advanced parameters that control how certain features of PDF are handled.
+PDFXParams,?,element,,PDF/X parameters.
+ThinPDFParams,?,element,,Parameters that control the optional content or form of PDF files that SHALL be created.

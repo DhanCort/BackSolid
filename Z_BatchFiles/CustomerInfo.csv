@@ -1,0 +1,4 @@
+CustomerID,?,NMTOKEN,,Customer identification used by the application that created the job. This is usually the internal customer number of the MIS system that created the job.
+CustomerJobName,?,string,,The human readable descriptive name that the customer uses to refer to the job.
+CustomerOrderID,?,string,,The internal order number in the system of the customer. This number is usually provided when the order is placed and then referenced on the order confirmation or the bill.
+CustomerProjectID,?,string,,The internal project id in the system of the customer. This number MAY be provided when the order is placed and then referenced on the order confirmation or the bill.

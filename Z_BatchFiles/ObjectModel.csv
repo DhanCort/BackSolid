@@ -1,0 +1,2 @@
+Dimensions,?,shape,,"Width x, height y and depth z values for the bounding box of the object."
+FileSpec,?,element,,The FileSpec of the 3D model of the objects that needs to be packed. The format of this file MAY be a vendor specific format or a standard 3D format like VRML or PDF (U3D).

@@ -1,0 +1,3 @@
+DataType,?,enumeration,DataType,Data type of the variable.
+IDUsage,,NMTOKEN,,Usage of the GeneralID.
+IDValue,,string,,Value of the GeneralID. The data type of the value SHALL correspond to GeneralID/@DataType.

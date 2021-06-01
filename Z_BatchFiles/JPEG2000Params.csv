@@ -1,0 +1,6 @@
+CodeBlockSize,?,integer,,The nominal code block width and height. The value SHALL be a power of 2.
+LayerRates,?,FloatList,,"Compression bit ratio for each layer. If specified, there SHALL be the same number of values in this list as @LayersPerTile in ascending order. Small values correspond to maximum compression and 1.0 corresponds to no compression (lossless). If available, @LayerRates SHOULD be supplied."
+LayersPerTile,?,integer,,Specifies the number of quality layers per tile at the same resolution.
+NumResolutions,?,integer,,The number of resolution levels that SHALL be encoded in the file.
+ProgressionOrder,?,enumeration,ProgressionOrder,"Per tile progression order. Allowed values are: CPRL – Component-position-resolution-layer progressive. LRCP – Layer-resolution-component-position progressive (i.e., rate scalable). PCRL – Position-component-resolution-layer progressive. RLCP – Resolution-layer-component-position progressive (i.e., resolution scalable). RPCL – Resolution-position-component-layer progressive."
+TileSize,?,XYPair,,The width and height of each encoding tile. If not specified the image SHALL be encoded as a single tile

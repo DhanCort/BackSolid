@@ -1,0 +1,2 @@
+Name,,NMTOKEN,,Name of the DeviceNSpace.
+Separations,,NMTOKENS,,"Ordered list of colorant identifiers that define the DeviceN color space. Additional details of the colorants SHOULD be provided in ResourceSet[@Name=""Color""]."

@@ -1,0 +1,9 @@
+ReinforceTabs,?,boolean,,"If ""true"", the tab extension will be reinforced, e.g. with polyester film."
+ReinforceBind,?,boolean,,"If ""true"", the tab bind edge will be reinforced, e.g. with polyester film."
+ReinforceColor,?,enumeration,,"Specifies the color of the tab extension reinforcement. @ReinforceColor SHALL NOT be specified unless @ReinforceTabs=""true""."
+ReinforceColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @ReinforceColorDetails is supplied, @ReinforceColor SHOULD also be supplied."
+TabBrand,?,string,,Strings providing available brand names for the Tabs.
+TabCount,?,integer,,"Number of tabs across all banks. If @TabsPerSet is not an even multiple of @TabsPerBank, the last bank in each set is partially filled."
+TabsPerBank,?,integer,,Number of equal-sized tabs in a single bank if all positions were filled. Note that banks can have tabs only in some of the possible positions
+TabExtensionDistance,?,float,,"Distance tab extends beyond the body of the book block, in points."
+TabBodyCopy,?,boolean,,"If ""true"", color will be applied not only on tab extension, but also on tab body. Note: The lack of body copy allows all tabs within a bank to be printed on a single sheet."

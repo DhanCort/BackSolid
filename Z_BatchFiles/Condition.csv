@@ -1,0 +1,2 @@
+PartContext,?,NMTOKENS,,List of attribute names within Part that SHALL reset the context of the Part elements in this Condition. The Part elements in this Condition SHALL NOT contain any attributes that are in @PartContext.
+Part,+,element,,"This Condition SHALL evaluate to ""true"" whenever any RunList partition matches at least one of the Part elements."

@@ -1,0 +1,21 @@
+CostCenterID,?,NMTOKEN,,MIS cost center ID.
+DescriptiveName,?,string,,Human readable description of the device.
+DeviceClass,?,NMTOKENS,NMSDeviceClasses,Indicates the class of device. Multiple NMTOKENS SHALL be used to describe integrated devices with multiple classes. Values include those from: ?Device Classes.
+DeviceID,,NMTOKEN,,"Identifier of the device. @DeviceID SHALL be unique within the workflow. @DeviceID SHALL be the same over time for a specific device instance (i.e., SHALL survive reboots). If the device sends XJMF messages, this value SHALL also be used for XJMF/@DeviceID and for @DeviceID of the specific messages."
+DeviceType,?,string,,"Manufacturer type ID, including a revision stamp. Type of the device. Used for grouping and filtering of devices."
+ICSVersions,?,NMTOKENS,,CIP4 Interoperability Conformance Specification (ICS) Versions that this Device complies with. The value of @ICSVersions SHALL conform to the value format described in ?Section 3.1.1 ICS Versions Value.
+JDFVersions,?,enumerations,JDFVersions,"Whitespace separated list of supported JDF and XJDF versions that this device supports. Allowed values are: 1.1 - JDF 1.1 1.2 - JDF 1.2 1.3 - JDF 1.3 1.4 - JDF 1.4 1.5 - JDF 1.5 1.6 - JDF 1.6 2.0 - XJDF 2.0, this specification."
+KnownLocalizations,?,languages,,"A list of all language codes supported by the device for localization. If not specified, then the device supports no localizations."
+Manufacturer,?,string,,Manufacturer name
+ManufacturerURL,?,URL,,Web site for manufacturer.
+Packaging,?,enumerations,Packaging,"List of packaging methods supported for job submission and job return with SubmitQueueEntry, ResubmitQueueEntry and ReturnQueueEntry. Allowed values are: XML – Unpackaged XML is supported. Zip – Zip packaging of XJMF, XJDF and digital resources is supported. See ?Section 9.7 XJDF Packaging for details."
+PresentationURL,?,URL,,"@PresentationURL specifies a URL to a device-provided user interface for configuration, status, etc. For instance, if the device has an embedded web server, this is a URL to the configuration page hosted on that web server."
+Revision,?,string,,Hardware or software version of the Device. Note: @SerialNumber is independent of upgrades whereas @Revision SHOULD be modified when hardware or software is changed. Note: Header/@AgentVersion is the version of the XJDF interpreter whereas @Revision applies to the hardware or software of the underlying ?Machine.
+SerialNumber,?,string,,Serial number of the device.
+URLSchemes,?,NMTOKENS,NMSURLSchemes,"List of schemes supported for retrieving XJDF files. If not specified, the controller does not support retrieving XJDF files from remote URLs. Values include: file – The file scheme according to ?[RFC1738] and ?[RFC3986]. ftp – FTP (File Transfer Protocol). http – HTTP (Hypertext Transport Protocol). https – HTTPS (Hypertext Transport Protocol — Secure)."
+XJMFURL,?,URL,,URL of the device port that will accept XJMF messages. A controller that manages a device MAY specify its own @XJMFURL when responding to KnownDevices messages.
+IconList,?,element,,List of locations of icons that can be used to represent the Device.
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this Device.
+Lift,?,float,,To know caliper.
+LiftUnit,?,enumeration,LiftUnit,It could be cm or in.
+Module,*,element,,Individual modules that are represented by this Device.

@@ -1,0 +1,3 @@
+Center,,XYPair,,Position of the center of the scavenger area in the coordinates of the MarkObject that contains this mark.
+Separations,?,NMTOKENS,,Set of separation identifiers to which the scavenger area is bound. Additional details of the colorants SHOULD be provided in ResourceSet[@Name=”Color”].
+Size,?,XYPair,,Size of the scavenger area.

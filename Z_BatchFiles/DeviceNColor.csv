@@ -1,0 +1,2 @@
+ColorList,,FloatList,,Value of the 100% tint value of the colorant in the ColorantControl/ DeviceNSpace that is selected by @Name. Each index SHALL refer to the separation defined at the same position in DeviceNSpace/@Separations. A value of 0 SHALL specify no ink and a value of 1 SHALL specify full ink.
+Name,,NMTOKEN,,@Name of the matching DeviceNSpace. Exactly one ColorantControl/ DeviceNSpace/@Name SHALL match @Name.

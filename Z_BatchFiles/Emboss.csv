@@ -1,0 +1,10 @@
+Direction,,enumeration,EmbossDirection,The direction of the image.
+EdgeAngle,?,float,,"The angle of a beveled edge in degrees. Typical values are angles of: 30, 40, 45, 50 or 60 degrees. If @EdgeAngle is specified, @EdgeShape=""Beveled"" SHALL be specified."
+EdgeShape,?,enumeration,,The transition between the embossed surface and the surrounding media can be rounded or beveled (angled).
+EmbossingType,,enumeration,EmbossType,Specifies the type of embossing required.
+Face,?,enumeration,Face,Position of the embossing on the product.
+Height,?,float,,"The height of the levels. This value specifies the vertical distance between the highest and lowest point of the stamp, regardless of the value of @Direction."
+ImageSize,?,XYPair,,The size of the bounding box of one single image.
+Position,?,XYPair,,Position of the lower left corner of the bounding box of the embossed image in the coordinate system of the surface of the Component that is selected by @Face.
+ToolRef,?,IDREF,,@ToolRef SHALL reference the Tool that is used to make the embossing described by this Emboss.
+IdentificationField,?,element,,"If @EmbossingType=""Braille"", IdentificationField SHALL describe the content of the Braille element."

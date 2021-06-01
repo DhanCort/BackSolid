@@ -1,0 +1,4 @@
+ChildRef,,IDREF,,Product/@ID of the product that describes the insert.
+FolioFrom,?,integer,,Index of the first valid parent surface where the insert SHALL be placed in the context of the main product that is referenced by AssemblingIntent/ @Container.
+FolioTo,?,integer,,Index of the last valid parent surface where this Product SHALL be placed in the context of the main product that is referenced by AssemblingIntent/ @Container.
+Orientation,?,enumeration,Orientation,Orientation of the referenced insert in the coordinate system of the surface specified by @Folio.

@@ -1,0 +1,4 @@
+Copies,?,integer,,"Number of copies in one column that SHOULD be placed on a finished roll. At most, one of @Copies, @Diameter or @Length SHOULD be specified."
+Diameter,?,float,,"Outer diameter in points of the finished roll. At most one of @Copies, @Diameter or @Length SHOULD be specified."
+Fixation,?,NMTOKEN,NMFixation,Method specifying how the Component is attached to the core. Values include: DoubleSidedTape – Tape with adhesive on both sides. Glue Label – One of the output Component resources (self-adhesive labels) is used. None – No fixation is used. SingleSidedTape – Tape with adhesive on one side.
+Length,?,float,,"Length in points of the Component to be placed on a finished roll. At most one of @Copies, @Diameter or @Length SHOULD be specified."

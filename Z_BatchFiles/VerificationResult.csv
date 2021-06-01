@@ -1,0 +1,4 @@
+Accepted,?,integer,,Number of resources that were correctly verified
+Rejected,?,integer,,Number of resources that were not correctly verified.
+Unknown,?,integer,,Number of resources that were scanned but are not in the explicit or implied list of known resources.
+FileSpec,?,element,,Reference to data that contains implementation specific descriptions of the resources that were correctly verified.

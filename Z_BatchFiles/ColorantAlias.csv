@@ -1,0 +1,3 @@
+ColorantName,,string,,The name of the colorant to be replaced in PDL files
+RawName,?,hexBinary,,@RawName represents the original 8-bit byte stream of the color specified in @ColorantName. Used to transport the original byte representation of a color name when moving XJDF tickets between computers with different locales.
+ReplacementColorantName,,NMTOKEN,,The separation identifier that SHALL be selected for the colorant @ColorantName.

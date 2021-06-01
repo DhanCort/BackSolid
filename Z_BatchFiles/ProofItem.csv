@@ -1,0 +1,7 @@
+Amount,?,integer,,Specifies the total number of copies of this proof that are needed.
+ColorType,?,enumeration,,Color quality of the proof.
+Contract,?,boolean,,"Requires proof to be a legally binding, accurate representation of the image to be printed (i.e., color quality requirements have been met when the printed piece acceptably matches the proof)."
+HalfTone,?,boolean,,"If @HalfTone=""true"", the proof SHALL emulate halftone screens."
+ID,?,ID,,Identifier of the ProofItem. This field SHALL be specified if delivery of a proof is specified in DeliveryParams.
+PageIndex,?,IntegerRange,,"Index of pages that SHALL be proofed in reader order. If @PageIndex is not specified, then all pages SHALL be proofed."
+ProofTarget,?,URL,,Identifies a remote target for the proof output in a remote proofing environment. This can be either a soft or a hard proofing target. The file to be displayed or output SHALL be sent to the URL specified in @ProofTarget.

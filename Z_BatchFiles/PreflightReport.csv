@@ -1,0 +1,4 @@
+ErrorCount,?,integer,,The count of errors that were encountered while preflighting.
+WarningCount,?,integer,,The count of warnings that were encountered while preflighting.
+FileSpec,?,element,,References a human readable preflight report.
+PreflightCheck,*,element,,List of individual preflight results.

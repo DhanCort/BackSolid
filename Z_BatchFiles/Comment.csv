@@ -1,0 +1,7 @@
+Author,?,string,,Human readable text that identifies the person who created the Comment. See also @PersonalID.
+ExternalID,?,NMTOKEN,,Identification that is used to reference the Comment.
+Language,?,language,,Human readable language of the Comment.
+PersonalID,?,NMTOKEN,,"Machine readable identifier of the employee that entered the comment. When the Comment is created by a person with a known Contact/@UserID, then @PersonalID SHOULD contain the value of Contact/@UserID."
+TimeStamp,?,dateTime,,Describes the date and time when the Comment was created.
+Type,?,NMTOKEN,NMType,@Type specifies the usage of a comment.
+,,text,,Body of the comment. Note: Whitespace is preserved only as generic whitespace in XML. Applications that display comments to the user SHOULD maintain whitespace.

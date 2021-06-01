@@ -1,0 +1,2 @@
+ModuleID,?,NMTOKEN,,Identifies a particular folder module to be used. @ModuleID SHALL match Device/Module/@ModuleID.
+ProductionType,?,enumeration,ProductionType,Indicates whether the product is collected or not. Allowed values are: Collect NonCollect

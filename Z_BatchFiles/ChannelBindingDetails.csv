@@ -1,0 +1,3 @@
+ClampD,?,float,,"The distance of the clamp that was “pressed away”, see ?Figure 6-28: Parameters used for channel binding."
+ClampSize,?,shape,,The shape size of the clamp. The first number of the shape data type corresponds to the clamp width W (see ?Figure 6-28: Parameters used for channel binding) which is determined by the final height of the block of sheets to be bound. The second number corresponds to the length L (see ?Figure 6-28: Parameters used for channel binding). The third corresponds to the spine length (not visible in ?Figure 6-28: Parameters used for channel binding). The spine length is perpendicular on the paper plane.
+Cover,?,boolean,,"If ""true"" the clamp is inside of a preassembled cover."

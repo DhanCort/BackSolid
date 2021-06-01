@@ -1,0 +1,4 @@
+FilePerPage,?,boolean,,"If ""true"", the process SHALL generate 1 PDF file per page."
+SidelineEPS,?,boolean,,"If ""true"", embedded EPS files in PostScript source documents SHALL not be converted but SHALL be stored in external files in the same location as the PDF itself. (PostScript source only)"
+SidelineFonts,?,boolean,,"If ""true"", font data MAY be stored in external files during PDF generation."
+SidelineImages,?,boolean,,"If ""true"", image data MAY be stored in an external stream during the PDF generation phase. Note: This prevents large amounts of image data from having to be passed through all phases of the code generation process."

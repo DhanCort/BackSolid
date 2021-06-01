@@ -1,0 +1,6 @@
+Brand,?,string,,@Brand specifies the binder brand.
+Diameter,?,float,,"@Diameter specifies the diameter of coil, comb or rings, in points."
+HolePattern,?,element,,HolePattern describes the hole pattern that the binder requires. Note that this MAY differ from the holes in the media. For instance the media for a 2 hole ring binder MAY have additional holes that are compatible with a 3 hole ring binder.
+CoilBinding,?,element,,"CoilBinding specifies additional details of coil binding. CoilBinding SHALL NOT be specified unless BindingIntent/@BindingType=""CoilBinding""."
+CombBinding,?,element,,"CombBinding specifies additional details of either plastic comb binding or wire comb binding. CombBinding SHALL NOT be specified unless BindingIntent/@BindingType=""CombBinding""."
+RingBinding,?,element,,"RingBinding specifies additional details of ring binding. RingBinding SHALL NOT be specified unless BindingIntent/@BindingType=""RingBinding""."

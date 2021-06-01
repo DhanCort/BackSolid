@@ -1,0 +1,2 @@
+CTM,,matrix,,@CTM that SHALL be applied to the separation after all other transformations.
+Position,,XYPair,,Point that this ShiftPoint applies to. Note: The interpolation algorithm between ShiftPoint positions is implementation dependent.

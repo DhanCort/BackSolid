@@ -1,0 +1,4 @@
+BinderMaterial,?,NMTOKEN,NMBinderMaterial,@BinderMaterial describes the required material to be used for the binder cover.
+RingShape,?,NMTOKEN,NMRingShape,@RingShape specifies the shape of the ring binder rings.
+RivetsExposed,?,boolean,,"@RivetsExposed describes the ring mechanism mounting in a binder case. If ""true"", the heads of the rivets are visible on the exterior of the binder. If ""false"", the binder covering material covers the rivet heads."
+ViewBinder,?,NMTOKEN,NMViewBinder, @ViewBinder specifies the details of clear vinyl outer-wrap types on top of a colored base wrap.

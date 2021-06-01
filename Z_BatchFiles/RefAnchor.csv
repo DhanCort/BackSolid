@@ -1,0 +1,3 @@
+Anchor,,enumeration,Anchor,"@Anchor specifies the origin (0,0) of the vector specified in the rotated coordinate system of the related layout element. Allowed value is from: ?Anchor."
+AnchorType,,enumeration,AnchorType,Role of this RefAnchor. Allowed values are: Parent – The layout element referenced by this RefAnchor is a parent. This layout element is transformed with the parent. Sibling – The layout element referenced by this RefAnchor is a sibling. Both layout elements share a common parent. The parent of this layout element SHALL be specified as the RefAnchor of the first child in the chain of siblings.
+rRef,,IDREF,,"Reference to a layout element that this layout element is positioned relative to. This shall be one of Layout/@ID, StripMark/@ID or Position/@ID."

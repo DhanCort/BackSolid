@@ -1,0 +1,8 @@
+Action,?,enumeration,Action,Action that has been taken.
+Count,?,integer,,The total number of occurrences of this PreflightCheck.
+Pages,?,IntegerList,,A 0-based index of pages in the document where one or more errors of the type specified by this PreflightCheck occurred.
+Severity,?,enumeration,Severity,"Severity of the PreflightCheck. If the Preflight process is described in detail with PreflightTest elements that include PreflightTest/@Severity, then this SHALL be a copy of the appropriate PreflightTest/@Severity."
+TestClass,?,NMTOKEN,,"General area of the preflight check. If the Preflight process is described in detail with PreflightTest elements, then this SHALL be a copy of the appropriate PreflightTest/@TestClass"
+TestID,?,NMTOKEN,,"System dependent error identifier. If the Preflight process is described in detail with PreflightTest elements, then this SHALL be a copy of the appropriate PreflightTest/@TestID."
+Comment,?,element,,Human readable description of this preflight check.
+GeneralID,*,element,,Detailed individual parameters of the PreflightTest. The values of GeneralID/ @IDUsage and GeneralID/@IDValue are system dependent.

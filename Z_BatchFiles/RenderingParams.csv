@@ -1,0 +1,9 @@
+BandHeight,?,integer,,"Height of output bands expressed in lines. For a frame device, the band height is simply the full height of the frame."
+BandOrdering,?,enumeration,BandOrdering,"Indicates whether output buffers are generated in ""BandMajor"" or ""ColorMajor"" order. Allowed values are: BandMajor – The position of the bands on the page is prioritized over the color. ColorMajor – All bands of a single color are played in order before progressing to the next plane. This is only possible with non-interleaved data."
+BandWidth,?,integer,,"Width of output bands, in pixels."
+ColorantDepth,?,integer,,Number of bits per colorant. Determines whether the output is bitmaps or bytemaps.
+Interleaved,?,boolean,,"If ""true"", the resulting colorant values SHALL be interleaved. @BandOrdering SHALL NOT be specified if @Interleaved=""true""."
+MimeType,?,string,,"@MimeType identifies the MIME type associated with this output file format. For example ""application/pdf""."
+AutomatedOverPrintParams,?,element,,Controls for overprint substitutions. Defaults to no automated overprint generation.
+ObjectResolution,*,element,,"Elements that define the resolutions at which to render the contents. More than one element MAY be used to specify different resolutions for different @SourceObjects types. If no ObjectResolution is specified, the value is implied from the input data."
+TIFFFormatParams,?,element,,Parameters specific for creating TIFF files.

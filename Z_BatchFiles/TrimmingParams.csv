@@ -1,0 +1,4 @@
+Height,?,float,,Height of the trimmed product.
+TrimCover,?,enumeration,TrimCover,Specifies the covers to be trimmed. Covers containing flaps are generally not trimmed. Allowed values are: Back – Trim back cover only. Both – Trim front and back cover. Front – Trim front cover only. Neither – Do not trim cover.
+TrimmingOffset,?,float,,Amount to be cut from the bottom side.
+Width,?,float,,Width of the trimmed product.

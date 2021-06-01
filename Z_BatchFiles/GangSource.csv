@@ -1,0 +1,3 @@
+BinderySignatureID,?,NMTOKEN,,"If present, @BinderySignatureID SHALL reference the BinderySignature that this GangSource represents."
+Copies,,integer,,@Copies SHALL specify the number of copies of the BinderySignature that are required.
+JobID,,NMTOKEN,,@JobID SHALL reference XJDF/@JobID of the individual job that describes the processing prior to and after printing and cutting the gang sheet.

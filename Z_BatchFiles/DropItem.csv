@@ -1,0 +1,5 @@
+Amount,,integer,,@Amount SHALL be present and specify the number of products or resources that comprise this DropItem.
+ItemRef,,IDREF,,"@ItemRef SHALL reference the Resource, ResourceSet, ProofItem or ProductList/Product that represents the individual items to be delivered. If the DropItem references a final product, @ItemRef SHALL reference a ProductList/Product."
+TotalDimensions,?,shape,,"Total dimensions in points of all individual items, including packaging."
+TotalVolume,?,float,,"Total volume in liters of all individual items, including packaging"
+TotalWeight,?,float,,"Total weight of all individual items, including packaging."

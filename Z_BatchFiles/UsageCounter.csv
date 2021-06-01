@@ -1,0 +1,2 @@
+CounterTypes,?,NMTOKENS,NMSCounterTypes,This attribute indicates the types of usage being counted by the UsageCounter.
+Scope,,enumeration,,The scope of this usage counter.

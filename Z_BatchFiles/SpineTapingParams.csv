@@ -1,0 +1,5 @@
+HorizontalExcess,?,float,,Taping spine excess on each side. The tape is assumed to be centered between left and right.
+HorizontalExcessBack,?,float,,Horizontal excess of back if tape is not centered.
+StripLength,?,float,,"Length of strip material along binding edge. If not defined, the default case is that the @StripLength be equivalent to the length of the spine."
+TopExcess,?,float,,Top spine taping excess. This value MAY be negative.
+Glue,*,element,,Describes where and how to apply glue to the book block.

@@ -1,0 +1,3 @@
+PreferredFont,,NMTOKEN,,The name of a font that SHALL be used as the default font for this job.
+UseDefaultFont,,boolean,,"If ""true"", the device SHALL resort to a default font if a font cannot be found. Note: This is the normal behavior of the PostScript interpreter, which defaults to Courier when a font cannot be found."
+UseFontEmulation,,boolean,,"If ""true"", the device SHALL emulate a requested font if a font cannot be found."

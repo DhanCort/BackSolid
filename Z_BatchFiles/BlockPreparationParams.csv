@@ -1,0 +1,4 @@
+Backing,?,float,,Backing distance in points.
+Rounding,?,float,,Rounding distance in points.
+TightBacking,?,enumeration,TightBacking,Definition of the geometry of the back of the book block.
+RegisterRibbon,*,element,,Description of the register ribbons that are included within the book block.

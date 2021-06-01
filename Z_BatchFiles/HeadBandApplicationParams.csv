@@ -1,0 +1,3 @@
+Length,?,float,,Length of the carrier material of the head band along the binding edge. If not specified the head band has the length of the book block.
+Width,?,float,,Width of the head bands and carrier.
+Glue,*,element,,The carrier can be applied to the book block with glue. The coordinate system for the Glue is defined in ?Section 6.33 EndSheetGluingParams.

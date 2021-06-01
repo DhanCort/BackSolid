@@ -1,0 +1,4 @@
+BinderySignatureIDs,?,NMTOKENS,,"If specified, @BinderySignatureIDs SHALL list the BinderySignature/ @BinderySignatureID of all BinderySignatures that comprise this CutBlock."
+BlockName,,NMTOKEN,,Name of the block. The output Component of the Cutting process SHALL be partitioned by Part/@BlockName. The values of Part/@BlockName SHALL match the value of this @BlockName.
+Box,?,rectangle,,Defines the position and size of the block relative to the parent Component coordinate system.
+CutWidth,?,float,,"Width in points of the u-shaped knife, saw blade, etc."

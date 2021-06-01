@@ -1,0 +1,8 @@
+Amount,,integer,,Number of identical bundle items of the same type and structure that this BundleItem represents.
+BundleType,?,enumeration,,
+ItemRef,?,IDREF,,Reference to an individual Component or Product that is represented by this BundleItem. @ItemRef SHALL NOT be specified if a child BundleItem element is present
+TotalAmount,?,integer,,"Total amount of individual products that this BundleItem contains. If @Amount !=1, then @TotalAmount refers to the total amount that is contained in all bundle items that the BundleItem represents. If the BundleItem or its descendent BundleItem elements contain one or more @ItemRef attributes that reference a ProductList/Product, then @TotalAmount refers to the number of final products."
+TotalDimensions,?,shape,,Total dimensions in points of all individual items including packaging that belong to this BundleItem.
+TotalVolume,?,float,,Total volume in liters of all individual items including packaging that belong to this BundleItem.
+TotalWeight,?,float,,Total weight in grams of all individual items including packaging that belong to this BundleItem.
+BundleItem,*,element,,Individual BundleItem elements that this parent BundleItem contains. All BundleItem elements in one level of the BundleItem tree SHOULD have the same value of BundleItem/@BundleType.

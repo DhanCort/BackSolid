@@ -1,0 +1,2 @@
+JobFormat,?,string,,A formatting string used with @JobTemplate to generate a string. Allowed values are from: ?Appendix E String Generation.
+JobTemplate,?,NMTOKENS,,A list of values used with @JobFormat to generate a string. Allowed values are from: ?Appendix E String Generation.

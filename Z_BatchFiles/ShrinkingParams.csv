@@ -1,0 +1,2 @@
+ShrinkingMethod,?,enumeration,ShrinkingMethod,Specifics of the shrinking method for shrink wrapping. Allowed values are: ShrinkCool ShrinkHot
+Temperature,?,float,,Shrinking temperature.

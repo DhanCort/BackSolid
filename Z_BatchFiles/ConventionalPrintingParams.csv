@@ -1,0 +1,8 @@
+Drying,?,enumeration,Drying,The way in which ink is dried after a print run. Allowed value is from: ?Drying.
+FirstSurface,?,enumeration,Side,Printing order of the surfaces on the sheet. Allowed value is from: ?Side.
+FountainSolution,?,enumeration,FountainSolution,State of the fountain solution module in the printing units. Allowed values are: On Off
+ModuleDrying,?,enumeration,Drying,The way in which ink is dried in individual modules. Allowed value is from: ?Drying.
+Powder,?,float,,Quantity of powder in percent.
+SheetLay,?,enumeration,SheetLay,Lay of input media. Reference edge of where paper is placed in a feeder. Allowed value is from: ?SheetLay
+Speed,?,float,,"Maximum print speed in the units as specified by ResourceSet[@Name=""Component"" AND @Usage=""Output""]/@Unit per hour. If not specified then the press speed need not be reduced."
+WorkStyle,?,enumeration,WorkStyle,The direction in which to turn the press sheet. Allowed value is from: ?WorkStyle.

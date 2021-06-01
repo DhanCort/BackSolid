@@ -1,0 +1,17 @@
+Category,?,NMTOKEN,NMNodeCategories,"@Category specifies the named category of this XJDF. Controllers SHOULD specify @Category for processes that have many optional values in @Types. This allows processors to identify the general purpose of an XJDF without parsing the @Types field. For instance, a RIP for final output and a RIP for proof process have identical @Types attribute values, but have @Category = ""ProofRIPing"" or @Category = ""RIPing"", respectively"
+CommentURL,?,URL,,"URL SHALL refer to an external, human-readable description of this XJDF."
+DescriptiveName,?,string,,Human-readable descriptive name of this XJDF. @DescriptiveName SHOULD be provided for communication from applications to humans in order to reference the XJDF.
+ICSVersions,?,NMTOKENS,,@ICSVersions SHALL list all CIP4 Interoperability Conformance Specification (ICS) Versions that this XJDF complies with. The value of @ISCVersions SHALL conform to the value format described in ?Section 3.1.1 ICS Versions Value.
+JobID,?,NMTOKEN,,"Job identification used by the application that created the XJDF job. Typically, a job is identified by the internal order number of the MIS system that created the job."
+JobPartID,?,NMTOKEN,,@JobPartID SHALL identify one or more worksteps of the same type that can be described as one XJDF. @JobPartID is internal to the MIS system that created the XJDF.
+ProjectID,?,NMTOKEN,,Identification of the project context that this XJDF belongs to. @ProjectID SHOULD be used by a controller to group a set of XJDF jobs.
+RelatedJobID,?,NMTOKEN,,Job identification of a related job. Used to identify the @JobID of a previous run of this job or job with very similar settings. It MAY be used to retrieve additional job and device specific settings from a data store.
+RelatedJobPartID,?,NMTOKEN,,Job identification of a related job part. Used to identify the @JobPartID of a previous run of this job or job with very similar settings. It MAY be used to retrieve additional job and device specific settings from a data store.
+RelatedProjectID,?,NMTOKEN,,Identification of a related project context that this XJDF belongs to. @RelatedProjectID SHOULD be used by a controller to group a set of XJDF jobs.
+Types,,NMTOKENS,,"A list of one or more process names that are specified within this XJDF document. For details on using processes, see ?Section 3.1.3 XJDF for Process Description and Gray Boxes. A value of @Types that contains ""Product"" specifies that the products that are described shall be produced without complete knowledge of the production workflow. Additional process specifics MAY be supplied in a ticket that contains ""Product""."
+xmlns,,URI,,"XJDF supports use of XML namespaces. For details on using namespaces in XML, see ?[XMLNS]. For version 2.0 of XJDF, @xmlns = ""http://www.CIP4.org/JDFSchema_2_0""."
+AuditPool,?,element,,List of elements that contains all relevant audit information. AuditPool elements are intended to serve the requirements of MIS for evaluation and post calculation.
+Comment,*,element,,Any human-readable text. The Comment element is different from an XML comment . The XJDF comment is meant for display in a user interface whereas the XML comment is used to add developer’s comments to the underlying XML.
+GeneralID,*,element,,Additional identifiers related to the XJDF.
+ProductList,*,element,,"Bill of materials - description of the product, or products that this XJDF produces."
+ResourceSet,*,element,,Container elements for Resource elements

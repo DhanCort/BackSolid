@@ -1,0 +1,2 @@
+Name,,string,,"Identifier of the separation. Additional details SHOULD be specified in ResourceSet[@Name = ""Color""]."
+Tint,,float,,Value from 0 (not used) to 1 (100% tint) of the separation specified in @Name

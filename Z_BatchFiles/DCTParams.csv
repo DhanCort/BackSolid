@@ -1,0 +1,6 @@
+ColorTransform,?,enumeration,ColorTransform,"Color transformation algorithm. Allowed values are: Automatic – ""YUV"" for 3-channel raster data, ""None"" otherwise. None – Colors SHALL NOT be transformed. YUV – RGB raster values SHALL be transformed to YUV before encoding and from YUV to RGB after decoding. If four channels are present CMYK values SHALL be transformed to YUVK before encoding and SHALL be transformed from YUVK to CMYK after decoding. Note: YUV is equivalent to YCbCr in TIFF terminology."
+HSamples,?,IntegerList,,"A sequence of horizontal sampling factors. If present, one entry SHALL be provided per color channel in the raster data. If not specified, the implied default is ""1"" for every channel."
+HuffTable,?,FloatList,,"Huffman tables for DC and AC components. If present, there SHALL be at least one HuffTable element for each color channel."
+QFactor,?,float,,A scale factor that SHALL be applied to the elements of @QuantTable.
+QuantTable,?,FloatList,,"Quantization tables. If present, there SHALL be one @QuantTable entry for each color channel."
+VSamples,?,IntegerList,,"A sequence of vertical sampling factors. If present, one entry SHALL be provided per color channel in the raster data. If not specified, the implied default is ""1"" for every channel."

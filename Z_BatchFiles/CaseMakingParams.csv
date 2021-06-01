@@ -1,0 +1,9 @@
+BottomFoldIn,?,float,,Defines the width of the part of the cover material on the lower edge inside of the case. If @BottomFoldIn is not specified the value from @TopFoldIn SHALL be used.
+CornerType,?,NMTOKEN,NMCornerType,Method of wrapping the corners of the cover material around the corners of the board.
+CoverWidth,?,float,,Width of the cover cardboard in points.
+FrontFoldIn,?,float,,Defines the width of the part of the cover material on the front edges inside of the case in points.
+Height,?,float,,"Height of the book case, in points"
+JointWidth,?,float,,"Width of the joint as seen when laying the cardboard on the cover material, in points."
+SpineWidth,?,float,,"Width of the spine cardboard, in points"
+TopFoldIn,?,float,,"Defines the width of the cover material on the top edge inside of the case, in points."
+Glue,?,element,,Details of the glue.

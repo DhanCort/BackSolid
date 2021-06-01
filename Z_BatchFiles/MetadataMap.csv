@@ -1,0 +1,4 @@
+Name,,NMTOKEN,,@Name SHALL define the partition key that SHALL be filled with the value that is calculated from @ValueFormat and @ValueTemplate.
+ValueFormat,,string,,Formatting value for combining values from @ValueTemplate into a dynamic result value.
+ValueTemplate,,NMTOKENS,,Arguments for combining extracted values.
+Expr,*,element,,Exactly one Expr element with a matching @Name SHALL be specified for each variable in @ValueTemplate that is NOT defined in the parent IdentificationField/@ValueTemplate and NOT defined in ?Table E.1 Predefined variables used in @XXXTemplate. Expr SHALL NOT be specified in an IdentificationField/MetadataMap.

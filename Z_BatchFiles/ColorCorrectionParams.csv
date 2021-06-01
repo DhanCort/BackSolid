@@ -1,0 +1,1 @@
+ColorCorrectionOp,*,element,,List of ColorCorrectionOp subelements. ColorCorrectionOp SHOULD contain the complete set of parameters for a given color correction operation. Otherwise the results are implementation dependent.

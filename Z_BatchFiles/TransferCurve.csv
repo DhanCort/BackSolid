@@ -1,0 +1,2 @@
+CTM,?,matrix,,"@CTM SHALL define the transformation of the coordinate system in the device, relative to the Layout coordinate system as defined by Part/ @TransferCurveName. Note: In JDF 1.x, CTM is applied relative to the prior coordinate system in the list of @Name values whereas in XJDF CTM always applies relative to the Layout coordinate system."
+Curve,?,TransferFunction,,The density mapping curve for this TransferCurve.

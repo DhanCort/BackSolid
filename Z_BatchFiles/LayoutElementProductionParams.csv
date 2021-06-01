@@ -1,0 +1,3 @@
+ContentRefs,?,IDREFS,,@ContentRefs SHALL reference Content that provide metadata related to the output RunList. Note: The referenced Content elements MAY contain OCGControl elements that select the desired optional content from versioned PDF files.
+ShapeDefRef,?,IDREF,,@ShapeDefRef SHALL reference a ShapeDef that represents the shape of the RunList to be produced.
+FileSpec,?,element,,References a data list containing record information for variable data production. The format of the referenced data is implementation specific.

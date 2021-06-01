@@ -1,0 +1,5 @@
+ContentRef,?,IDREF,,@ContentRef refers to the ContentObject that shall define the scope of the RunList metadata that is used to evaluate Condition elements in this MarkObject.
+ColorControlStrip,*,element,,ColorControlStrip describes a color control strip
+CutMark,*,element,,CutMark describes cut marks on a sheet.
+RegisterMark,*,element,,RegisterMark describes a register mark that can be used to measure color registration.
+ScavengerArea,*,element,,ScavengerArea describes a scavenger area for removing excess ink from printed sheets.

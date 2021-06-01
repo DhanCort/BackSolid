@@ -1,0 +1,4 @@
+Surface,,enumerations,Side,The surface or surfaces to be laminated.
+Temperature,?,enumeration,,Temperature used in the Laminating process.
+Texture,?,NMTOKEN,NMTexture,The intended texture of the laminate.
+Thickness,?,float,,Thickness of the laminating material. Measured in microns [µm].

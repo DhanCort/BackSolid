@@ -1,0 +1,2 @@
+Usage,,NMTOKEN,NMUsage,The usage of the value.
+Value,,string,,Additional value of the IdentificationField as specified in @Usage.

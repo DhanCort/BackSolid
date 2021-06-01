@@ -1,0 +1,2 @@
+CoilShape,?,NMTOKEN,NMCombAndCoilShapes,The shape of the wire coil binding.
+Diameter,?,float,,Specifies the diameter of the comb to be produced. The diameter is determined by the height of the block of sheets to be bound.

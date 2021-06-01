@@ -1,0 +1,3 @@
+AspectRatio,?,enumeration,,Policy that defines how to define the preview size if the aspect ratio of the source and preview are different. @AspectRatio SHALL NOT be specified unless @Size is also specified.
+Resolution,?,XYPair,,"Resolution of the preview, in dpi."
+Size,?,XYPair,,"Size of the preview, in pixels. If @Size is present, @Resolution SHALL be evaluated according to the policy defined in @AspectRatio. If @Size is not specified, it SHALL be calculated using the @Resolution attribute and the input image size."

@@ -1,0 +1,2 @@
+DDESCutType,,integer,,"Type of rule. Values for @DDESCutType SHALL be between ""0"" and ""999"". These values correspond to the line type as defined in ?[DDES3]."
+Length,,float,,"Accumulated length of the rules of this type in the DieLayout, in points."

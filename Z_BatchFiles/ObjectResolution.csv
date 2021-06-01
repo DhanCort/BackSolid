@@ -1,0 +1,3 @@
+AntiAliasing,?,NMTOKEN,NMAntiAliasing,"Indicates the anti-aliasing algorithm that the device SHALL apply to the rendered output images. An anti-aliasing algorithm causes lines and curves to appear smooth which would otherwise have a jagged appearance, especially at lower resolutions such as 300 dpi and lower. Values include: AntiAlias – Anti-aliasing SHALL be applied. The algorithm is system specified. None – Anti-aliasing SHALL NOT be applied."
+Resolution,,XYPair,,Horizontal and vertical output resolution in DPI.
+SourceObjects,?,enumerations,,Identifies the class(es) of incoming graphical objects to render at the specified resolution. If @SourceObjects is not specified then ObjectResolution SHALL apply to all object classes. Allowed values are from: ?SourceObjects.

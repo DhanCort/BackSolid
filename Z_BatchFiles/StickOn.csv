@@ -1,0 +1,6 @@
+ChildRef,,IDREF,,Product/@ID of the product that describes the stick-on.
+Face,?,enumeration,Face,Location of the stick-on on the Product. @Face SHALL NOT be specified if @Folio is specified.
+Folio,?,integer,,Index of the parent surface where the stick-on SHALL be placed in the context of the main product that is referenced by AssemblingIntent/@Container. @Folio SHALL NOT be specified if @Face is specified.
+Orientation,?,enumeration,Orientation,Orientation of the stick-on in the coordinate system of the surface specified by @Folio or @Face.
+Position,?,XYPair,,Position of the bottom left corner of the stick-on in the coordinate system of the surface specified by @Folio or @Face after applying all rotations.
+Glue,?,element,,Details of the glue used to fasten the stick-on.

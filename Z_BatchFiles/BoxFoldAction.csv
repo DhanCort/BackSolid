@@ -1,0 +1,2 @@
+Action,,enumeration,Action,@Action describes an individual action in the folder gluer.
+FoldIndex,,XYPair,,Pair of indices that identify the upper right corner of the flap or fold that is affected by this BoxFoldAction.

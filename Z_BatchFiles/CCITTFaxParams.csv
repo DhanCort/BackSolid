@@ -1,0 +1,5 @@
+EncodedByteAlign,?,boolean,,@EncodedByteAlign indicates whether the CCITTFaxEncode filter SHALL insert extra 0 bits before each encoded line so that the line begins on a byte boundary.
+EndOfBlock,?,boolean,,A flag indicating whether the CCITTFaxEncode filter SHALL append an endof-block pattern to the encoded data.
+EndOfLine,?,boolean,,A flag indicating whether the CCITTFaxEncode filter SHALL prefix an endof-line bit pattern to each line of encoded data.
+K,?,integer,,"An integer that selects the encoding scheme to be used. < 0 – Pure two-dimensional encoding (Group 4, TIFF Compression = 4). = 0 – Pure one-dimensional encoding (Group 3, 1-D, TIFF Compression = 2). > 0 – Mixed one- and two-dimensional encoding (Group 3, 2-D, TIFF Compression = 3), in which a line encoded one-dimensionally MAY be followed by at most @K – 1 lines encoded two-dimensionally."
+Uncompressed,?,boolean,,A flag to indicate whether the file generated MAY use uncompressed encoding when advantageous.

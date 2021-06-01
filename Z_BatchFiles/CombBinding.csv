@@ -1,0 +1,2 @@
+CombShape,?,NMTOKEN,NMCombAndCoilShapes,The shape of the plastic comb used for the binding
+Material,?,enumeration,BinderMaterial,"The material available for forming the comb binding when BindingIntent/ @BindingType=""CombBinding""."

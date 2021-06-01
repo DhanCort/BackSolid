@@ -1,0 +1,4 @@
+CutWidth,?,float,,"Width in points of u-shaped knife, saw blade, etc."
+StartPosition,?,XYPair,,Starting position of the tool.
+WorkingDirection,?,enumeration,WorkingDirection,Direction from which the tool is working.
+WorkingPath,?,XYPair,,Working path of the tool beginning at @StartPosition.

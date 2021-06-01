@@ -1,0 +1,188 @@
+<cXML payloadID="RFQ:5553205" timestamp="07/23/2020 00:29:07" xml:lang="en-US">
+    <Header>
+        
+        <From>        
+            <Credential domain="towaso">
+                <Identity>13832</Identity>
+            </Credential>
+        </From>
+        
+        
+        <To>        
+            <Credential domain="WisnetAlerts">
+                <Identity>MIS13832</Identity>
+            </Credential>
+        </To>
+        
+        <Sender>
+            <Credential domain="">
+                <Identity>13832towaso</Identity>
+                <SharedSecret>MyPassword</SharedSecret>
+            </Credential>
+        </Sender>    
+    </Header>
+    <Request>
+      
+   
+
+
+
+  
+  
+    
+  
+    
+        
+       
+      
+       
+            
+              
+              
+           
+      
+    
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+        
+    
+        <RFQ>
+             <RFQHeader requestID="5553205" requestDate="07/23/2020 00:29:07" type="new">
+               <ID domain="ws4p">5553205</ID>
+               
+        
+         
+                        
+            
+             
+            
+             
+       
+          <Contact role="requested by" contactID="1012023">
+              
+
+             <ID domain="ws4p">1012023</ID>
+             
+             <Name><![CDATA[Ivan Ulises Guzman Sanchez]]></Name>
+             <Email><![CDATA[ivan.guzman@towasoftware.com]]></Email>
+             
+             
+             <Phone name="Work">
+               <TelephoneNumber>
+                 <Number><![CDATA[+52 56 1495 4610]]></Number>
+               </TelephoneNumber>
+             </Phone>
+             
+             
+                          
+            
+            
+            <Department><![CDATA[]]></Department>
+            <Position><![CDATA[]]></Position>         
+            
+            
+
+
+
+          </Contact>
+            
+             </RFQHeader>
+
+      
+      <ItemOut quantity="500">
+        
+   
+
+
+
+  
+  
+    
+  
+    
+        
+       
+      
+       
+            
+              
+              
+           
+      
+    
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+     
+         
+         
+                
+        <ID domain="ws4p">5553205</ID>
+        
+        <ItemID>
+         <SupplierPartID><![CDATA[]]></SupplierPartID>
+         
+            <ID domain="ws4p">271936</ID>
+            
+         
+        </ItemID>
+        <ItemDetail>
+          <UnitPrice>       
+             
+             <Money currency="USD">0</Money>
+          </UnitPrice>          
+          <Description xml:lang="en"> 
+            <ShortName><![CDATA[Envelopes ]]></ShortName>
+          </Description>
+          <UnitOfMeasure>EA</UnitOfMeasure>
+
+      
+        
+                         
+           
+        <URL><![CDATA[https://13832TOWASo.secureprintorder.com/13832TOWASo/data/7013AcmePr/envelope.png]]></URL>
+               
+
+        <Extrinsic name="Size"><![CDATA[#10]]></Extrinsic>
+        <Extrinsic name="Type"><![CDATA[Standard Commercial]]></Extrinsic>
+        <Extrinsic name="Paper Choices"><![CDATA[24 lb. White Wove]]></Extrinsic>
+        <Extrinsic name="Color Options"><![CDATA[Full-Color Front]]></Extrinsic>
+        <Extrinsic name="Shrink Wrapping"><![CDATA[None]]></Extrinsic>
+        <Extrinsic name="Turnaround Times"><![CDATA[Economy]]></Extrinsic>
+        <Extrinsic name="Job Name"><![CDATA[WisnetAlerts5]]></Extrinsic>
+        <Extrinsic name="Comments"><![CDATA[]]></Extrinsic>
+                            
+        </ItemDetail>
+    
+      </ItemOut>
+        
+         </RFQ>
+         
+
+
+
+
+    </Request>
+</cXML>     

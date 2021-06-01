@@ -1,0 +1,2 @@
+PrintPreference,?,enumeration,,Intended result or goal.
+PrintProcess,?,NMTOKENS,NMSPrintingTechnologies,"Print process requested. If more that one value is specified, then @PrintProcess requests hybrid printing, e.g. inkjet imprint on a preprinted shell."

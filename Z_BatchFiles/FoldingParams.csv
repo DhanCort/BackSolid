@@ -1,0 +1,8 @@
+FoldCatalog,?,NMTOKEN,,Describes the type of fold. Values include those from: ?Fold Catalog.
+FoldingDetails,?,NMTOKEN,,@FoldingDetails is a system dependent descriptor of the folding. @FoldingDetails MAY be used to differentiate differing fold dimensions with the same general topology
+SheetLay,?,enumeration,SheetLay,Lay of input media. Allowed value is from: ?SheetLay.
+FileSpec,?,element,,"Reference to a CIP3 file that contains folding instructions in the ?[CIP3 - PPF] format. If FileSpec(CIP3) is specified, Crease, Cut, Fold and Perforate SHALL NOT be present."
+Crease,*,element,,Defines one or more Crease lines
+Cut,*,element,,Cut elements describe an individual cut.
+Fold,*,element,,"Describes the folding operations in the sequence in which they are to be carried out. If both @FoldCatalog and Fold elements are specified, the Fold elements have precedence, and the @FoldCatalog specifies only the topology. For instance, a cover-fold with a page size ratio of 0.52 to 0.48 would still be defined as an ""F4-1""."
+Perforate,*,element,,Defines one or more Perforate lines.

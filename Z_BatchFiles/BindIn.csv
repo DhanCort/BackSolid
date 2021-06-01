@@ -1,0 +1,5 @@
+ChildRef,,IDREF,,Product/@ID of the product that describes the insert.
+Folio,?,integer,,Index of the parent surface where the insert SHALL be bound in the context of the main product that is referenced by AssemblingIntent/@Container.
+Orientation,?,enumeration,Orientation,Orientation of the insert in the coordinate system of the surface specified by @Folio.
+Position,?,XYPair,,Position of the bottom left corner of the insert in the coordinate system of the surface specified by @Folio after applying all rotations.
+Glue,?,element,,Details of the glue used to fasten the insert.

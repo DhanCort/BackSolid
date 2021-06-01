@@ -1,0 +1,11 @@
+AddressUsage,?,NMTOKEN,NMAddressUsage,@AddressUsage specifies the intended use of the address.
+City,?,string,,City or locality of the Address (vCard: ADR:locality).
+CivicNumber,?,string,,"@CivicNumber SHALL specify the street number of the street address. If @CivicNumber is specified, it SHALL NOT be included in @Street."
+Country,?,string,,Country code of the Address (vCard: ADR:country).
+CountryCode,?,NMTOKEN,,Country of the Address.
+ExtendedAddress,?,string,,Extended address (vCard: ADR:extadd. For example: Suite 245).
+PostalCode,?,string,,Zip code or postal code of the Address (vCard: ADR:pcode).
+PostBox,?,string,,Post office address (vCard: ADR:pobox. For example: P.O. Box 101)
+Region,?,string,,State or province of the Address (vCard: ADR:region).
+Street,?,string,,Street of the Address (vCard: ADR:street). @Street SHALL include the name of the street and SHOULD include the street number unless the street number is specified separately in @CivicNumber.
+AddressLine,*,string,,"Each AddressLine element SHALL specify one line of a printed address. If AddressLine is provided, the complete address SHALL be provided as an ordered sequence of AddressLine elements."

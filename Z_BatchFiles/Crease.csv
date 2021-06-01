@@ -1,0 +1,4 @@
+Depth,?,float,,"Depth of the crease, measured in microns [µm]."
+StartPosition,?,XYPair,,Starting position of the tool.
+WorkingDirection,?,enumeration,WorkingDirection,Direction from which the tool is working.
+WorkingPath,?,XYPair,,Working path of the tool beginning at @StartPosition.

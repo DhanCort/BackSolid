@@ -1,0 +1,2 @@
+Tolerance,?,float,,"Ratio of tolerated verification failures to the total number of tests. ""0.0"" = no failures allowed, ""1.0"" = all tests MAY fail."
+FileSpec,?,element,,Reference to data that contains implementation specific descriptions of the resources to be verified.

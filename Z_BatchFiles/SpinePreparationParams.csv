@@ -1,0 +1,7 @@
+MillingDepth,?,float,,"Milling depth, in points. This describes the total cut-off of the spine, regardless of the technology used to achieve this goal."
+NotchingDepth,?,float,,"Notching depth relative to the leveled spine, in points. If not specified, no notching SHALL be performed."
+NotchingDistance,?,float,,"Notching distance, in points."
+Operations,?,NMTOKENS,NMSSpineOperations,List of operations that SHALL be applied to the spine. Duplicate entries SHALL specify a sequence of identical operations. The order of operations is significant. Values include those from: ?Spine Operations.
+SealingTemperature,?,integer,,"@SealingTemperature is the temperature needed to melt the sealing thread and sheet, thereby gluing the signatures together. @SealingTemperature SHALL NOT be specified unless @Operations contains ""Sealing""."
+StartPosition,?,float,,Starting position of the milling tool along the Y-axis of the operation coordinate system.
+WorkingLength,?,float,,"Working length of the milling operation. If not specified, the complete spine SHALL be prepared."

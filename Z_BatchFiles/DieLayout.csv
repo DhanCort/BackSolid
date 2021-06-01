@@ -1,0 +1,11 @@
+CutBox,?,rectangle,,"A rectangle describing the bounding box of all cut lines in the DieLayout. This is sometimes referred to as the knife to knife dimensions of the DieLayout. If the position on the Media is not known, the lower left SHOULD be set to 0 0."
+CutLines,?,NMTOKENS,,"Selects the die line separation identifiers from the file referenced by FileSpec. Additional details of the usage of the separations MAY be specified in the respective ResourceSet[@Name=""Color""]."
+DieSide,?,enumeration,,Determines the die side for which the DieLayout is made.
+MediaSide,?,enumeration,Side,"Determines the printing side for which the DieLayout is made. ""Front"" corresponds to the outside of a box, ""Back"" corresponds to the inside of a box."
+Rotated,?,boolean,,Indicates if some of the structural designs are oriented cross grain/flute in the layout.
+Waste,?,float,,"The percent of the material that is wasted. Inner waste, i.e. cut out windows, are not included in the waste."
+Device,*,element,,"The devices for which this DieLayout was made (printing press and die cutter). Typically only the type of device would be used (e.g., the model of the die cutter)."
+FileSpec,?,element,,Reference to an external URL that represents the die. This is typically a CAD design file.
+Media,?,element,,"Media for which this DieLayout was intended. The Media description defines important design parameters as the type of Media, dimensions, grain direction or flute direction."
+RuleLength,*,element,,Elements describing the length of die rules for the different types of rules. Each RuleLength element describes the accumulated length of all rules of a certain type.
+Station,*,element,,Description of the stations in a DieLayout. One Station produces one shape.

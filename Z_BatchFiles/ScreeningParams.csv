@@ -1,0 +1,2 @@
+IgnoreSourceFile,?,boolean,,"If @IgnoreSourceFile=""true"", the screen settings specified in a source file SHALL NOT be applied, e.g. setscreen, setcolorscreen and sethalftone in a PDF file."
+ScreenSelector,+,element,,"List of screen selectors. A screen selector is included for each separation, including a default specification. ScreenSelector SHALL contain the complete set of parameters for a given screening operation."

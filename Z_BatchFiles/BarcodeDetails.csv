@@ -1,0 +1,4 @@
+BarcodeVersion,?,NMTOKEN,NMBarcodeVersion,The version of a barcode.
+ErrorCorrectionLevel,?,NMTOKEN,NMErrorCorrectionLevel,Error correction level for barcodes having a separately definable error correction level.
+XCells,?,integer,,The number of cells in the x direction of a matrix barcode.
+Ycells,?,integer,,The number of cells in the y direction of a matrix barcode.

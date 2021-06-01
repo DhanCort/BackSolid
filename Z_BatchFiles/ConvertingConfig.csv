@@ -1,0 +1,10 @@
+MarginBottom,?,float,,The bottom margin for positioning the layout on the sheet.
+MarginLeft,?,float,,The left margin for positioning the layout on the sheet.
+MarginRight,?,float,,The right margin for positioning the layout on the sheet
+MarginTop,?,float,,The top margin for positioning the layout on the sheet.
+SheetHeightMax,?,float,,"The maximum sheet height, in points."
+SheetHeightMin,?,float,,"The minimum sheet height, in points."
+SheetWidthMax,?,float,,"The maximum sheet width, in points."
+SheetWidthMin,?,float,,"The minimum sheet width, in points."
+Device,*,element,,"The target devices (printing press, die cutter and further finishing equipment) corresponding to this configuration. Typically only the type of Device would be used (e.g., the model of the die cutter). If multiple Devices are specified, then the other attributes in this element SHALL apply to a production configuration that uses all specified Devices."
+Media,*,element,,Zero or more Media elements that are candidates for optimization. Note: Media allows a media database savvy consumer to loop over an explicit list of known materials rather than providing results based on a range of dimensions only.

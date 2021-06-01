@@ -1,0 +1,18 @@
+Brand,?,string,,Brand or manufacturer of the Resource
+CommentURL,?,URL,,"URL to an external, human-readable description of the Resource"
+DescriptiveName,?,string,,Human-readable descriptive name of the Resource. It is strongly RECOMMENDED to supply @DescriptiveName in Resource elements that describe physical entities for communication from applications to humans in order to reference the Resource.
+Duration,?,duration,,"If @Duration is specified for ResourceSet/@Usage=""Input"", @Duration specifies the time duration during which the Resource will be or has been used."
+ExternalID,?,NMTOKEN,,An identifier of the resource as defined in the MIS system. For instance item codes or article numbers or identifiers on semi-finished products. @ExternalID SHALL be used to uniquely identify resources and products for the purpose of inventory tracking.
+GrossWeight,?,float,,"Gross weight of a single Resource, as counted in @Amountxxx, in grams."
+ID,?,ID,,Unique XJDF internal identifier of a Resource
+Orientation,?,enumeration,,"Named orientation describing the orientation of a Resource relative to the ideal process coordinate that uses this Resource as input or output. If @Orientation is specified for an output Resource, the XJDF that processes the Resource SHALL manipulate the Resource in such a way as to reflect the transformation. The coordinate system of the Resource itself is not modified."
+ResourceWeight,?,float,,"Net weight of a single Resource, as counted in @Amount, in grams."
+Start,?,dateTime,,"Time and date when the usage of the Resource SHALL start or has started. If @Start is specified in descendents of ResourceInfo it SHALL specify an actual start time. In all other cases, it SHALL specify a planned or requested start time."
+StartOffset,?,duration,,Offset time when the Resource is scheduled to be used after processing has begun. @StartOffset SHALL NOT be specified if @Start is present. @StartOffset SHALL NOT be specified in the context of ResourceInfo.
+Status,?,enumeration,,"The status of a resource indicates whether it is available for processing. @Status SHALL NOT be specified if ResourceSet/@Usage=""Output""."
+Transformation,?,matrix,,"Matrix describing the orientation of a Resource relative to the ideal process coordinate using this Resource as input or output. If @Transformation is specified for an output Resource, the XJDF that processes the Resource SHALL manipulate the Resource in such a way as to reflect the transformation. The coordinate system of the resource itself is not modified."
+AmountPool,?,element,,AmountPool specifies partial amounts and waste for this Resource.
+Comment,*,element,,Any human-readable text that describes the Resource.
+GeneralID,*,element,,Additional identifiers related to the Resource.
+Part,*,element,,"The Part elements identify the partition context of the Resource element. The structure of the Part element is defined in ?Table 6.4 Part Element. For details on partitioned Resource elements, see ?Section 6.1.3.2 Selecting a Partition. If no Part element is specified, then the Resource applies to the entire ResourceSet. If multiple Part elements are specified, the Resource describes one entity that applies to multiple partitions (e.g., the color plates that apply to all versions of a multi version job)."
+SpecificResource,?,element*,,"Details of the Resource. The XML element name SHALL be the value of ResourceSet/@Name. If the specific resource is defined in the XJDF namespace, then it SHALL have the prefix that is declared in the xmlns attribute of the root element. Specific resource SHALL be specified as the last XJDF namespace element in the Resource. Note: This is an exception to the general instruction that all elements are ordered alphabetically."

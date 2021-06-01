@@ -1,0 +1,6 @@
+BadFeedQuality,?,enumeration,FeedQuality,Defines the operation of the bad feed quality control.
+BadFeeds,?,integer,,Number of consecutive bad feeds until the device SHALL stop.
+DoubleFeedQuality,?,enumeration,FeedQuality,Defines the operation of the double feed quality control.
+DoubleFeeds,?,integer,,Number of consecutive double feeds until the device SHALL stop.
+IncorrectComponentQuality,?,enumeration,FeedQuality,Defines the operation of the incorrect components quality control.
+IncorrectComponents,?,integer,,Number of consecutive incorrect components until the device SHALL stop.

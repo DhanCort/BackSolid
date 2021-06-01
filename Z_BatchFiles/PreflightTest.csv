@@ -1,0 +1,6 @@
+Action,?,enumeration,Action,Action that SHOULD be taken whenever this test fails.
+DescriptiveName,?,string,,Human readable description of this preflight test.
+Severity,?,enumeration,Severity,Severity of a failure of the test
+TestClass,?,NMTOKEN,NMTestClass,General area of the preflight test. Values include: Colorspace – Tests that check color space violations. FileFormat – Tests that detect incorrect file format compliancy. Font – Tests that check font integrity. PageFormat – Tests that detect invalid page sizes or page boxes. Resolution – Tests that check low resolution graphics.
+TestID,?,NMTOKEN,,System dependent preflight test identifier.
+GeneralID,*,element,,Detailed individual parameters of the PreflightTest. The values of GeneralID/ @IDUsage and GeneralID/@IDValue are system dependent.

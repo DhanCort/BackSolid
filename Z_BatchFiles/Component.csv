@@ -1,0 +1,19 @@
+Automation,?,enumeration,Automation,"Identifies dynamic and static components. When a Component is referenced from a binding process, @Automation modifies the scope of the Component that SHALL be bound. If @Automation=""Static"", the individual Component elements that SHALL be bound are one instance of the referenced Component. If @Automation=""Dynamic"", the individual Component elements that SHALL be bound are identified by the Resource/Part of this Component."
+CartonTopFlaps,?,XYPair,,"Size (F1,F2) (see ?Figure 6-4: Box packing) of the two top flaps of a carton or box. SHALL NOT be specified unless @ProductType=""Carton"" or @ProductType=""Box""."
+Columns,?,integer,,"Number of columns of images that are placed on a finished roll, such as by the Winding process. This value is typically used to describe rolls with multiple columns of printed labels."
+ContentRefs,?,IDREFS,,Reference to Content that provides metadata related to this Component.
+Dimensions,?,shape,,"The dimensions of the component. These dimensions MAY differ from the original size of the original product. For example, the dimensions of a folded sheet MAY be unequal to the dimensions of the sheet before it was folded. The dimension is always the bounding box around the Component. If not specified, a portrait orientation (Y > X) is assumed."
+MaxHeat,?,float,,Maximum temperature the Component can resist.
+MediaRef,?,IDREF,,Reference to the Media for this Component.
+Overfold,?,float,,Expansion of the overfold of a Component. This attribute is needed for Inserting or other postpress processes.
+OverfoldSide,?,enumeration,Side,Specifies the longer side of a folded component.
+ProductType,?,NMTOKEN,NMProductTypes,Type of product that this component specifies.
+ProductTypeDetails,?,string,,@ProductTypeDetails specifies additional details of the product or product part that may be site specific and may be human readable. @ProductType SHOULD be specified if @ProductTypeDetails is supplied.
+ReaderPageCount,?,integer,,Total amount of individual reader pages that this Component contains.
+SurfaceCount,?,integer,,Total amount of individual surfaces that this Component contains.
+WindingResult,?,integer,,Orientation of the finished product on the roll.
+Thickness,?,float,,To know thickness of component.
+ThicknessUnit,?,enumeration,ThicknessUnit,It could be mm, um or point.
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this Component.
+WidthUnit,?,enumeration,DimensionsUnit,It could be cm, in, ft or m.
+LengthUnit,?,enumeration,LengthUnit,It could be cm, in, ft or m.

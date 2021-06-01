@@ -1,0 +1,10 @@
+Angle,?,float,,"Specifies the first angle of the screen when AM screening is used, otherwise @Angle is ignored."
+DotSize,?,float,,"Specifies the dot size of the screen, in microns [µm], when FM screening (@ScreeningType = ""FM"" or ""Adaptive"") is used."
+Frequency,?,float,,"Specifies the halftone screen frequency in lines per inch (lpi) of the screen when AM screening is used, otherwise @Frequency is ignored. With some screens, frequency can change as a function of gray level. In this case, the @Frequency value is interpreted for a mid tone (50%) gray level."
+ScreeningFamily,?,string,,Vendor specific screening family name.
+ScreeningType,?,enumeration,,General type of screening.
+Separation,?,NMTOKEN,,The separation identifier that this ScreenSelector SHALL apply to. Additional details of the colorants SHOULD be provided in ResourceSet[@Name=”Color”].
+SourceFrequencyMax,?,float,,Specifies the maximum line frequency of screens that SHALL be matched from the source file when screen matching is to be done. Note: This is a filter that selects on which objects to apply this ScreenSelector.
+SourceFrequencyMin,?,float,,Specifies the minimum line frequency of screens that SHALL be matched from the source file when screen matching is to be done. Note: This is a filter that selects on which objects to apply this ScreenSelector.
+SourceObjects,?,enumerations,SourceObjects,Identifies the class(es) of incoming graphical objects on which to use the selected screen. If @SourceObjects is not specified then ScreenSelector SHALL apply to all object classes.
+SpotFunction,?,NMTOKEN,NMSpotFunction,"Specifies the spot function of the screen when AM screening is used. In general, it is common for a spot function to change its shape as a function of gray level. Response to these spot function names MAY be implementationdependent. These example names are the same as the spot function names defined in PDF."

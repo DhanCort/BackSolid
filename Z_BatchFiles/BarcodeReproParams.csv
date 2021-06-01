@@ -1,0 +1,8 @@
+BearerBars,?,enumeration,BearerBars,@BearerBars specifies how to generate bearer bars. (ITF). Allowed values are: Box BoxHMarks None TopBottom
+Height,?,float,,@Height SHALL specify the height (Y direction) of the bars of a linear barcode in the PDL.
+Magnification,?,float,,"The magnification factor that linear barcodes SHALL be scaled with. For example, a value for @Magnification > 1 requests thicker barcode lines in the resulting PDL."
+Masking,?,enumeration,Masking,"Indicates the properties of the mask around the graphical content of the barcode that masks out all underlying graphics. Allowed values are: None – No masking, the barcode is put on top of underlying graphics. WhiteBox – An area of the underlying graphics SHALL be masked out (the white box) and the barcode SHALL be put on top of this masked area. The area of the white box SHALL be the box enclosing all artwork of the barcode, excluding optional human readable text. The box SHALL enclose bearer bars, quiet zones and non-optional human readable text (UPC and EAN barcodes)."
+ModuleHeight,?,float,,"The Y size in microns of an element of a 2D barcode (e.g., PDF417). For DATAMATRIX, Y dimension MAY be omitted (X dimension = Y dimension)."
+ModuleWidth,?,float,,The X size in microns of an element of a 2D barcode such as DATAMATRIX or PDF417.
+Ratio,?,float,,The ratio between the width of the narrow bars and the wide bars for those barcodes where the ratio of the width of the wide bars to the narrow bars MAY vary.
+BarcodeCompParams,*,element,,Parameters for bar width compensation. The total reduction of bar width SHALL be the sum of all BarcodeCompParams/@CompensationValue.

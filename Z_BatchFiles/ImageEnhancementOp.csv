@@ -1,0 +1,3 @@
+Operation,,NMTOKEN,NMOperation,Individual enhancement operation name. Values include: BestGuess – Best guess automated improvements based on image analysis. Blurring – Image blurring. RedEyeRemoval – Automated removal of red eye artifacts in images. Sharpening – Image sharpening.
+OperationDetails,?,string,,Additional details of the @Operation. The values are implementation specific.
+SourceObjects,?,enumerations,SourceObjects,Identifies which class(es) of incoming graphical objects SHALL be operated on. If @SourceObjects is not specified then ImageEnhancementOp SHALL apply to all object classes.

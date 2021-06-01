@@ -1,0 +1,2 @@
+CompensationProcess,,enumeration,CompensationProcess,Process that is bar width spread SHALL be compensated for. Allowed values are: Platemaking Printing
+CompensationValue,,float,,The width of the bars SHALL be reduced by this amount (in microns) to compensate for technical spread.

@@ -1,0 +1,10 @@
+Area,?,float,,Ratio of the document that can contain variable content. A value of 0 specifies a non variable document. A value of 1 specifies a full variable document.
+AveragePages,?,integer,,AveragePages SHALL specify the average number of printed pages in each record.
+ChildRefs,?,IDREFS,,Product/@ID of the product elements that describe individual finishing variants. @ChildRefs SHALL NOT be specified if AssemblingIntent or BindingIntent are specified for this product.
+ColorsUsedBack,?,NMTOKENS,,"Array of colorant separation identifiers that are required to print the variable part of the documents. The values that are specified in @ColorsUsedBack SHALL also be specified in ColorIntent/SurfaceColor[@Surface=""Back""]/ @ColorsUsed."
+ColorsUsedFront,?,NMTOKENS,,"Array of colorant separation identifiers that are required to print the variable part of the documents. The values that are specified in @ColorsUsedFront SHALL also be specified in ColorIntent/SurfaceColor[@Surface=""Front""]/ @ColorsUsed."
+MaxPages,?,integer,,@MaxPages SHALL specify the maximum number of printed pages in each record. @MaxPages SHALL NOT be smaller than @AveragePages
+MinPages,?,integer,,@MinPages SHALL specify the minimum number of printed pages in each record. @MinPages SHALL NOT be larger than @AveragePages.
+NumberOfCopies,?,integer,,"Average number of copies of each record. This value SHALL equal ""1"" for fully variable data."
+VariableType,,enumeration,,Type of variable content.
+VariableQuality,?,enumeration,,@VariableQuality specifies the desired quality of the variable data.

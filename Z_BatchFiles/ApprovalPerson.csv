@@ -1,0 +1,3 @@
+ApprovalRole,?,enumeration,,Role of the ApprovalPerson.
+ApprovalRoleDetails,?,string,,Additional details on the @ApprovalRole. @ApprovalRole SHOULD be specified if @ApprovalRoleDetails is provided.
+ContactRef,,IDREF,,"Additional details of the person who SHALL sign the approval. The referenced Contact SHALL contain a Part/@ContactType=""Approver""."

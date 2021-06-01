@@ -1,0 +1,4 @@
+SampleInterval,?,integer,,Interval in number of samples between tests.
+TimeInterval,?,duration,,Time interval between individual tests.
+BindingQualityParams,?,element,,Specification of the binding quality measurements.
+FileSpec,?,element,,Location of an external file that contains details of the quality control setup

@@ -1,0 +1,2 @@
+PreflightItem,*,element,,PreflightItem defines the preflight rules for the Product
+ProofItem,*,element,,"Specifies the details of the proofs that are needed. If no ProofItem exists in a ContentCheckIntent, no customer proofs SHALL be provided."

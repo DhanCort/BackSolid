@@ -1,0 +1,2 @@
+Glue,*,element,,Describes where and how to apply glue to the book block.
+Score,*,element,,Describes where and how to score the cover. The sequence of Score elements SHALL specify the sequence in which the tool is applied.

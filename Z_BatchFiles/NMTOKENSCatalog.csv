@@ -1,0 +1,139 @@
+﻿ChannelUsage,Business
+ChannelUsage,DayTime
+ChannelUsage,NightTime
+ChannelUsage,Private
+ChannelUsage,WeekEnd
+DeviceClasses,CaseMaker
+DeviceClasses,Controller
+DeviceClasses,Cutter
+DeviceClasses,DieCutter
+DeviceClasses,EndsheetFeeder
+DeviceClasses,FilmSetter
+DeviceClasses,Folder
+DeviceClasses,Gatherer
+DeviceClasses,GathererBinder
+DeviceClasses,Hardcover
+DeviceClasses,HardcoverBookLine
+DeviceClasses,HolePuncher
+DeviceClasses,Inserter
+DeviceClasses,IntegratedDigitalPrinter
+DeviceClasses,Jacketer
+DeviceClasses,MultipleWebConventionalPress
+DeviceClasses,PerfectBinder
+DeviceClasses,PerfectBinderLine
+DeviceClasses,PlateSetter
+DeviceClasses,PrintingPress
+DeviceClasses,Scanner
+DeviceClasses,SheetFedConventionalPress
+DeviceClasses,SheetFedDigitalPrinter
+DeviceClasses,SingleWebConventionalPress
+DeviceClasses,Stacker
+DeviceClasses,Stitcher
+DeviceClasses,ThreadSewer
+DeviceClasses,Trimmer
+DeviceClasses,WebDigitalprinter
+DeviceClasses,WideFormatPrinter
+URLSchemes,file
+URLSchemes,ftp
+URLSchemes,http
+URLSchemes,https
+SpineOperations,Brushing
+SpineOperations,FiberRoughing
+SpineOperations,Leveling
+SpineOperations,Milling
+SpineOperations,Notching
+SpineOperations,Sanding
+SpineOperations,Sealing
+SpineOperations,Shredding
+InkAndVarnishCoatings,Aqueous
+InkAndVarnishCoatings,Gloss
+InkAndVarnishCoatings,Ink
+InkAndVarnishCoatings,InkJet
+InkAndVarnishCoatings,Latex
+InkAndVarnishCoatings,Matte
+InkAndVarnishCoatings,Primer
+InkAndVarnishCoatings,Relief
+InkAndVarnishCoatings,RubResistant
+InkAndVarnishCoatings,Satin
+InkAndVarnishCoatings,Silicone
+InkAndVarnishCoatings,Toner
+InkAndVarnishCoatings,UV
+InkAndVarnishCoatings,Varnish
+InkAndVarnishCoatings,WaterResistant
+ModuleTypes,CoatingModule
+ModuleTypes,Delivery
+ModuleTypes,Drier
+ModuleTypes,ExtensionModule
+ModuleTypes,Feeder
+ModuleTypes,Imaging
+ModuleTypes,Numbering
+ModuleTypes,PerfectingModule
+ModuleTypes,PrintModule
+PDFXCheck,X1a – PDF/X-1a standard
+PDFXCheck,X3 – PDF/X-3 standard
+PDFXCheck,X4 – PDF/X-4 standard
+PDFXCheck,X5 – PDF/X-5 standard
+PrintingTechnologies,DyeSublimation
+PrintingTechnologies,ElectroInk
+PrintingTechnologies,Electrophotography
+PrintingTechnologies,Flexography
+PrintingTechnologies,InkJet
+PrintingTechnologies,Latex
+PrintingTechnologies,Letterpress
+PrintingTechnologies,OffsetLithography
+PrintingTechnologies,Potato
+PrintingTechnologies,Rotogravure
+PrintingTechnologies,ScreenPrinting
+PrintingTechnologies,Thermal
+PrintingTechnologies,UV
+MarkType,CrossCutMark
+MarkType,TopVerticalCutMark
+MarkType,BottomVerticalCutMark
+MarkType,LeftHorizontalCutMark
+MarkType,RightHorizontalCutMark
+MarkType,LowerLeftCutMark
+MarkType,UpperLeftCutMark
+MarkType,LowerRightCutMark
+MarkType,UpperRightCutMark
+LayoutStyle,StraightNest
+LayoutStyle,Reverse2ndRow
+LayoutStyle,Reverse2ndRowAligned
+LayoutStyle,Reverse2ndColumn
+LayoutStyle,Reverse2ndColumnAligned
+InputTrayAndOutputBinNames,AnyLargeFormat - IO
+InputTrayAndOutputBinNames,AnySmallFormat - IO
+InputTrayAndOutputBinNames,AutoSelect - IO
+InputTrayAndOutputBinNames,Booklet - O
+InputTrayAndOutputBinNames,Bottom - IO
+InputTrayAndOutputBinNames,BypassTray - I
+InputTrayAndOutputBinNames,BypassTray-N - I
+InputTrayAndOutputBinNames,Continuous - IO
+InputTrayAndOutputBinNames,Disc - IO
+InputTrayAndOutputBinNames,Disc-N - IO
+InputTrayAndOutputBinNames,Envelope - IO
+InputTrayAndOutputBinNames,Envelope-N - IO
+InputTrayAndOutputBinNames,Front - IO
+InputTrayAndOutputBinNames,InsertTray - I
+InputTrayAndOutputBinNames,InsertTray-N - I
+InputTrayAndOutputBinNames,LargeCapacity - IO
+InputTrayAndOutputBinNames,LargeCapacity-N - IO
+InputTrayAndOutputBinNames,Left - IO
+InputTrayAndOutputBinNames,Mailbox-N - IO
+InputTrayAndOutputBinNames,Middle - IO
+InputTrayAndOutputBinNames,PostMarkerInserter - I
+InputTrayAndOutputBinNames,Rear - IO
+InputTrayAndOutputBinNames,Right - IO
+InputTrayAndOutputBinNames,Roll - IO
+InputTrayAndOutputBinNames,Roll-N - IO
+InputTrayAndOutputBinNames,Side - IO
+InputTrayAndOutputBinNames,Stacker-N - O
+InputTrayAndOutputBinNames,Top - IO
+CounterTypes,Insert
+CounterTypes,OneSided
+CounterTypes,TwoSided
+CounterTypes,NormalSize
+CounterTypes,LargeSize
+CounterTypes,Black
+CounterTypes,Color
+CounterTypes,Blank
+CounterTypes,HighlightColor

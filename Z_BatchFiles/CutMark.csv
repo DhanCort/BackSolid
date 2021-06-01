@@ -1,0 +1,2 @@
+MarkType,,enumeration,MarkType,Cut mark type. Allowed values are from: ?Table 6.101 MarkType Attribute Values
+Position,,XYPair,,Position of the logical center of the cut mark in the coordinates of the MarkObject that contains this mark. Note: The logical center of the cut mark does not always coincide with the center of the visible cut mark symbol.

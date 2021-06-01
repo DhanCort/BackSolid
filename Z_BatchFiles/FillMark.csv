@@ -1,0 +1,4 @@
+KnockoutBleed,?,float,,Bleed in points that the fill SHALL grow into (positive values) from the knockout area. Note: This attribute implies the same bleed for all separations.
+KnockoutRefs,?,IDREFS,,"Reference to the PlacedObject, Position or StripMark elements that SHALL not be filled by this FillMark. The knockout boundaries are defined by the value of @KnockoutSource."
+KnockoutSource,,enumeration,KnockoutSource,Definition of the source of the knockout from the referenced PlacedObject elements. Allowed values are: ClipPath – Use the clip path as defined by the referenced PlacedObject/ @ClipPath. SourceClipPath – Use the clip path as defined by the referenced PlacedObject/ @SourceClipPath. TrimBox – Use the clip path as defined by the referenced PlacedObject/ @TrimCTM and PlacedObject/@TrimSize.
+MarkColor,+,element,,Definition of the separations used to fill the mark

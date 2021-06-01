@@ -1,0 +1,6 @@
+End,?,dateTime,,"Date and time of the end of the measurement. If not specified, the value of @Start is applied."
+Failed,?,integer,,Total number of failed measurements.
+Passed,?,integer,,Total number of passed measurements
+Start,?,dateTime,,Date and time of the start of the measurement
+BindingQualityMeasurement,*,element,,Individual measurement results of binding quality.
+FileSpec,?,element,,Location of an external file that contains details of the quality control measurement.

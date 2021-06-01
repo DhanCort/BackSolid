@@ -1,0 +1,17 @@
+CleanupDuration,?,duration,,Estimated duration of the clean-up phase of the process.
+DueLevel,?,enumeration,,Description of the severity of a missed deadline.
+End,?,dateTime,,Date and time at which the process is scheduled to end.
+FirstEnd,?,dateTime,,Earliest date and time at which the process SHALL end.
+FirstStart,?,dateTime,,Earliest date and time at which the process SHALL begin.
+JobPriority,?,integer,,"The scheduling priority for the node where 100 is the highest and 0 is the lowest. If one or more of the deadline oriented attributes (e.g., @FirstStart or @LastEnd) is specified, such attribute(s) SHALL be honored before considering @JobPriority. The priority from XJMF (QueueSubmissionParams/@Priority or ModifyQueueEntryParams/@Priority) SHALL take precedence over NodeInfo/ @JobPriority."
+LastEnd,?,dateTime,,Latest date and time at which the process SHALL end. This is the deadline to which @DueLevel refers.
+LastStart,?,dateTime,,Latest date and time at which the process SHALL begin
+NaturalLang,?,language,,"Language selected for human readable communication. If not specified, the operating system’s language SHOULD be used."
+PersonalID,?,NMTOKEN,,Resource/@ExternalID of the Contact that represents the employee that is responsible for processing this XJDF.
+SetupDuration,?,duration,,Estimated duration of the setup phase of the process
+Start,?,dateTime,,Date and time of the planned process start.
+Status,?,enumeration,Status,Identifies the status of an individual part of the XJDF.
+StatusDetails,?,NMTOKEN,NMStatusDetails,Machine readable description of the status that provides details beyond the enumerative values given by @Status.
+TotalDuration,?,duration,,"Estimated total duration of the process, including setup and cleanup."
+GangSource,*,element,,"If present, each GangSource SHALL represent the source jobs that are being processed as a gang job."
+MISDetails,?,element,,Definition how the costs for the execution of this node SHALL be charged.

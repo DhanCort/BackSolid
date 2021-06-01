@@ -1,0 +1,202 @@
+strTemplateName|strAliasTemplate|strNameResource|XJDFDescriptiveName|XJDFWidth|XJDFLength|XJDFDimensionsUnit|XJDFMediaColorName|numPriceTemplateOrResourcePerThousand
+||"Alvin 12""x50yrd Yellow Trace Paper"|"Alvin 12""x50yrd Yellow Trace Paper"|12|1800|in|Yellow|
+||"Alvin 14""x50yrd Yellow Trace Paper"|"Alvin 14""x50yrd Yellow Trace Paper"|14|1800|in|Yellow|
+||"Alvin 18""x50yrd Yellow Trace Paper"|"Alvin 18""x50yrd Yellow Trace Paper"|18|1800|in|Yellow|
+||"Alvin 24""x50yrd Yellow Trace Paper"|"Alvin 24""x50yrd Yellow Trace Paper"|24|1800|in|Yellow|
+||"Alvin 30""x50yrd Yellow Trace Paper"|"Alvin 30""x50yrd Yellow Trace Paper"|30|1800|in|Yellow|
+||"Alvin 12""x50yrd White Trace Paper"|"Alvin 12""x50yrd White Trace Paper"|12|1800|in|White|
+||"Alvin 14""x20yrd White Tarce Paper"|"Alvin 14""x20yrd White Tarce Paper"|14|720|in|White|
+||"Alvin 24""x20yrd White Trace Paper"|"Alvin 24""x20yrd White Trace Paper"|24|720|in|White|
+||"Alvin 24""x20yrd Yellow Trace"|"Alvin 24""x20yrd Yellow Trace"|24|720|in|Yellow|
+||"36""x500' Rolls White 20# Bond 3"" core"|"36""x500' Rolls White 20# Bond 3"" core"|36|6000|in|White|
+||"30""x500' Rolls White 20# Bond 3"" core"|"30""x500' Rolls White 20# Bond 3"" core"|30|6000|in|White|
+||"24""x500' Rolls White 20# Bond 3"" core"|"24""x500' Rolls White 20# Bond 3"" core"|24|6000|in|White|
+||"22""x500' Rolls White 20# Bond 3"" core"|"22""x500' Rolls White 20# Bond 3"" core"|22|6000|in|White|
+||"18""x500' Rolls White 20# Bond 3"" core"|"18""x500' Rolls White 20# Bond 3"" core"|18|6000|in|White|
+||"17""x500' Rolls White 20# Bond 3"" core"|"17""x500' Rolls White 20# Bond 3"" core"|17|6000|in|White|
+||"15""x500' Rolls White 20# Bond 3"" core"|"15""x500' Rolls White 20# Bond 3"" core"|15|6000|in|White|
+||"22""x150' Rolls White 20# Bond 2"" core"|"22""x150' Rolls White 20# Bond 2"" core"|22|1800|in|White|
+||"24""x150' Rolls White 20# Bond 2"" core"|"24""x150' Rolls White 20# Bond 2"" core"|24|1800|in|White|
+||"30""x150' Rolls White 20# Bond 2"" core"|"30""x150' Rolls White 20# Bond 2"" core"|30|1800|in|White|
+||"36""x150' Rolls White 20# Bond 2"" core"|"36""x150' Rolls White 20# Bond 2"" core"|36|1800|in|White|
+||"42""x150' Rolls White 20# Bond 2"" core"|"42""x150' Rolls White 20# Bond 2"" core"|42|1800|in|White|
+||"24""x150' Rolls HP Bright White IJ Paper 24#"|"24""x150' Rolls HP Bright White IJ Paper 24#"|24|1800|in||
+||"24""x100' Rolls HP Heavyweight Coated Bond 35#"|"24""x100' Rolls HP Heavyweight Coated Bond 35#"|24|1200|in||
+||"30""x300' Rolls 35# Presentation Matte Paper"|"30""x300' Rolls 35# Presentation Matte Paper"|30|3600|in||
+||"36""x150"" Rolls HP Coated Paper 24# Bond"|"36""x150"" Rolls HP Coated Paper 24# Bond"|36|1800|in||
+||"36""x300"" Rolls HP Bright White IJ Paper 24#"|"36""x300"" Rolls HP Bright White IJ Paper 24#"|36|3600|in||
+||"36""x100' Rolls HP Heavyweight Coated Paper 35#"|"36""x100' Rolls HP Heavyweight Coated Paper 35#"|36|1200|in||
+||"42""x150' Rolls HP Universal Coated Paper 24#"|"42""x150' Rolls HP Universal Coated Paper 24#"|42|1800|in||
+||"42""x150' Rolls HP Heavyweight Coated Paper 35#"|"42""x150' Rolls HP Heavyweight Coated Paper 35#"|42|1800|in||
+||"42""x50' Rolls HP Professional Matte Canvas"|"42""x50' Rolls HP Professional Matte Canvas"|42|600|in||
+||"36""x100' Rolls HP Universal Satin Photo Paper"|"36""x100' Rolls HP Universal Satin Photo Paper"|36|1200|in||
+||"42""x100' Rolls HP Premium Instant Dry Satin Photo"|"42""x100' Rolls HP Premium Instant Dry Satin Photo"|42|1200|in||
+||"44""x50' Rolls HP Professional Instant Dry Satin Photo"|"44""x50' Rolls HP Professional Instant Dry Satin Photo"|44|600|in||
+||"24""x100' 8mil Polypropylene Film"|"24""x100' 8mil Polypropylene Film"|24|1200|in||
+||"36""x150' Rolls 3mil Engineering Matte C2S Film"|"36""x150' Rolls 3mil Engineering Matte C2S Film"|36|1800|in||
+||Econosource 8.5x11 20#|Econosource 8.5x11 20#|8.5|11|in||7.7
+||New Future 8.5x11 20#|New Future 8.5x11 20#|8.5|11|in||7.7
+Hammermill|A|||8.5|11|in||
+||Hammermill 8.5x11 28#|Hammermill 8.5x11 28#|{A}|{A}|{A}||22.66
+||Hammermill 8.5x11 60#|Hammermill 8.5x11 60#|{A}|{A}|{A}||31.76
+||Hammermill 8.5x11 80#|Hammermill 8.5x11 80#|{A}|{A}|{A}||40.93
+||Hammermill 8.5x11 100#|Hammermill 8.5x11 100#|{A}|{A}|{A}||54.57
+||Hammermill 8.5x14 28#|Hammermill 8.5x14 28#|8.5|14|in||26.22
+||Hammermill 11x17 28#|Hammermill 11x17 28#|11|17|in||43.26
+||Hammermill 11x17 60#|Hammermill 11x17 60#|11|17|in||69.23
+||Hammermill 11x17 80#|Hammermill 11x17 80#|11|17|in||85.17
+||Hammermill 11x17 100#|Hammermill 11x17 100#|11|17|in||111.75
+||Hammermill 12x18 28/70#|Hammermill 12x18 28/70#|12|18|in||47.65
+||Hammermill 12x18 60#|Hammermill 12x18 60#|12|18|in||79.99
+||Hammermill 12x18 80#|Hammermill 12x18 80#|12|18|in||103.15
+||Hammermill 12x18 100#|Hammermill 12x18 100#|12|18|in||183.47
+||Hammermill 13x19 80#|Hammermill 13x19 80#|13|19|in||112.53
+||Hammermill 13x19 100#|Hammermill 13x19 100#|13|19|in||140.67
+||Hammermill 8.5x11 28# s/p|Hammermill 8.5x11 28#|8.5|11|in||
+||Hammermill 8.5x11 80# s/p|Hammermill 8.5x11 80#|8.5|11|in||
+||Hammermill 8.5x11 100# s/p|Hammermill 8.5x11 100#|8.5|11|in||
+||Hammermill 11x17 28# s/p|Hammermill 11x17 28#|11|17|in||
+||Hammermill 11x17 60# s/p|Hammermill 11x17 60#|11|17|in||
+||Hammermill 11x17 80# s/p|Hammermill 11x17 80#|11|17|in||
+||Hammermill 11x17 100# s/p|Hammermill 11x17 100#|11|17|in||
+||Hammermill 12x18 60# s/p|Hammermill 12x18 60#|12|18|in||
+||Hammermill 12x18 80# s/p|Hammermill 12x18 80#|12|18|in||
+||Hammermill 12x18 100# s/p|Hammermill 12x18 100#|12|18|in||
+||Hammermill 13x19 28# s/p|Hammermill 13x19 28#|13|19|in||
+||Hammermill 13x19 80# s/p|Hammermill 13x19 80#|13|19|in||
+||Hammermill 13x19 100# s/p|Hammermill 13x19 100#|13|19|in||
+||Hammermill 8.5x14 28# s/p|Hammermill 8.5x14 28#|8.5|14|in||
+||Econosource 8.5x14 20# s/p|Econosource 8.5x14 20#|8.5|14|in||10.06
+||Econosource 11x17 20# s/p|Econosource 11x17 20#|11|17|in||15.82
+||Sterling Premium Digital 80# Gloss Text 8.5x11|Sterling Premium Digital 80# Gloss Text 8.5x11|8.5|11|in||18.69
+||Sterling Premium Digital 80# Gloss Cover 8.5x11|Sterling Premium Digital 80# Gloss Cover 8.5x11|8.5|11|in||34.74
+||Sterling Premium Digital 100 Gloss Text 8.5x11|Sterling Premium Digital 100 Gloss Text 8.5x11|8.5|11|in||23.36
+||Futura 80# Gloss Cover 8.5x11|Futura 80# Gloss Cover 8.5x11|8.5|11|in||36.35
+||Futura 100# Gloss Text 8.5x11|Futura 100# Gloss Text 8.5x11|8.5|11|in||24.55
+||Sterling Premium Digital 100# Gloss Cover 8.5x11|Sterling Premium Digital 100# Gloss Cover 8.5x11|8.5|11|in||47.64
+||Sterling Premium Digital 100# Gloss Cover|Sterling Premium Digital 100# Gloss Cover|||in||43.13
+||Futura 80# Gloss Text 11x17|Futura 80# Gloss Text 11x17|11|17|in||38.05
+||Blazer Digital 80# Gloss Text 11x17|Blazer Digital 80# Gloss Text 11x17|11|17|in||28.59
+||Sterling Premium Digital 80# Gloss Text 11x17|Sterling Premium Digital 80# Gloss Text 11x17|11|17|in||36.22
+||Futura 80# Gloss Cover 11x17|Futura 80# Gloss Cover 11x17|11|17|in||69.24
+||Futura 100# Gloss Text 11x17|Futura 100# Gloss Text 11x17|11|17|in||46.23
+||Sterling Premium Digital 100# Gloss Cover 11x17|Sterling Premium Digital 100# Gloss Cover 11x17|11|17|in||86.24
+||Blazer Digital 80# Gloss Text 12x18|Blazer Digital 80# Gloss Text 12x18|12|18|in||33.15
+||Futura 80# Gloss Cover 12x18|Futura 80# Gloss Cover 12x18|12|18|in||80.25
+||Blazer Digital 80# Gloss Cover 12x18 s|Blazer Digital 80# Gloss Cover 12x18 s|12|18|in||63.61
+||Futura 100# Gloss Text 12x18 s|Futura 100# Gloss Text 12x18 s|12|18|in||53.4
+||Futura 100# Gloss Cover 12x18 s|Futura 100# Gloss Cover 12x18 s|12|18|in||100.74
+||Sterling Premium Digital 100# Gloss Cover 12x18|Sterling Premium Digital 100# Gloss Cover 12x18|12|18|in||99.43
+||Sterling Premium Digital 120# Gloss Cover 12x18|Sterling Premium Digital 120# Gloss Cover 12x18|12|18|in||115.88
+||Blazer Digital 130# Satin Cover 12x18|Blazer Digital 130# Satin Cover 12x18|12|18|in||
+||Ninah Classic Avon Brilliant White Linen|Ninah Classic Avon Brilliant White Linen|||in||
+||Ninah Classic Solar White Linen|Ninah Classic Solar White Linen|||in||
+||Ninah Classic Ultra White Felt|Ninah Classic Ultra White Felt|||in||
+||Endurance Digital 80# Gloss Cover 13x19 s|Endurance Digital 80# Gloss Cover 13x19 s|13|19|in||74.95
+||Endurance Digital 130# Gloss Cover 13x19 s|Endurance Digital 130# Gloss Cover 13x19 s|13|19|in||121.34
+||"36""x500' Blue Bond 3"" Core 20#"|"36""x500' Blue Bond 3"" Core 20#"|36|6000|in||
+||"36""x650' Blue Bond 3"" Core 20#"|"36""x650' Blue Bond 3"" Core 20#"|36|7800|in||
+||"30""x500' Blue Bond 3"" Core 20#"|"30""x500' Blue Bond 3"" Core 20#"|36|6000|in||
+||"18""x500' Blue Bond 3"" Core 20#"|"18""x500' Blue Bond 3"" Core 20#"|18|6000|in||
+||"15""x500' Blue Bond 3"" Core 20#"|"15""x500' Blue Bond 3"" Core 20#"|15|6000|in||
+||"30""x500' Green Bond 3"" Core 20#"|"30""x500' Green Bond 3"" Core 20#"|30|6000|in||
+||"18""x500' Green Bond 3"" Core 20#"|"18""x500' Green Bond 3"" Core 20#"|18|6000|in||
+||"15""x500' Green Bond 3"" Core 20#"|"15""x500' Green Bond 3"" Core 20#"|15|6000|in||
+||"36""x650' Yellow Bond 3"" Core 20#"|"36""x650' Yellow Bond 3"" Core 20#"|36|7800|in||
+||"36""x500' Yellow Bond 3"" Core 20#"|"36""x500' Yellow Bond 3"" Core 20#"|36|6000|in||
+||"30""x500' Yellow Bond 3"" Core 20#"|"30""x500' Yellow Bond 3"" Core 20#"|30|6000|in||
+||"18""x500' Yellow Bond 3"" Core 20#"|"18""x500' Yellow Bond 3"" Core 20#"|18|6000|in||
+||"15""x500' Yellow Bond 3"" Core 20#"|"15""x500' Yellow Bond 3"" Core 20#"|15|6000|in||
+||"36""x500' Pink Bond 3"" Core 20#"|"36""x500' Pink Bond 3"" Core 20#"|36|6000|in||
+||"30""x500' Pink Bond 3"" Core 20#"|"30""x500' Pink Bond 3"" Core 20#"|30|6000|in||
+||"18""x500' Pink Bond 3"" Core 20#"|"18""x500' Pink Bond 3"" Core 20#"|18|6000|in||
+||Accent Opaque Envelopes A-2 White 70#|Accent Opaque Envelopes A-2 White 70#|4.375|5.75|in||31.12
+||Printmaster A-6 Announcement Envelopes|Printmaster A-6 Announcement Envelopes|4.75|6.5|in||53.36
+||Printmaster A-7 Announcement Envelopes|Printmaster A-7 Announcement Envelopes|5.25|7.25|in||57.54
+||Accent Opaque Envelopes A-9 70#|Accent Opaque Envelopes A-9 70#|5.75|8.75|in||52.43
+||Printmaster No. 9 Regular Security Envelopes|Printmaster No. 9 Regular Security Envelopes|3.875|8.875|in||28.03
+||Seville No. 9 Regular 24# Envelopes|Seville No. 9 Regular 24# Envelopes|3.875|8.875|in||17.71
+||Seville No. 9 Poly Window 24# Envelopes|Seville No. 9 Poly Window 24# Envelopes|3.875|8.875|in||23.65
+||Seville No. 10 Regular 24# Envelopes|Seville No. 10 Regular 24# Envelopes|4.125|9.5|in||19.96
+||Seville No. 10 Regular 24# Blue Confetti Tint|Seville No. 10 Regular 24# Blue Confetti Tint|4.125|9.5|in||21.96
+||Seville 6.5 Booklet Envelopes 6x9|Seville 6.5 Booklet Envelopes 6x9|6|9|in||29.14
+||"10""x13"" Booklet Envelopes 28lb"|"10""x13"" Booklet Envelopes 28lb"|10|13|in||
+||"32""x48"" White Corplast 4mm"|"32""x48"" White Corplast 4mm"|32|48|in||
+||"48""x96"" White Corplast 4mm"|"48""x96"" White Corplast 4mm"|48|96|in||
+||"48""x96"" Black Foamboard 3/16"""|"48""x96"" Black Foamboard 3/16"""|48|96|in||
+||"48""x96"" White Foamboard 3/16"""|"48""x96"" White Foamboard 3/16"""|48|96|in||
+||"48""x96"" Black Gatorboard 1/2"""|"48""x96"" Black Gatorboard 1/2"""|48|96|in||
+||"48""x96"" Black Gatorboard 3/16"""|"48""x96"" Black Gatorboard 3/16"""|48|96|in||
+||"48""x96"" Ultraboard 3/16"""|"48""x96"" Ultraboard 3/16"""|48|96|in||
+Hammermill 20# Bond|B|||11|17|in||26.03
+||Hammermill 11x17 Green 20# Bond|Hammermill 11x17 Green 20# Bond|{B}|{B}|{B}|Green|{B}
+||Hammermill 11x17 Blue 20# Bond|Hammermill 11x17 Blue 20# Bond|{B}|{B}|{B}|Blue|{B}
+||Hammermill 11x17 Yellow 20# Bond|Hammermill 11x17 Yellow 20# Bond|{B}|{B}|{B}|Yellow|{B}
+||Accent Opaque Digital 12x18 60# Text|Accent Opaque Digital 12x18 60# Text|12|18|in||25.89
+||Accent Opaque Digital 12x18 120# Cover|Accent Opaque Digital 12x18 120# Cover|12|18|in||169.69
+||Accent Opaque Digital 11x17 80# Cover|Accent Opaque Digital 11x17 80# Cover|11|17|in||67.2
+||Hammermill 8.5x14 20# Blue|Hammermill 8.5x14 20# Blue|8.5|14|in||16.55
+||Hammermill 8.5x14 20lb Yellow|Hammermill 8.5x14 20lb Yellow|8.5|14|in||16.55
+||Colored Paper 20lb 8.5x11|Colored Paper 20lb 8.5x11|8.5|11|in||
+||Colored Paper Cardstock 8.5x11|Colored Paper Cardstock 8.5x11|8.5|11|in||
+||"Letter Size 9""x11 1/2"" 5mil Laminating Pouch"|"Letter Size 9""x11 1/2"" 5mil Laminating Pouch"|9|11.5|in||
+||"11 1/2"" x 17 1/2"" 3mil Laminating Pouch"|"11 1/2"" x 17 1/2"" 3mil Laminating Pouch"|11.5|17.5|in||
+||"9"" x 14 1/2"" 3mil Laminating Pouch"|"9"" x 14 1/2"" 3mil Laminating Pouch"|9|14.5|in||
+||"Index Card 3 1/2"" x 5 1/2"" 5mil Laminating Pouch"|"Index Card 3 1/2"" x 5 1/2"" 5mil Laminating Pouch"|3.5|5.5|in||
+||"Small Bookmark Size 1.375""x5.5"" 5mil Laminating Pouch"|"Small Bookmark Size 1.375""x5.5"" 5mil Laminating Pouch"|1.375|5.5|in||
+||"Business Card 2.25""x3.75"" 10mil Laminating Pouch"|"Business Card 2.25""x3.75"" 10mil Laminating Pouch"|2.25|3.75|in||
+||"Credit Card 2 1/8"" x 3 3/8"" 3mil Laminating Pouch"|"Credit Card 2 1/8"" x 3 3/8"" 3mil Laminating Pouch"|2.125|3.375|in||
+||"Credit Card 2 1/8"" x 3 3/8"" 5mil Laminating Pouch"|"Credit Card 2 1/8"" x 3 3/8"" 5mil Laminating Pouch"|2.125|3.375|in||
+||"Credit Card 2 1/8"" x 3 3/8"" 10mil Laminating Pouch"|"Credit Card 2 1/8"" x 3 3/8"" 10mil Laminating Pouch"|2.125|3.375|in||
+||"Jumbo 2 15/16"" x 4 1/8"" 10mil Laminating Pouch"|"Jumbo 2 15/16"" x 4 1/8"" 10mil Laminating Pouch"|2.9375|4.125|in||
+||"Jumbo 2 15/16"" x 4 1/8"" 5mil Laminating Pouch"|"Jumbo 2 15/16"" x 4 1/8"" 5mil Laminating Pouch"|2.9375|4.125|in||
+||11x17 10mil Acetate|11x17 10mil Acetate|11|17|in||
+||11x17 Leatherett Covers|11x17 Leatherett Covers|11|17|in||
+||8.5x11 10mil Clear Covers|8.5x11 10mil Clear Covers|8.5|11|in||
+||8.5x11 Polypropylene Covers Black Grainf|8.5x11 Polypropylene Covers Black Grainf|8.5|11|in||
+||"38""x150' 1.5mil Opaque Print Mounting Film"|"38""x150' 1.5mil Opaque Print Mounting Film"|38|1800|in||
+||"54""x150' 1.5mil Opaque Print Mounting Film"|"54""x150' 1.5mil Opaque Print Mounting Film"|54|1800|in||
+||"60""x ? Roll Briteline Perf"|"60""x ? Roll Briteline Perf"|60||in||
+||"60""x ? Roll Briteline Perf"|"60""x ? Roll Briteline Perf"|60||in||
+||"54""x ? Roll Briteline Perf"|"54""x ? Roll Briteline Perf"|54||in||
+||"54""x50yrd Matte Cast Overlaminate"|"54""x50yrd Matte Cast Overlaminate"|54|1800|in||
+||"54""x50yrd Car Wrap DPF-8000"|"54""x50yrd Car Wrap DPF-8000"|54|1800|in||
+||"30""x150' Briteline Gloss UV Shield"|"30""x150' Briteline Gloss UV Shield"|30|1800|in||
+||"30""x50yrd Luster Overlaminate"|"30""x50yrd Luster Overlaminate"|30|1800|in||
+||"54""x50yrd Luster Overlaminate"|"54""x50yrd Luster Overlaminate"|54|1800|in||
+||"36""x35' HP Studio Canvas"|"36""x35' HP Studio Canvas"|36|420|in||
+||"44""x40' Magellon Simply Canvas"|"44""x40' Magellon Simply Canvas"|44|480|in||
+||"36""x50' Magiclee Torinopro Matte Poly/cotton canvas"|"36""x50' Magiclee Torinopro Matte Poly/cotton canvas"|36|600|in||
+||"36""x100' ADS Imaging Solutions Satin Photo"|"36""x100' ADS Imaging Solutions Satin Photo"|36|1200|in||
+||"36""x150' Adhesive Bond"|"36""x150' Adhesive Bond"|36|1800|in||
+||"36""x98' Satin Polyester Film Rollup 36"|"36""x98' Satin Polyester Film Rollup 36"|36|1176|in||
+||"36""x50yrd Transparent Graphic Film"|"36""x50yrd Transparent Graphic Film"|36|1800|in||
+||"30""x150' Clear Adhesive Vinyl"|"30""x150' Clear Adhesive Vinyl"|30|1800|in||
+||"36""x50' Water Resistant Removalbe Vinyl 6mil"|"36""x50' Water Resistant Removalbe Vinyl 6mil"|36|600|in||
+||"30""x150' Matte White Adhesive Vinyl"|"30""x150' Matte White Adhesive Vinyl"|30|1800|in||
+||"36""x150' Premiere Tyvek 7.5mil"|"36""x150' Premiere Tyvek 7.5mil"|36|1800|in||
+||"36""x150' Gloss Adhesive Vinyl"|"36""x150' Gloss Adhesive Vinyl"|36|1800|in||
+||"30""x50yrd Matte Adhesive Vinyl with Comply"|"30""x50yrd Matte Adhesive Vinyl with Comply"|30|1800|in||
+||"30""x50yrd Gloss Adhesive Vinyl with Comply"|"30""x50yrd Gloss Adhesive Vinyl with Comply"|30|1800|in||
+||"54""x150' Beyond Film Matte Adhesive Vinyl"|"54""x150' Beyond Film Matte Adhesive Vinyl"|54|1800|in||
+||"54""x150' Canon Matte Vinyl 4mil"|"54""x150' Canon Matte Vinyl 4mil"|54|1800|in||
+||"40""x25' Digi Maxx Magnet MW Vinyl BC"|"40""x25' Digi Maxx Magnet MW Vinyl BC"|40|300|in||
+||"54""x75' Magic Poly/Cotton Canvas 15mil"|"54""x75' Magic Poly/Cotton Canvas 15mil"|54|900|in||
+||"54""x ? Low Tac Adhesive Vinyl"|"54""x ? Low Tac Adhesive Vinyl"|54||in||
+||"24""x ? White Perf."|"24""x ? White Perf."|24||in||
+||"54""x30yrd Abaco Beach"|"54""x30yrd Abaco Beach"|54|1080|in||
+||"54""x75' Clear Static Cling"|"54""x75' Clear Static Cling"|54|900|in||
+||"54""x30' LowTac Adh. Vinyl (Fat Head)"|"54""x30' LowTac Adh. Vinyl (Fat Head)"|54|360|in||
+||"36""x75' Luster Overlaminate"|"36""x75' Luster Overlaminate"|36|900|in||
+||"36""x20' Vivalux LTX Backlit 5mil Matte"|"36""x20' Vivalux LTX Backlit 5mil Matte"|36|240|in||
+||"48""x ? Ink Jet Adhesive Vinyl"|"48""x ? Ink Jet Adhesive Vinyl"|48||in||
+||"30""x75' 13 oz Blockout Gloss Banner"|"30""x75' 13 oz Blockout Gloss Banner"|30|900|in||
+||"38""x115' Blockout Banner 15oz Matte"|"38""x115' Blockout Banner 15oz Matte"|38|1380|in||
+||"54""x150' 13oz Banner Matte"|"54""x150' 13oz Banner Matte"|54|1800|in||
+||"36""x ? Tritex Hybrid Banner"|"36""x ? Tritex Hybrid Banner"|36||in||
+||"36""x150' Tyvek 7.5mil"|"36""x150' Tyvek 7.5mil"|36|1800|in||
+||"24""x ? Tritex Hybrid Banner"|"24""x ? Tritex Hybrid Banner"|24||in||
+||"38""x150' Matte Banner 13oz"|"38""x150' Matte Banner 13oz"|38|1800|in||
+||"39""x55yrd Cool Flex 13oz Frontlit Banner"|"39""x55yrd Cool Flex 13oz Frontlit Banner"|39|1980|in||
+||"54""x55yrd Cool Flex 13oz Frontlit Banner"|"54""x55yrd Cool Flex 13oz Frontlit Banner"|54|1980|in||
+||63'x55yrd 15oz Banner|63'x55yrd 15oz Banner|756|1980|in||

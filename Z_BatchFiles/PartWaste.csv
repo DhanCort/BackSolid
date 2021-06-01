@@ -1,0 +1,3 @@
+ModuleIDs,?,NMTOKENS,,Specifies the module or modules where the waste was produced
+Waste,,float,,Specific waste amount that SHALL be in the same units as those of the parent PartAmount.
+WasteDetails,?,NMTOKEN,NMWasteDetailsAttributeValues,@WasteDetails specifies additional details about how the waste was produced. See ?Table 6.6 WasteDetails Attribute Values for suggested values. At least one of @ModuleIDs or @WasteDetails SHALL be specified.

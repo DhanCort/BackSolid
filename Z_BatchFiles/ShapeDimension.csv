@@ -1,0 +1,2 @@
+Usage,,string,,@Usage specifies the name of the ShapeDimension. Values Include: D - Depth L - Length W - Width
+Value,,float,,@Value specifies the length of the ShapeDimension in points.

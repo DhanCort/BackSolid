@@ -1,0 +1,5 @@
+JobID,,NMTOKEN,,@JobID of the referenced process. Note: @JobID will typically match XJDF/@JobID unless parts of the job are being produced on gang forms.
+JobPartID,?,NMTOKEN,,@JobPartID of the referenced process. @JobPartID SHALL NOT match XJDF/ @JobPartID.
+PipeID,?,NMTOKEN,,"If this attribute exists, the resource is a pipe. @PipeID is used by XJMF pipecontrol messages to identify the pipe. For more information, see ?Section 9.3.5 Overlapping Processing."
+PipeProtocol,?,NMTOKEN,NMPipeProtocol,@PipeProtocol defines the protocol use for pipe handling. Proprietary pipe protocols MAY be specified in addition to those defined below but will not necessarily be inter-operable.
+XJMFURL,?,URL,,URL of a processor that has knowledge of the referenced process. The processor at this URL MAY be queried for additional information using XJMF.

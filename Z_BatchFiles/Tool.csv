@@ -1,0 +1,2 @@
+ToolType,?,NMTOKEN,NMToolType,Type of the tool.
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this Tool.

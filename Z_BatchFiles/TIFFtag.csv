@@ -1,0 +1,6 @@
+BinaryValue,?,hexBinary,,"If the type of the tag is UNDEFINED, then @BinaryValue is used to encode the data."
+IntegerValue,?,IntegerList,,"If the type of the tag is BYTE, SHORT, LONG, SBYTE, SSHORT or SLONG, then @IntegerValue is used to encode that data."
+NumberValue,?,FloatList,,"If the type of the tag is RATIONAL, SRATIONAL or FLOAT, then @NumberValue is used to encode that data."
+StringValue,?,string,,"If the type of the tag is ASCII, then @StringValue is used to encode the data."
+TagNumber,,integer,,"Tag number of the specified tag (e.g., 270 (decimal) for ImageDescription)."
+TagType,,integer,,"The type of the tag as defined in ?[TIFF6] (1 = BYTE, 2 = SHORT, etc.)."

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="cXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="From">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Credential">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Identity" type="xs:unsignedShort" />
+                        </xs:sequence>
+                        <xs:attribute name="domain" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="To">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Credential">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Identity" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="domain" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Sender">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Credential">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Identity" type="xs:string" />
+                          <xs:element name="SharedSecret" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="domain" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Request">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RFQ">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RFQHeader">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ID">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:unsignedInt">
+                                  <xs:attribute name="domain" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Contact">                            
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="requestID" type="xs:unsignedInt" use="required" />
+                        <xs:attribute name="requestDate" type="xs:string" use="required" />
+                        <xs:attribute name="type" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ItemOut">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ID">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:unsignedInt">
+                                  <xs:attribute name="domain" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ItemID">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="SupplierPartID" type="xs:string" />
+                                <xs:element name="ID">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute name="domain" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ItemDetail">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="UnitPrice">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="Money">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:unsignedByte">
+                                              <xs:attribute name="currency" type="xs:string" use="required" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Description">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="ShortName" type="xs:string" />
+                                    </xs:sequence>
+
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="UnitOfMeasure" type="xs:string" />
+                                <xs:element name="URL" type="xs:string" minOccurs="0" maxOccurs="1" />
+                                <xs:element maxOccurs="unbounded" name="Extrinsic">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="name" type="xs:string" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="quantity" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="payloadID" type="xs:string" use="required" />
+      <xs:attribute name="timestamp" type="xs:string" use="required" />
+
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

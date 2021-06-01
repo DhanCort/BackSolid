@@ -1,0 +1,3 @@
+TagNumber,,integer,,"Tag number of the specified tag (e.g., 34675 (decimal) for an ICC profile or 700 for XMP)."
+TagType,,integer,,The type of the tag as defined in ?[TIFF6]. This will usually be 1 (BYTE) or 7 (UNDEFINED).
+FileSpec,,element,,Reference to the file that SHALL be embedded.

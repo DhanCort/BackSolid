@@ -1,0 +1,1 @@
+ImageCompression,+,element,,"Specifies how images SHALL be compressed. If multiple ImageCompression elements apply to the same images, the compressions SHALL be applied in sequential order."

@@ -1,0 +1,4 @@
+MimeType,,string,,"This resource identifies the MIME type associated with this output file format. For example ""application/pdf"". IANA maintains a registry of MIME types, see ?[IANA-mt]"
+FontParams,?,element,,t FontParams describes how fonts SHALL be handled when creating PDL.
+PDFCreationDetails,?,element,,"PDF specific element for the output. It SHALL NOT be specified unless @MimeType=""application/pdf""."
+PSCreationDetails,?,element,,"Postscript specific element for the output. It SHALL NOT be specified unless @MimeType=""application/postscript""."

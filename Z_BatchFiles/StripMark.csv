@@ -1,0 +1,19 @@
+AbsoluteHeight,?,float,,Absolute height of the StripMark in points.
+AbsoluteWidth,?,float,,Absolute width of the StripMark in points.
+Anchor,?,enumeration,Anchor,Origin of the mark coordinate system. Allowed value is from: ?Anchor.
+Font,?,NMTOKEN,NMFont,The name of the font that SHALL be used for the StripMark. Values include: Courier Helvetica Helvetica-Condensed Times-Roman
+FontSize,?,float,,"The size of the font that SHALL be used for the StripMark, in points."
+HorizontalFitPolicy,?,enumeration,FitPolicy,How to modify the mark to fit into the horizontal space that is provided for the StripMark prior to rotation. Allowed value is from: ?FitPolicy.
+ID,?,ID,,Identifier of the StripMark. Used for internal references within the Layout.
+MarkName,?,NMTOKEN,NMMarkNameAttributeValues,Name of the mark that SHALL be marked on the Layout. Values include those from: ?Table 8.51 MarkName Attribute Values.
+Offset,?,XYPair,,Position of the anchor of this StripMark relative to RefAnchor/@Anchor as defined by @Anchor and RefAnchor/@Anchor.
+Orientation,?,enumeration,Orientation,Orientation of this StripMark in the coordinate system of the related object defined by RefAnchor. Allowed value is from: ?Orientation.
+RelativeHeight,?,float,,Height relative to the height of the related object defined by RefAnchor of this StripMark.
+RelativeWidth,?,float,,Width relative to the width of the related object defined by RefAnchor of this StripMark.
+StripMarkDetails,?,string,,"More detailed information about the StripMark. For example, if @MarkName=""Set"" or @MarkName=""TabMark"" then @StripMarkDetails is a name to refer to a proprietary or site specific set of marks"
+VerticalFitPolicy,?,enumeration,FitPolicy,Policy of how to modify the mark to fit into the vertical space that is provided for the StripMark prior to rotation. Allowed value is from: ?FitPolicy.
+BarcodeReproParams,?,element,,Description of the formatting and reproduction parameters for dynamically generated barcodes.
+FillMark,*,element,,"Specifies marks that define a fill layer, e.g., for backlit displays"
+IdentificationField,*,element,,Contents of barcodes.
+JobField,?,element,,"Details of automatically generated text marks. JobField SHOULD NOT be specified unless @MarkName =""JobField"", @MarkName =""TabMark"" or @MarkName = ""WaterMark""."
+RefAnchor,,element,,Reference to an element that defines the coordinate system that this mark SHALL be placed relative to.

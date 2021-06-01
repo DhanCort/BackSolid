@@ -1,0 +1,13 @@
+BuyerAccount,?,string,,Account ID of the buyer with the delivery service.
+Earliest,?,dateTime,,@Earliest SHALL specify the earliest date and time after which the delivery is intended to be made.
+EarliestDuration,?,duration,,@EarliestDuration SHALL specify the earliest duration by which the delivery SHALL be made relative to the date and time that the order is ready for production
+Method,?,NMTOKEN,NMDeliveryMethods,Specifies a delivery method. Values include those from: ?Delivery Methods.
+Ownership,?,enumeration,Ownership,Point of transfer of ownership. Allowed values are: Destination – Ownership is transferred upon receipt at destination. Origin – Ownership of goods is transferred upon leaving point of origin.
+Required,?,dateTime,,@Required SHALL specify the date and time by which the delivery is intended to be made
+RequiredDuration,?,duration,,@RequiredDuration SHALL specify the time duration by which the delivery SHALL be made relative to the date and time that the order is ready for production
+TrackingID,?,string,,The carrier's identifier for the delivery. The format of @TrackingID is determined by the carrier chosen to ship the product(s).
+Transfer,?,enumeration,,"Describes the direction and responsibility of the transfer. Allowed values are: BuyerToPrinterDeliver – The DeliveryParams describes an input to the job (e.g., a CD for inserting, a preprinted cover, etc.). In this case, the buyer delivers the merchandise to the printer. BuyerToPrinterPickup – The DeliveryParams describes an input to the job (e.g., a CD for inserting, a preprinted cover, etc.). In this case, the printer picks up the merchandise. PrinterToBuyerDeliver – The DeliveryParams describes an output of the job. In this case, the printer delivers the merchandise to the buyer. PrinterToBuyerPickup – The DeliveryParams describes an output of the job. In this case, the buyer picks up the merchandise."
+DropItem,*,element,,A delivery MAY consist of multiple products. Each DropItem describes an individual Resource or Product that is part of this delivery.
+FileSpec,?,element,,A FileSpec element that references a document that SHALL be printed and packaged together with the delivered items
+FileSpec,?,element,,A FileSpec element pointing to a mailing list. The format of the referenced mailing list is implementation dependent.
+FileSpec,?,element,,A FileSpec element that specifies the remote location of a digital delivery

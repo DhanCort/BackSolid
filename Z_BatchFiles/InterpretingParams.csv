@@ -1,0 +1,14 @@
+Center,?,boolean,,"Indicates whether or not the finished page image SHALL be centered within the imagable area of the media. @Center is ignored if FitPolicy/ @SizePolicy=""ClipToMaxPage"" and clipping is specified."
+FilmRef,?,IDREF,,Reference to film Media. This Resource provides a description of the physical media that will be marked. The physical characteristics of the media MAY affect decisions made during Interpreting.
+MirrorAround,?,enumeration,Axis,This attribute specifies the axis around which a RIP SHALL mirror an image. Note: This is mirroring in the RIP and not in the hardware of the output device.
+PaperRef,?,IDREF,,Reference to final paper Media. This Resource provides a description of the physical media that will be marked. The physical characteristics of the media MAY affect decisions made during Interpreting.
+PlateRef,?,IDREF,,Reference to plate Media. This Resource provides a description of the physical media that will be marked. The physical characteristics of the media MAY affect decisions made during Interpreting.
+Polarity,?,enumeration,Polarity,The image SHALL be RIPed in the specified polarity. Note that this is a polarity change in the RIP and not a polarity change in the hardware of the output device.
+PrintQuality,?,enumeration,,Generic switch for setting the quality of an otherwise inaccessible device.
+ProofPaperRef,?,IDREF,,Reference to paper Media used for proofing. This Resource provides a description of the physical media that will be marked. The physical characteristics of the media MAY affect decisions made during Interpreting.
+Scaling,?,XYPair,,"A pair of positive real values that indicates the scaling factor for the content. Values between 0 and 1 specify that the contents SHALL be reduced, while values greater than 1 specify that the contents SHALL be expanded. Any scaling defined in FitPolicy SHALL be applied after the scaling defined by this attribute."
+ScalingOrigin,?,XYPair,,"A pair of real values that identifies the point in the unscaled PDL page that remains at the same position after scaling. This point is defined in the coordinate system of the PDL page. For example, the @ScalingOrigin of a PDL page with dimensions ""300 400"" scaled from the PDL page center would be ""150 200"", regardless of the value of @Scaling."
+FitPolicy,?,element,,Allows printing even if the size of the imagable area of the media does not match the requirements of the data.
+InterpretingDetails,?,element,,Container for interpreter-specific details.
+ObjectResolution,*,element,,Indicates the resolution at which the PDL contents will be interpreted in DPI. These elements MAY be different from the ObjectResolution elements provided in RenderingParams.
+PDFInterpretingParams,?,element,,Details of interpreting for PDF.

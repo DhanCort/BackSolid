@@ -1,0 +1,6 @@
+LengthOverall,?,float,,Overall length of the register ribbon.
+Material,?,string,,Material of the register ribbon.
+RibbonColor,?,enumeration,,@RibbonColor specifies the machine readable color of ribbon.
+RibbonColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @RibbonColorDetails is supplied, @RibbonColor SHOULD also be supplied."
+RibbonEnd,?,NMTOKEN,NMRibbonEnd,End of the Ribbon.
+VisibleLength,?,float,,Length of the register ribbon that will be seen when opening the book.

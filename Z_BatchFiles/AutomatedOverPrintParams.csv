@@ -1,0 +1,6 @@
+KnockOutCMYKWhite,?,boolean,,"If @KnockOutCMYKWhite=""true"", graphic objects defined in DeviceCMYK, where all colorant values are"
+LineArtBlackLevel,?,float,,"A value between 0.0 and 1.0 that indicates the minimum black level for the stroke or fill colors that cause the line art to be set to overprint. @LineArtBlackLevel SHALL NOT be specified unless @OverPrintBlackLineArt=""true""."
+OverPrintBlackLineArt,?,boolean,,"Indicates whether overprint SHALL be set to ""true"" for black line art (i.e., vector elements other than text). If ""true"", overprint of black line art is applied regardless of any values in the PDL."
+OverPrintBlackText,?,boolean,,"Indicates whether overprint SHALL be set to ""true"" for black text. If ""true"", overprint of black text is applied regardless of any values in the PDL."
+TextBlackLevel,?,float,,"A value between 0.0 and 1.0 that indicates the minimum black level for the text stroke or fill colors that cause the text to be set to overprint. @TextBlackLevel SHALL NOT be specified unless @OverPrintBlackText=""true""."
+TextSizeThreshold,?,integer,,"Indicates the point size for text below which black text will be set to overprint. For asymmetrically scaled text, the minimum point size between both axes SHALL be used. @TextSizeThreshold SHALL NOT be specified unless @OverPrintBlackText=""true""."

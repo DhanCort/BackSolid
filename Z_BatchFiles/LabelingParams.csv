@@ -1,0 +1,4 @@
+Application,?,NMTOKEN,NMApplication,Application method of the label.
+Face,?,enumeration,Face,Position of the label on the bundle.
+Offset,?,XYPair,,Position of the lower left corner of the label after applying the rotation defined in Resource/@Orientation of the corresponding Component(Label) relative to the lower left corner of the component surface as defined by @Face.
+FileSpec,?,element,,A FileSpec element pointing to an address list. The format of the referenced mailing list is implementation dependent.

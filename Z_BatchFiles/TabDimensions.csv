@@ -1,0 +1,6 @@
+TabEdge,?,enumeration,Edge,"Indicates which edge of the media has tabs. Sets the coordinate system for @TabOffset, @TabExtensionDistance, and @TabWidth."
+TabExtensionDistance,?,float,,The positive distance in points that the tab extends beyond the body of the other media.
+TabOffset,?,float,,Specifies the magnitude of the distance in points from the two corners to the edge of the first “tab pitch” point of the first tab in the bank along the @TabEdge. This distance is the same on both ends of the bank of tabs.
+TabSetCollationOrder,?,enumeration,TabSetCollationOrder,Collation order of media provided in sets. Applicable to sets of pre-cut tabs.
+TabsPerBank,?,integer,,Specifies the number of equal-sized tabs in a single bank if all positions were filled.
+TabWidth,?,float,,The width along the @TabEdge of each tab as measured along the mid-line of the tab.

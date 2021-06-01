@@ -1,0 +1,14 @@
+BoundingBox,?,rectangle,,"Box that provides the boundaries of the mark that indicates where the IdentificationField is placed. If the IdentificationField is specified in a Layout, the coordinate system SHALL be defined by the StripMark containing the IdentificationField. If no Layout context is available, the origin of the coordinate system SHALL be defined as the lower left corner of the resource surface that @Position specifies when the specified surface is viewed in its natural orientation."
+Encoding,?,enumeration,Encoding,Encoding of the information.
+EncodingDetails,?,NMTOKEN,NMEncodingDetailsAttributeValues,Details about the encoding type. An example is the bar code scheme.
+Format,?,regExp,,"Regular expression that defines the expected format of the expression (e.g., the number of digits, alphanumeric or numeric). Note: This field MAY also be used to define constant fields (e.g., the end of document markers or packaging labels)."
+Orientation,?,matrix,,Orientation of the contents within the IdentificationField. The coordinate system is defined in the system of the sheet or component where the IdentificationField resides. The @Orientation is used only as metadata when searching or scanning IdentificationField elements and not used when generating IdentificationField elements in a LayoutElementProduction process.
+Position,?,enumeration,Face,Position with respect to the instance document or Resource to which
+Purpose,?,enumeration,Purpose,Purpose defines the usage of the field
+PurposeDetails,?,NMTOKEN,NMPurposeDetails,More detail about the usage of the barcode.
+Value,?,string,,"Fixed value of the IdentificationField (e.g., on a label). Exactly one of @Format, @Value or the pair @ValueFormat and @ValueTemplate SHALL be specified."
+ValueFormat,?,string,,A formatting string used with @ValueTemplate to define fixed and/or variable content of barcodes or text.
+ValueTemplate,?,NMTOKENS,,"A list of values used with @ValueFormat to define fixed and/or variable content of barcodes or text. If MetadataMap elements are present, MetadataMap/ @Name SHALL be included in @ValueTemplate to select the data from the MetadataMap."
+BarcodeDetails,?,element,,Additional specification for complex barcodes.
+ExtraValues,?,element,,Additional values encoded in the IdentificationField.
+MetadataMap,*,element,,Describes the mapping of metadata that is encoded in an IdentificationField to partition keys.

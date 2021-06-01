@@ -1,0 +1,3 @@
+PalletType,,NMTOKEN,NMPalletTypes,Type of pallet used. Values include those from: ?Pallet Types.
+Size,?,XYPair,,"Describes the length and width of the pallet, in points (e.g., 3500 3500). If not specified, the size is defined by @PalletType."
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this Pallet.

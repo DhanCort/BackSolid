@@ -1,0 +1,2 @@
+Name,,NMTOKEN,,Name of this Expr. The value extracted from @Path SHALL be used to evaluate the parent @ValueTemplate.
+Path,,XPath,,"The value specified by this path SHALL be assigned to Expr/@Name. If the XPath points to an element, then an implied XPath text() function SHALL be executed."

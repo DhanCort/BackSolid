@@ -1,0 +1,1 @@
+MinLineWidth,?,float,,"If present, this attribute specifies the minimum width in points for PDL line objects. If a line is defined with a width smaller than this value it SHALL be adjusted to a line width equal to this value. Note: This attribute is useful for managing the consistency of thin lines across different digital printing systems that have varying imaging resolutions."

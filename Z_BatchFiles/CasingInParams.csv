@@ -1,0 +1,4 @@
+CaseRadius,?,float,,"Inner radius of the case spine rounding. If not specified, no rounding of the case spine is performed."
+CoverWidth,?,float,,Width of the cover board
+SpineWidth,?,float,,Width of the spine board.
+Glue,*,element,,Properties of the glue to attach the case.

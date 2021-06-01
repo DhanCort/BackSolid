@@ -1,0 +1,6 @@
+BlindStitch,?,boolean,,"A value of ""true"" specifies a blind stitch after the last stitch."
+NeedlePositions,?,FloatList,,Array containing the y-coordinate of the needle positions. The number of entries SHALL match the number specified in @NumberOfNeedles.
+NumberOfNeedles,?,integer,,Specifies the number of needles to be used.
+Offset,?,float,,"Specifies the distance between the stitch and the binding edge. Used only when @SewingPattern=""Side""."
+SewingPattern,?,enumeration,SewingPattern,Sewing pattern. Allowed values are: CombinedStaggered Normal Side – Side
+ThreadThickness,?,float,,Thread thickness

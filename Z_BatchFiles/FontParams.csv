@@ -1,0 +1,4 @@
+AlwaysEmbed,?,NMTOKENS,,@AlwaysEmbed specifies a list of one or more names of fonts that SHALL be embedded in the PDF. Each name SHALL be the PDL name of the font. Font names SHALL NOT occur in both the @AlwaysEmbed and @NeverEmbed lists.
+EmbedAllFonts,?,boolean,,"If ""true"", specifies that all fonts, except those in the @NeverEmbed list, SHALL be embedded in the PDF."
+MaxSubsetPct,?,integer,,"If the percentage of glyphs used from a font is below the value of @MaxSubsetPct, then a subset of the font SHALL be embedded in the PDF."
+NeverEmbed,?,NMTOKENS,,@NeverEmbed specifies a list of one or more names of fonts that SHALL NOT be embedded in the PDF and SHALL NOT be considered for subsetting. Each name SHALL be the PDL name of the font. Font names SHALL NOT occur in both the @AlwaysEmbed and @NeverEmbed lists.

@@ -1,0 +1,11 @@
+Angle,?,float,,"Angle of stitch in degrees. The angle increases in a counterclockwise direction. Horizontal=""0"", which means that it is parallel to the X-axis of the operation coordinate system. @Angle defaults to the system-specified value that MAY vary depending on other attributes set in this resource. If @StitchType=""Saddle"", @Angle SHALL NOT be specified."
+NumberOfStitches,?,integer,,@NumberOfStitches specifies the number of stitches.
+Offset,?,float,,"Distance between stitch and binding edge. If @StitchType=""Saddle"", @Offset SHALL NOT be specified."
+StapleShape,?,enumeration,StapleShape,Specifies the shape of the staples to be used. Allowed value is from: ?StapleShape.
+StitchOrigin,?,enumeration,StitchOrigin,"Defines the origin of @StitchPositions. For an illustration of the values, see ?Figure 6-40: Stitching coordinate system for @StitchOrigin values. Allowed values are: TrimBoxCenter TrimBoxJogSide UntrimmedJogSide"
+StitchPositions,?,FloatList,,"Array containing the stitch positions. The center of the stitch SHALL be specified, and the number of entries SHALL match the number given in @NumberOfStitches."
+StitchType,?,enumeration,StitchType,"Specifies the type of the Stitching operation. Allowed values are: Corner – Stitch in the corner that is at the clockwise end of the reference edge. For example, to stitch in the upper right corner set Resource/ @Orientation=""Rotate90"". Saddle – Stitch on the middle fold, which is on the saddle. Side – Stitch along the reference edge. For example, to stitch in the top, set Resource/@Orientation=""Rotate90""."
+StitchWidth,?,float,,Width of the stitch to be used.
+TightBacking,?,enumeration,TightBacking,Definition of the geometry of the back of the product. See BlockPreparationParams/@TightBacking and ?Figure 6-2: Backing and Rounding measurements for TightBacking for details. Allowed value is from: ?TightBacking.
+WireGauge,?,float,,Gauge of the wire to be used.
+FileSpec,?,element,,Reference to a CIP3 file that contains stitching instructions in the ?[CIP3 - PPF] format.

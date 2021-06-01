@@ -1,0 +1,1 @@
+WrappingKind,,enumeration,WrappingKind,"@WrappingKind specifies the wrapping method. Allowed values are: Band – The components are wrapped with a band. The material of the band is typically paper, plastic or rubber. LooseWrap – The wrap is loose around the component. ShrinkWrap – The wrap is shrunk around the component."

@@ -1,0 +1,2 @@
+Glue,*,element,,"Each Glue SHALL specify a glue layer of a layered Media. The value of Glue/ @AreaGlue SHALL be ""true""."
+Media,*,element,,Each Media SHALL describe an individual layer of a layered Media

@@ -1,0 +1,17 @@
+ActualColorName,?,string,,"Actual name of the color in the PDL. If not specified, the value from ../Part/ @Separation SHALL be used. If @ActualColorName and ../Part/@Separation are different, the separation SHALL be identified by the value of ../Part/ @Separation."
+CMYK,?,CMYKColor,,"CMYK value of the 100% tint value of the colorant. @CMYK SHOULD be specified if known and @ColorType != ""Transparent"" and @ColorType != ""DieLine""."
+ColorBook,?,string,,Definition of the color identification book name that is used to represent this color. The color book name SHALL match the name defined by the color book vendor.
+ColorBookEntry,?,string,,"Definition of the Color within the standard specified by @ColorBook. This entry SHALL match the color book entry exactly as defined by the @ColorBook specified vendor, including capitalization and media type extension. When using ICC profiles, this maps to the NCL2 value of a namedColorType tag of an ICC color profile. This entry is used to map from the XJDF Color to an ICC namedColorType tag"
+ColorDetails,?,string,,"A more specific, specialized or site-defined name for the color. If @ColorDetails is supplied, @ColorName SHOULD also be supplied."
+ColorName,?,enumeration,,Mapping to a color name.
+ColorType,?,enumeration,,A name that characterizes the colorant.
+ColorTypeDetails,?,string,,"Additional information about the color type. If @ColorType=""DieLine"", this attribute SHOULD specify the type of die line, e.g. DDES-numbers."
+Density,?,float,,"Density value of colorant (100% tint). Whereas @NeutralDensity describes measurements of inks on substrate with wide-band filter functions, @Density is derived from measurements of inks on substrate with special small-band filter functions according to ANSI and DIN."
+Gray,?,float,,"Gray value of the 100% tint value of the colorant. @Gray SHALL be specified using a subtractive color model: 0.0 means 100% coverage with colorant, while 1.0 means no coverage."
+Lab,?,LabColor,,"L, a, b value of the 100% tint value of the colorant."
+NeutralDensity,?,float,,"A number in the range of 0.001 to 10 that represents the neutral density of the colorant, defined as 10*log(1/Y). Y is the tristimulus value in CIEXYZ coordinates, normalized to 1.0."
+PrintingTechnology,?,NMTOKEN,NMPrintingTechnologies,"Printing technology of the press, press module or printer that this Color is intended for"
+PrintStandard,?,string,,Specifies the reference name of a characterization data set that this color is used in.
+RawName,?,hexBinary,,"Representation of the original 8-bit byte stream of the ../Part/@Separation. Used to transport the original byte representation of a ../Part/@Separation when moving XJDF tickets between computers with different locales. Only one Color with any given @RawName SHALL be specified in a ResourceSet[@Name=""Color""]."
+sRGB,?,RGBColor,,sRGB value of the 100% tint value of the colorant. @sRGB SHOULD only be used for display purposes.
+DeviceNColor,*,element,,Each DeviceNColor element defines the colorant in the DeviceN color space that is defined by DeviceNColor/@Name.

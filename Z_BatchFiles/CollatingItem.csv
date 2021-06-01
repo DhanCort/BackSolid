@@ -1,0 +1,5 @@
+Amount,?,integer,,Determines how many consecutive items shall be consumed.
+ComponentRef,?,IDREF,,References one of the input components to the process to be (partially) consumed by the CollatingItem element. This Component SHALL be an input of the Feeding process.
+Orientation,?,enumeration,Orientation,Named orientation of the CollatingItem relative to the input coordinate system. For details see ?Table 2.1 Matrices and Orientation values for describing the orientation of a Component.
+Transformation,?,matrix,,Transformation of the CollatingItem relative to the input coordinate system.
+TransformationContext,?,enumeration,,"This parameter specifies the object that SHALL be manipulated in orientation/transformation, and it is important to determine the sequence of stack items after flipping."

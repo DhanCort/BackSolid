@@ -1,0 +1,9 @@
+Center,?,XYPair,,"Position of the center of the first hole relative to the coordinate system that is defined in @CenterReference or the coordinate system of the input Component if @CenterReference is not present. If not specified, the value SHALL be defined by the value of @Pattern."
+CenterReference,?,enumeration,,Defines the reference coordinate system for @Center.
+Extent,?,XYPair,,"Size (bounding box) of each hole, in points. If @Shape is ""Round"", only the first entry of @Extent SHALL be evaluated and SHALL define the hole diameter. If not specified, the value SHALL be defined by the value of @Pattern."
+HoleCount,?,IntegerList,,"@HoleCount specifies the number of consecutive holes and spaces. The first entry defines the number of holes, the second entry defines the number of spaces, and consecutive entries alternately define holes (h) and spaces (s), for instance: ""2 2 2"" = ""h h s s h h"". ""0 3 3 3 3"" = ""s s s h h h s s s h h h""."
+Pattern,?,NMTOKEN,NMPattern,"Predefined hole pattern. @Pattern SHALL be supplied if one of @Center, @Extent or @Shape is not specified."
+Pitch,?,XYPair,,"If @Pitch is specified, this HolePattern represents a line of holes. @Pitch represents the distance between the centers of two adjacent holes."
+ReferenceEdge,?,enumeration,,The edge of the Component relative to where the holes SHALL be placed.
+Reinforcement,?,NMTOKEN,NMReinforcement,@Reinforcement specifies how the holes SHALL be reinforced.
+Shape,?,enumeration,,"Shape of the holes. If not specified, the value SHALL be defined by the value of @Pattern."

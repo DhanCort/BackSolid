@@ -1,0 +1,2 @@
+SurfaceColor,?,element,,"SurfaceColor[@Surface=""Back""] describes the color intent of the back surfaces of the final product. If not specified the ""Back"" surfaces SHALL NOT be marked."
+SurfaceColor,?,element,,"SurfaceColor[@Surface=""Back""] describes the color intent of the back surfaces of the final product. If not specified the ""Back"" surfaces SHALL NOT be marked."

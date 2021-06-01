@@ -1,0 +1,4 @@
+BitDepth,,integer,,Bit depth of one color
+IconUsage,?,enumerations,DeviceStatus,"The DeviceInfo/@Status of the device that this Icon represents. If not specified, the icon is independent of the status of the device. Allowed values are from:?DeviceStatus."
+Size,,XYPair,,Height and width of the icon in pixels
+FileSpec,?,element,,Reference to details of the icon data.

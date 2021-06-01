@@ -1,0 +1,1 @@
+ProductionPathID,?,NMTOKEN,,Identification of the entire production path. The @ProductionPathID SHALL be unique within the machine.

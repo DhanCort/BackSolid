@@ -1,0 +1,4 @@
+BlindStitch,?,boolean,,"A value of ""true"" specifies a blind stitch after the last stitch."
+ThreadLength,?,float,,Length of one thread.
+ThreadPositions,?,FloatList,,Array containing the y-coordinate of the center positions of the thread.
+ThreadStitchWidth,?,float,,Width of one stitch

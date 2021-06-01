@@ -1,0 +1,17 @@
+BundleType,?,enumeration,BundleType,@BundleType specifies the BundleItem/@BundleType of the items that shall be counted as an individual item for Stacking. Allowed values are from: ?BundleType.
+Compensate,?,boolean,,"180 degree rotation applied to successive layers to compensate for uneven stacking. If @LayerAmount = @StandardAmount, there is one layer, and effectively no compensation."
+LayerAmount,?,IntegerList,,"Ordered number of products in a layer. The first number is the first @LayerAmount, etc. If there are more layers than entries in the list, counting restarts at the first entry. The sum of all entries is typically an even divisor of @StandardAmount. If not specified, the default case is that the value of @LayerAmount equals the value of @StandardAmount."
+LayerCompression,?,boolean,,"If @LayerCompression=""true"", layer is compressed before next layer is started."
+LayerLift,?,boolean,,"If @LayerLift=""true"", layer is lifted to reduce height."
+MaxAmount,?,integer,,"Maximum number of products in a stack, @MaxAmount SHALL be greater than or equal to @StandardAmount. If not specified, the default case is that the value of @MaxAmount equals the value of @StandardAmount."
+MaxHeight,?,integer,,Maximum height of the stack in points.
+MaxWeight,?,float,,Maximum weight of a stack in grams.
+MinAmount,?,integer,,"Minimum number of products in a stack or layer, i.e. where (@MaxAmount – @StandardAmount) <= @MinAmount < @StandardAmount and @MinAmount < @LayerAmount. Where not specified, the default case SHALL use a value equal to @MaxAmount – @StandardAmount."
+OutputBin,?,NMTOKENS,NMSInputTrayAndOutputBinNames,"Specifies the bin or bins to which the finished documents SHALL be output. If multiple values are provided, the output bins SHALL be filled in sequence. See @StackAmount. Values include those from: ?Input Tray and Output Bin Names."
+PreStackAmount,?,integer,,Amount that is initially gathered
+PreStackMethod,?,enumeration,PreStackMethod,Allowed values are: All – All layers are pre-stacked. First – Only first layer is pre-stacked. None – No pre-stacking.
+StackAmount,?,integer,,Specifies the maximum sheet count before switching to the next stacker in the list of @OutputBin values.
+StackCompression,?,boolean,,"If @StackCompression=""true"", the stack is compressed before push out."
+StandardAmount,?,integer,,Number of products in a standard stack.
+UnderLays,?,IntegerList,,"Number of underlay sheets at each layer. The first value is underneath the bottom layer, the next value above the bottom layer and so forth. If more layers than values are specified, counting restarts at the 0 position of @UnderLays. If less layers than values are specified, all underlay sheets that are not adjacent to a layer SHALL be ignored."
+Disjointing,?,element,,"Details of the offset or shift applied to successive layers or documents to separate the thicker portions of components, for example, offsetting the spines of hardcover books."

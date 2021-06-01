@@ -1,0 +1,8 @@
+AlternatePositions,?,IntegerList,,"Positions of alternate feeders including the feeder specified in @Position on a feeding chain. Alternate feeders share the load according to the policy defined in @FeederSynchronization. If not specified, it defaults to the value of @Position. @AlternatePositions SHALL be non-negative."
+ComponentRef,?,IDREF,,References the Component that SHALL be loaded into this Feeder. This Component SHALL be an input of the Feeding process.
+FeederSynchronization,?,enumeration,,Specifies the synchronization of multiple Feeder elements with identical Component elements.
+FeederType,?,NMTOKEN,NMFeederType,Specifies the feeder loading.
+Loading,?,NMTOKEN,NMLoading,Specifies the feeder loading.
+Opening,?,enumeration,,Specifies the opening of signatures.
+Position,?,integer,,"@Position of feeder on a collecting and gathering chain in chain movement direction. @Position=""0"" is first feeder feeding to the collecting and gathering chain. Only one Feeder SHALL be specified for any given @Position. If @Position is negative, it specifies the position counted from the back of the chain (e.g., ""-1"" = last position, ""-2"" = next to last position, etc.)."
+FeederQualityParams,?,element,,Definition of the setup and policy for feeding quality

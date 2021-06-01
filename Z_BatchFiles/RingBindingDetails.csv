@@ -1,0 +1,6 @@
+Diameter,?,float,,"Specifies the diameter of the rings, in points."
+RingMechanic,?,boolean,,"If ""true"", a hand lever is available for opening."
+RingShape,?,NMTOKEN,NMRingShape,@RingShape specifies the shape of the ring binder rings.
+RivetsExposed,?,boolean,,"@RivetsExposed describes the mounting of the ring mechanism in the binder case. If ""true"", the heads of the rivets are visible on the exterior of the binder. If ""false"", the binder covering material covers the rivet heads."
+SpineWidth,?,float,,The spine width is determined by the final height of the block of sheets to be bound.
+ViewBinder,?,NMTOKEN,NMViewBinder,@ViewBinder specifies the details of the clear vinyl outer-wrap types on top of a colored base wrap: Values include: Embedded – Printed material is embedded by sealing between the colored and clear vinyl layers during the binder manufacturing. Pocket – Binder is designed so that printed material can be inserted between the colored and clear vinyl layers after the binder is manufactured.

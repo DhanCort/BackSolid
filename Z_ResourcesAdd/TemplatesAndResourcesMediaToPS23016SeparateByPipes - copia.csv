@@ -1,0 +1,480 @@
+strTemplateName|strNameResource|XJDFDescriptiveName|XJDFMediaColorName|XJDFMediaType|XJDFStockType|XJDFWeight|XJDFWidth|XJDFLength|XJDFDimensionsUnit|boolPriceTemplate|numPriceTemplateOrResourcePerThousand
+|20# 14 7/8 x 11|20# 14 7/8 x 11||Paper|75 G/M2 -  20# Bond|75|14|11|in||75
+|20# 9.5 x 11|20# 9.5 x 11||Paper|75 G/M2 -  20# Bond|75|9.5|11|in||16.72
+|20# Copy Paper|20# Copy Paper||Paper|75 G/M2 -  20# Bond|75|8.5|11|in||5.97
+|20# Navigator Premium Copy Paper|20# Navigator Premium Copy Paper||Paper|75 G/M2 -  20# Bond|75|8.5|11|in||9.42
+|20# 3 Hole Transcend Paper|20# 3 Hole Transcend Paper||Paper|75 G/M2 -  20# Bond|75|8.5|11|in||7.5
+20# Bond|20# Blue|20# Blue|Blue|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Canary|20# Canary|Canary|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Cream|20# Cream|Cream|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Cherry|20# Cherry|Cherry|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Goldenrod|20# Goldenrod|Goldenrod|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Salmon|20# Salmon|Salmon|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Gray|20# Gray|Gray|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Green|20# Green|Green|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Ivory|20# Ivory|Ivory|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Buff|20# Buff|Buff|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Orchid|20# Orchid|Orchid|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Pink|20# Pink|Pink|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+20# Bond|20# Tan|20# Tan|Tan|Paper|75 G/M2 -  20# Bond|75|8.5|11|in|1|15.34
+|20# White Transcend|20# White Trans163 G/M2 - 90 # Indexcend|White|Paper|75 G/M2 -  20# Bond|75|8.5|14|in||9.25
+20# Bond|20# Canary|20# Canary|Canary|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+20# Bond|20# Goldenrod|20# Goldenrod|Goldenrod|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+20# Bond|20# Pastel Blue|20# Pastel Blue|Pastel Blue|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+20# Bond|20# Orchid|20# Orchid|Orchid|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+20# Bond|20# Pastel Cream|20# Pastel Cream|Pastel Cream|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+20# Bond|20# Pastel Green|20# Pastel Green|Pastel Gree|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+20# Bond|20# Pastel Pink|20# Pastel Pink|Pastel Pink|Paper|75 G/M2 -  20# Bond|75|8.5|14|in|1|19.3
+|20# White Multiuse|20# White Multiuse||Paper|75 G/M2 -  20# Bond|75|11|17|in||14.29
+20# Bond|20# Blue|20# Blue|Blue|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Cherry|20# Cherry|Cherry|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Canary|20# Canary|Canary|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Cream|20# Cream|Cream|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Goldenrod|20# Goldenrod|Goldenrod|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Gray|20# Gray|Gray|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Green|20# Green|Green|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Ivory|20# Ivory|Ivory|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Orchid|20# Orchid|Orchid|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Pink|20# Pink|Pink|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Salmon|20# Salmon|Salmon|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+20# Bond|20# Tan|20# Tan|Tan|Paper|75 G/M2 -  20# Bond|75|11|17|in|1|24.06
+|20# White|20# White|White|Paper|75 G/M2 -  20# Bond|75|12|18|in||23.6
+|70# Cougar Offset|70# Cougar Offset||Paper|104 G/M2 - 70# Book|104|8.5|11|in||18.8
+|70# Cougar Natural|70# Cougar Natural||Paper|104 G/M2 - 70# Book|104|8.5|11|in||18.3
+|24# Desert Storm Smooth Text|24# Desert Storm Smooth Text|Desert Storm|Paper|36 G/M2 -  24# Book|36|8.5|11|in|0|90
+60# Offset|60# Tan|60# Tan|Tan|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Pink|60# Pink|Pink|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Orchid|60# Orchid|Orchid|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Husky|60# Husky||Paper|89 G/M2 - 60# Book|89|8.5|11|in|0|10.8
+60# Offset|60# Ivory|60# Ivory|Ivory|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Green|60# Green|Green|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Gray|60# Gray|Gray|Paper|89 G/M2 - 60# Book|89|8.5|11|in|0|14.15
+60# Offset|60# Goldenrod|60# Goldenrod|Goldenrod|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Cream|60# Cream|Cream|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Canary|60# Canary|Canary|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|12.95
+60# Offset|60# Blue|60# Blue|Blue|Paper|89 G/M2 - 60# Book|89|8.5|11|in|0|13.05
+60# Astrobright|60# Astrobright Pulsar Pink|60# Astrobright Pulsar Pink|Pulsar Pink|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Galaxy Gold|60# Astrobright Galaxy Gold|Galaxy Gold|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Martian Green|60# Astrobright Martian Green|Martian Green|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60#Astrobright Lift-Off Lemon|60#Astrobright Lift-Off Lemon|Lift-Off Lemon|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Rocket Red|60# Astrobright Rocket Red|Rocket Red|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Solar Yellow|60# Astrobright Solar Yellow|Solar Yellow|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Terrestrial Teal|60# Astrobright Terrestrial Teal|Terrestrial Teal|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Re-Entry Red|60# Astrobright Re-Entry Red|Re-Entry Red|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Cosmic Orange|60# Astrobright Cosmic Orange|Cosmic Orange|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Orbit Orange|60# Astrobright Orbit Orange|Orbit Orange|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Vulcan Green|60# Astrobright Vulcan Green|Vulcan Green|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+60# Astrobright|60# Astrobright Celestial Blue|60# Astrobright Celestial Blue|Celestial Blue|Paper|89 G/M2 - 60# Book|89|8.5|11|in|1|21.51
+|60# Husky Offset|60# Husky Offset||Paper|89 G/M2 - 60# Book|89|11|17|in||22.97
+60# Offset|60# Blue|60# Blue|Blue|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Tan|60# Tan|Tan|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Pink|60# Pink|Pink|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Orchid|60# Orchid|Orchid|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Ivory|60# Ivory|Ivory|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Green|60# Green|Green|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Gray|60# Gray|Gray|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Goldenrod|60# Goldenrod|Goldenrod|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Cream|60# Cream|Cream|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Canary|60# Canary|Canary|Paper|89 G/M2 - 60# Book|89|11|17|in|1|36.88
+60# Offset|60# Astrobright Pulsar Pink|60# Astrobright Pulsar Pink|Astrobright|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Cosmic Orange|60# Astrobright Cosmic Orange|Pulsar Pink|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Lift-Off Lemon|60# Astrobright Lift-Off Lemon|Cosmic Orange|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Rocket Red|60# Astrobright Rocket Red|Lift-Off Lemon|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Fireball Fuchsia|60# Astrobright Fireball Fuchsia|Rocket Red|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Solar Yellow Smooth|60# Astrobright Solar Yellow Smooth|Fireball Fuchsia|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Terra Green|60# Astrobright Terra Green|Solar Yellow Smooth|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Terrestrial Teal|60# Astrobright Terrestrial Teal|Terra Green|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Re-Entry Red|60# Astrobright Re-Entry Red|Terrestrial Teal|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Gamma Green|60# Astrobright Gamma Green|Re-Entry Red|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Martian Green|60# Astrobright Martian Green|Gamma Green|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+60# Offset|60# Astrobright Celestial Blue|60# Astrobright Celestial Blue|Martian Green|Paper|89 G/M2 - 60# Book|89|11|17|in|1|43.06
+|60# Husky Offset|60# Husky Offset|Celestial Blue|Paper|89 G/M2 - 60# Book|89|12|18|in||26.55
+|70# Canary Offset Paper|70# Canary Offset Paper|Canary|Paper|104 G/M2 - 70# Book|104|11|17|in||32.8
+|70# Cougar Offset|70# Cougar Offset||Paper|104 G/M2 - 70# Book|104|11|17|in||42.13
+|70# Polaris Ink Jet|70# Polaris Ink Jet||Paper|104 G/M2 - 70# Book|104|11|17|in||23.87
+|70# Green Offset|70# Green Offset|Green|Paper|104 G/M2 - 70# Book|104|11|17|in||34.6
+|70# Husky Offset|70# Husky Offset||Paper|104 G/M2 - 70# Book|104|11|17|in||26.82
+|70# Husky Offset|70# Husky Offset||Paper|104 G/M2 - 70# Book|104|12|18|in||30.97
+|70# Cougar Offset|70# Cougar Offset||Paper|104 G/M2 - 70# Book|104|12|18|in||41.25
+|60# Cougar Natural|60# Cougar Natural||Paper|89 G/M2 - 60# Book|89|12|18|in||42.14
+|70# Cougar Natural|70# Cougar Natural||Paper|104 G/M2 - 70# Book|104|12|18|in||47.28
+|80# Husky Offset|80# Husky Offset||Paper|118 G/M2 - 80# Book|118|12|18|in||46
+|80# Cougar Offset|80# Cougar Offset||Paper|118 G/M2 - 80# Book|118|12|18|in||56.5
+|70# Enviro Print|70# Enviro Print||Paper|104 G/M2 - 70# Book|104|12|18|in||51.5
+|70# Soporset Offset|70# Soporset Offset||Paper|104 G/M2 - 70# Book|104|28|40|in||147.55
+|70# Cougar Offset|70# Cougar Offset||Paper|104 G/M2 - 70# Book|104|13|19|in||55.64
+|70# Husky Offset|70# Husky Offset||Paper|104 G/M2 - 70# Book|104|19|25|in||67.08
+|60# Husky Offset|60# Husky Offset||Paper|89 G/M2 - 60# Book|89|19|25|in||54
+|60# Genuine Offset|60# Genuine Offset||Paper|89 G/M2 - 60# Book|89|23|38|in||78.37
+|80# Husky Offset|80# Husky Offset||Paper|118 G/M2 - 80# Book|118|23|35|in||132.95
+|70# Canary Offset|70# Canary Offset|Canary|Paper|104 G/M2 - 70# Book|104|23|35|in||176.06
+|70# Green Offset|70# Green Offset|Green|Paper|104 G/M2 - 70# Book|104|23|35|in||176.06
+|70# Pastel Color|70# Pastel Color|Pastel|Paper|104 G/M2 - 70# Book|104|23|35|in||134.3
+|60# Astrobright Cosmic Orange|60# Astrobright Cosmic Orange|Cosmic Orange|Paper|89 G/M2 - 60# Book|89|23|35|in||185.92
+|60# Astrobright Solar Yellow|60# Astrobright Solar Yellow|Solar Yellow|Paper|89 G/M2 - 60# Book|89|23|35|in||185.92
+|70# Bright Color|70# Bright Color||Paper|104 G/M2 - 70# Book|104|23|35|in||190
+|70# Enviro Print|70# Enviro Print||Paper|104 G/M2 - 70# Book|104|25|38|in||149.27
+|70# Warm White Smooth Via|70# Warm White Smooth Via|Warm White|Paper|104 G/M2 - 70# Book|104|25|38|in||370
+|100# Enviro Print|100# Enviro Print||Paper|148 G/M2 - 100# Book|148|28|40|in||253.5
+24# Writing|24# Capitol Bond|24# Capitol Bond||Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|33.75
+24# Writing|24# Via Laid|24# Via Laid||Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|33.6
+24# Writing|24# Western States Laid - Blue|24# Western States Laid - Blue|Blue|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|29.31
+24# Writing|24# Antique Linen - Gray|24# Antique Linen - Gray|Gray|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|31.91
+24# Writing|24# Antique Linen - White|24# Antique Linen - White|White|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|33.19
+24# Writing|24# Western States Laid - Soft Gray|24# Western States Laid - Soft Gray|Soft Gray|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|32.24
+24# Writing|24# Classic Crest - Antique Gray|24# Classic Crest - Antique Gray|Antique Gray|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|57.63
+24# Writing|24# Classic Laid|24# Classic Laid||Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|40.9
+24# Writing|24# Strathmore Bright White|24# Strathmore Bright White|Bright White|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|45.2
+24# Writing|24# Strathmore Soft White Smooth|24# Strathmore Soft White Smooth|Soft White|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|83.52
+24# Writing|24# Howard Linen Moonstone Blue Linen|24# Howard Linen Moonstone Blue Linen|Moonstone Blue Linen|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|51
+24# Writing|24# Howard Linen Warm White Linen|24# Howard Linen Warm White Linen|Warm White Linen|Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|35
+24# Writing|24# Via Linen|24# Via Linen||Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|32
+24# Writing|24# Via Linen Color|24# Via Linen Color||Paper|90 G/M2 - 24# Bond|90|8.5|11|in|0|34
+|60# Skytone Parchment - NEW WHITE|60# Skytone Parchment - NEW WHITE||Paper|89 G/M2 - 60# Book|89|8.5|11|in||27.53
+|70# Via Linen|70# Via Linen||Paper|104 G/M2 - 70# Book|104|11|17|in||64.1
+|24# Capitol Bond|24# Capitol Bond||Paper|90 G/M2 - 24# Bond|90|11|17|in||80.79
+|24# Capitol Bond|24# Capitol Bond||Paper|90 G/M2 - 24# Bond|90|17.5|22.5|in||219.27
+|70lb Classic Crest Solar White|70lb Classic Crest Solar White|Solar White|Paper|104 G/M2 - 70# Book|104|25|38|in||540
+|24# Classic Linen Natural White|24# Classic Linen Natural White|Natural White|Paper|90 G/M2 - 24# Bond|90|35|23|in||498
+|28# Strathmore Soft White Lines|28# Strathmore Soft White Lines||Paper|105 G/M2 - 28# Ledger|105|35|23|in||358.5
+67# Vellum Bristol|67# White|67# White|White|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|28.8
+67# Vellum Bristol|67# Blue|67# Blue|Blue|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|25.65
+67# Vellum Bristol|67# Canary|67# Canary|Canary|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|23.1
+67# Vellum Bristol|67# Cream|67# Cream|Cream|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|22
+67# Vellum Bristol|67# Goldenrod|67# Goldenrod|Goldenrod|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|23.1
+67# Vellum Bristol|67# Gray|67# Gray|Gray|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|25.65
+67# Vellum Bristol|67# Green|67# Green|Green|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|25.65
+67# Vellum Bristol|67# Ivory|67# Ivory|Ivory|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|22
+67# Vellum Bristol|67# Orchid|67# Orchid|Orchid|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|23.1
+67# Vellum Bristol|67# Pink|67# Pink|Pink|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|23.1
+67# Vellum Bristol|67# Tan|67# Tan|Tan|Paper|147 G/M2 - 67# Bristol|147|8.5|11|in|0|25.65
+65# Astrobright Vellum Bristol|65# Astrobright Celestial Blue|65# Astrobright Celestial Blue|Celestial Blue|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Fireball Fuchsia|65# Astrobright Fireball Fuchsia|Fireball Fuchsia|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Galaxy Gold|65# Astrobright Galaxy Gold|Galaxy Gold|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Gama Green|65# Astrobright Gama Green|Gama Green|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Gamma Green|65# Astrobright Gamma Green|Gamma Green|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Martian Green|65# Astrobright Martian Green|Martian Green|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Cosmic Orange|65# Astrobright Cosmic Orange|Cosmic Orange|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Orbit Orange|65# Astrobright Orbit Orange|Orbit Orange|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Planetary Purple|65# Astrobright Planetary Purple|Planetary Purple|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Outrageous Orchid|65# Astrobright Outrageous Orchid|Outrageous Orchid|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Re-Entry Red|65# Astrobright Re-Entry Red|Re-Entry Red|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Rocket Red|65# Astrobright Rocket Red|Rocket Red|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Solar Yellow|65# Astrobright Solar Yellow|Solar Yellow|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Terrestrial Teal|65# Astrobright Terrestrial Teal|Terrestrial Teal|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Astrobright Vulcan Green|65# Astrobright Vulcan Green|Vulcan Green|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|1|42.68
+65# Astrobright Vellum Bristol|65# Skytone Natural|65# Skytone Natural|Skytone Natural|Paper|176 G/M2 - 65# Cover|176|8.5|11|in|0|41.7
+67# Vellum Bristol|67# White|67# White|White|Paper|147 G/M2 - 67# Bristol|147|11|17|in|0|41
+67# Vellum Bristol|67# Blue|67# Blue|Blue|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Canary|67# Canary|Canary|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Cream|67# Cream|Cream|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Goldenrod|67# Goldenrod|Goldenrod|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Gray|67# Gray|Gray|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Green|67# Green|Green|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Ivory|67# Ivory|Ivory|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+67# Vellum Bristol|67# Pink|67# Pink|Pink|Paper|147 G/M2 - 67# Bristol|147|11|17|in|1|63.58
+65# Astrobright|65# Astrobright Celestial Blue|65# Astrobright Celestial Blue|Celestial Blue|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Cosmic Orange|65# Astrobright Cosmic Orange|Cosmic Orange|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Gamma Green|65# Astrobright Gamma Green|Gamma Green|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Gravity Grape|65# Astrobright Gravity Grape|Gravity Grape|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Lift-Off Lemon|65# Astrobright Lift-Off Lemon|Lift-Off Lemon|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Planetary Purple|65# Astrobright Planetary Purple|Planetary Purple|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Pulsar Pink|65# Astrobright Pulsar Pink|Pulsar Pink|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Re-Entry Red|65# Astrobright Re-Entry Red|Re-Entry Red|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Rocket Red|65# Astrobright Rocket Red|Rocket Red|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Solar Yellow|65# Astrobright Solar Yellow|Solar Yellow|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Terrestrial Teal|65# Astrobright Terrestrial Teal|Terrestrial Teal|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Vulcan Green|65# Astrobright Vulcan Green|Vulcan Green|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# Astrobright Martian Green|65# Astrobright Martian Green|Martian Green|Paper||176|11|17|in|1|85.2
+65# Astrobright|65# BriteHue Ultra Fuchsia - DISC|65# BriteHue Ultra Fuchsia - DISC|tra Fuchsia - DISC|Paper||176|11|17|in|1|85.2
+|80# Astrobright Martian Green|80# Astrobright Martian Green|Martian Green|Paper|175 G/M2 - 80# Bristol|175|26|40|in||870
+|80# Astrobright Solar Yellow|80# Astrobright Solar Yellow|Solar Yellow|Paper|175 G/M2 - 80# Bristol|175|23|35|in||467.55
+|80# Vellum Bristol|80# Vellum Bristol||Paper|175 G/M2 - 80# Bristol|175|26|40|in||115
+|90# White|90# White|White|Paper|163 G/M2 -  90 # Index|163|8.5|11|in||23
+|90# Color|90# Color||Paper|163 G/M2 -  90 # Index|163|8.5|11|in||24
+|90# White|90# White|White|Paper|163 G/M2 -  90 # Index|163|11|17|in||52
+|90# White|90# White|White|Paper|163 G/M2 -  90 # Index|163|8.5|14|in||50.57
+|110# White|110# White|White|Paper|199 G/M2 - 110# Index|199|23|35|in||256
+|110# Green|110# Green|Green|Paper|199 G/M2 - 110# Index|199|22.5|35|in||265.15
+|140# Blue|140# Blue|Blue|Paper|253 G/M2 - 140# Index|253|22.5|35|in||597.66
+|140# Gray|140# Gray|Gray|Paper|253 G/M2 - 140# Index|253|22.5|35|in||597.66
+|140# Green|140# Green|Green|Paper|253 G/M2 - 140# Index|253|22.5|35|in||597.66
+|90# Ivory|90# Ivory|Ivory|Paper|163 G/M2 -  90 # Index|163|22.5|35|in||332
+|90# White|90# White|White|Paper|163 G/M2 -  90 # Index|163|22.5|35|in||327.65
+|110# Salmon|110# Salmon|Salmon|Paper|199 G/M2 - 110# Index|199|22.5|35|in||265.15
+|80# Antique Linen - Gray|80# Antique Linen - Gray|Gray|Paper|216 G/M2 - 80# Cover|216|8.5|11|in||80.4
+|80# Antique Linen - White|80# Antique Linen - White|White|Paper|216 G/M2 - 80# Cover|216|8.5|11|in||80.4
+|80# Soporset Cover|80# Soporset Cover||Paper|216 G/M2 - 80# Cover|216|8.5|11|in||33.2
+|80# Via Natural Fiber Smooth|80# Via Natural Fiber Smooth||Paper|216 G/M2 - 80# Cover|216|8.5|11|in||137.5
+|80# Via Smooth Light Blue Fiber Smooth|80# Via Smooth Light Blue Fiber Smooth||Paper|216 G/M2 - 80# Cover|216|8.5|11|in||137.5
+|80# Via Linen - Bright White|80# Via Linen - Bright White|Bright White|Paper|216 G/M2 - 80# Cover|216|8.5|11|in||74.25
+|80# Cover|80# Cover||Paper|216 G/M2 - 80# Cover|216|11|17|in||58.75
+|100# Cougar Cover|100# Cougar Cover||Paper|270 G/M2 - 100# Cover|270|19|13|in||135
+|80# Strathmore Soft White Smooth|80# Strathmore Soft White Smooth||Paper|216 G/M2 - 80# Cover|216|19|12.5|in||484
+|100# Soporset Cover|100# Soporset Cover||Paper|270 G/M2 - 100# Cover|270|19|13|in||95.65
+|80# Soporset Cover|80# Soporset Cover||Paper|216 G/M2 - 80# Cover|216|19|13|in||74.45
+|65# Cougar Cover|65# Cougar Cover||Paper|176 G/M2 - 65# Cover|176|18|12|in||76.75
+|65# Lynx Cover|65# Lynx Cover||Paper|176 G/M2 - 65# Cover|176|18|12|in||51.2
+|100# Cougar Cover|100# Cougar Cover||Paper|270 G/M2 - 100# Cover|270|18|12|in||129.68
+|100# Soporset Cover|100# Soporset Cover||Paper|270 G/M2 - 100# Cover|270|18|12|in||97.27
+|100# Classic Stipple Digital Epic Black|100# Classic Stipple Digital Epic Black|Black|Paper|270 G/M2 - 100# Cover|270|18|12|in||500
+|100# Desert Storm Smooth Cover|100# Desert Storm Smooth Cover||Paper|270 G/M2 - 100# Cover|270|18|12|in||311
+|100# Classic Crest Antique Gray Smooth|100# Classic Crest Antique Gray Smooth|Antique Gray|Paper|270 G/M2 - 100# Cover|270|18|12|in||431.28
+|100# Natural Cougar Cover|100# Natural Cougar Cover||Paper|270 G/M2 - 100# Cover|270|18|12|in||115
+|130# DT Cougar Cover|130# DT Cougar Cover||Paper|352 G/M2 - 130# Cover|352|18|12|in||227
+|80# Antique Gray - Neenah Papers|80# Antique Gray - Neenah Papers|Antique Gray|Paper|216 G/M2 - 80# Cover|216|18|12|in||347.8
+|80# Cougar Cover|80# Cougar Cover||Paper|216 G/M2 - 80# Cover|216|18|12|in||103.73
+|80# Soporset Cover|80# Soporset Cover||Paper|216 G/M2 - 80# Cover|216|18|12|in||77.83
+|80# Natural Cougar Cover|80# Natural Cougar Cover||Paper|216 G/M2 - 80# Cover|216|18|12|in||104.81
+|110# Classic Crest Whitestone|110# Classic Crest Whitestone||Paper||298|26|40|in||1606.5
+|65lb Boise True Whte Ultra Smooth|65lb Boise True Whte Ultra Smooth||Paper|176 G/M2 - 65# Cover|176|28|40|in||276.11
+|100# Warm White Smooth Via Cover|100# Warm White Smooth Via Cover||Paper|270 G/M2 - 100# Cover|270|26|40|in||1390
+|100# Environment Cover|100# Environment Cover||Paper|270 G/M2 - 100# Cover|270|26|40|in||1656.26
+|80# Environment Cover|80# Environment Cover||Paper|216 G/M2 - 80# Cover|216|26|40|in||1299
+|80# Soporset Cover|80# Soporset Cover||Paper|216 G/M2 - 80# Cover|216|26|40|in||297.2
+|80# Strathmore Soft White Lines Super Smooth|80# Strathmore Soft White Lines Super Smooth||Paper|216 G/M2 - 80# Cover|216|35|23|in||910.06
+|80# Blazer Satin Text|80# Blazer Satin Text||Paper|118 G/M2 - 80# Book|118|12|18|in||27.55
+|100# Gloss Text|100# Gloss Text||Paper|148 G/M2 - 100# Book|148|12|18|in||34.44
+|100# Blazer Satin Text|100# Blazer Satin Text||Paper|148 G/M2 - 100# Book|148|12|18|in||34.44
+|100# Gloss Text|100# Gloss Text||Paper|148 G/M2 - 100# Book|148|13|19|in||39.79
+|80# Gloss Text|80# Gloss Text||Paper|118 G/M2 - 80# Book|118|13|19|in||32.14
+|100# Blazer Satin Text|100# Blazer Satin Text||Paper|148 G/M2 - 100# Book|148|13|19|in||39.79
+|80# Gloss Text|80# Gloss Text||Paper|118 G/M2 - 80# Book|118|19|25|in||66
+|80# Satin Text|80# Satin Text||Paper|118 G/M2 - 80# Book|118|19|25|in||66
+|100# Dull Text|100# Dull Text||Paper|148 G/M2 - 100# Book|148|19|25|in||69.9
+|100# Gloss Text|100# Gloss Text||Paper|148 G/M2 - 100# Book|148|19|25|in||68.95
+|70# Gloss Text|70# Gloss Text||Paper|104 G/M2 - 70# Book|104|19|25|in||49
+|80# Gloss Text|80# Gloss Text||Paper|118 G/M2 - 80# Book|118|23|35|in||152
+|80# Blazer Gloss Cover|80# Blazer Gloss Cover||Paper|216 G/M2 - 80# Cover|216|18|12|in||56.31
+|80# Blazer Satin Cover|80# Blazer Satin Cover||Paper|216 G/M2 - 80# Cover|216|18|12|in||56.31
+|100# Blazer Gloss Cover|100# Blazer Gloss Cover||Paper|270 G/M2 - 100# Cover|270|18|12|in||70.81
+|130# Blazer Gloss Cover|130# Blazer Gloss Cover||Paper|352 G/M2 - 130# Cover|352|18|12|in||92.15
+|12pt C1S Gloss - Kromkote|12pt C1S Gloss - Kromkote||Paper||250|18|12|in||220.33
+|80# Gloss Cover|80# Gloss Cover||Paper|216 G/M2 - 80# Cover|216|19|13|in||78
+|80# Satin Cover|80# Satin Cover||Paper|216 G/M2 - 80# Cover|216|19|13|in||58.39
+|100# Blazer Satin Cover|100# Blazer Satin Cover||Paper|270 G/M2 - 100# Cover|270|19|13|in||97.85
+|100# Blazer Gloss Cover|100# Blazer Gloss Cover||Paper|270 G/M2 - 100# Cover|270|19|13|in||81.04
+|130# Blazer Satin Cover|130# Blazer Satin Cover||Paper|352 G/M2 - 130# Cover|352|19|13|in||120.4
+|130# Gloss Cover|130# Gloss Cover||Paper|352 G/M2 - 130# Cover|352|19|13|in||105.79
+|14 pt ProductoLith C1S|14 pt ProductoLith C1S||Paper||318|20|26|in||230
+|80lb Satin Cover|80lb Satin Cover||Paper|216 G/M2 - 80# Cover|216|25|38|in||313.61
+|80lb Satin Cover|80lb Satin Cover||Paper|216 G/M2 - 80# Cover|216|26|40|in||343.67
+|14pt Tango C2S|14pt Tango C2S||Paper|||18|12|in||120.96
+|16pt Tango C2S|16pt Tango C2S||Paper|||19|13|in||148.22
+|100# Gloss Cover|100# Gloss Cover||Paper|270 G/M2 - 100# Cover|270|19|25|in||130
+|80# Gloss Cover|80# Gloss Cover||Paper|216 G/M2 - 80# Cover|216|19|25|in||105
+|2 Part Reverse (white/pink)|2 Part Reverse (white/pink)||Paper|||8.5|11|in||34
+|2 Part Reverse (white/yellow)|2 Part Reverse (white/yellow)||Paper|||8.5|11|in||34
+|3 Part Reverse|3 Part Reverse||Paper|||8.5|11|in||38.62
+|3 Part Straight|3 Part Straight||Paper|||8.5|11|in||38.62
+|4 Part Reverse|4 Part Reverse||Paper|||8.5|11|in||58.53
+|5 Part Reverse|5 Part Reverse||Paper|||8.5|11|in||58.53
+|2 Part Rx Invalid|2 Part Rx Invalid||Paper|||8.5|11|in||85.2
+|20# CB Canary|20# CB Canary||Paper|||8.5|11|in||60
+|20# CB White|20# CB White||Paper|||8.5|11|in||64.15
+|20# CF Blue|20# CF Blue||Paper|||8.5|11|in||47.75
+|20# CF Green|20# CF Green||Paper|||8.5|11|in||55
+|20# CF Pink|20# CF Pink||Paper|||8.5|11|in||47.75
+|20# CFB Blue|20# CFB Blue||Paper|||8.5|11|in||59.5
+|20# CFB Canary|20# CFB Canary||Paper|||8.5|11|in||83
+|20# CFB Pink|20# CFB Pink||Paper|||8.5|11|in||83
+|20# CFB Green|20# CFB Green||Paper|||8.5|11|in||59.5
+|White Tag CF|White Tag CF||Paper|||8.5|11|in||125.4
+|Manilla Tag CF|Manilla Tag CF||Paper|||8.5|11|in||145.55
+|2 Part Reverse - Snap Apart|2 Part Reverse - Snap Apart||Paper|||9|11|in||57.7
+|3 Part Reverse - Snap Apart|3 Part Reverse - Snap Apart||Paper|||9|11|in||67.17
+|2 Part Reverse|2 Part Reverse||Paper|||8.5|14|in||43.63
+|3 Part Reverse|3 Part Reverse||Paper|||8.5|14|in||52.12
+|2 Part Reverse|2 Part Reverse||Paper|||11|17|in||67.5
+|20# CF Canary|20# CF Canary||Paper|||11|17|in||47.22
+|20# CF Pink|20# CF Pink||Paper|||11|17|in||47.22
+|20# CF White|20# CF White||Paper|||11|17|in||47.22
+|20# CB White|20# CB White||Paper|||11|17|in||60.4
+|20# CFB Canary|20# CFB Canary||Paper|||11|17|in||73.29
+|20# CFB White|20# CFB White||Paper|||11|17|in||73.29
+|3 Part Reverse|3 Part Reverse||Paper|||11|17|in||85.5
+|4 Part Reverse|4 Part Reverse||Paper|||11|17|in||77.19
+|5 Part Reverse|5 Part Reverse||Paper|||11|17|in||77.19
+|CB White|CB White||Paper|||22.5|34.5|in||252.98
+|CFB Canary|CFB Canary||Paper|||22.5|34.5|in||309.7
+|Manilla Tag CF|Manilla Tag CF||Paper|||22.5|34.5|in||584.87
+|White Tag CF|White Tag CF||Paper|||22.5|34.5|in||584.87
+|123-2 Civista DDA Statement Paper|123-2 Civista DDA Statement Paper||Paper|||8.5|11|in||
+|4 Bank Copy Tabs|4 Bank Copy Tabs||Paper|||8.5|11|in||115
+|Fluorescent Label|Fluorescent Label||Paper|||8.5|11|in||175
+|4x3 Laser Labels|4x3 Laser Labels||Paper|||8.5|11|in||170
+|4x3 Western States Laser Labels|4x3 Western States Laser Labels||Paper|||8.5|11|in||281.6
+|4x2 Laser Labels|4x2 Laser Labels||Paper|||8.5|11|in||275
+|1 x 3 Laser Labels|1 x 3 Laser Labels||Paper|||8.5|11|in||330
+|4 x 3.33 Laser Labels|4 x 3.33 Laser Labels||Paper|||8.5|11|in||330
+|3.5 x 2 Laser Labels|3.5 x 2 Laser Labels||Paper|||8.5|11|in||330
+|3.33 Circle Laser Labels|3.33 Circle Laser Labels||Paper|||8.5|11|in||200
+|1.5 Circle Laser Labels|1.5 Circle Laser Labels||Paper|||8.5|11|in||200
+|2.5 Circle Laser Labels|2.5 Circle Laser Labels||Paper|||8.5|11|in||200
+|.5 x 1.75 80-UP Laser Labels|.5 x 1.75 80-UP Laser Labels||Paper|||8.5|11|in||393.8
+|1 x 2.625 30-UP Laser Labels|1 x 2.625 30-UP Laser Labels||Paper|||8.5|11|in||393.8
+|DesignSecure Basketweave Tan 24#|DesignSecure Basketweave Tan 24#||Paper|||8.5|11|in||80
+|RX Invalid Paper - Blue|RX Invalid Paper - Blue|Blue|Paper|||8.5|11|in||47.15
+|RX Invalid Paper - Green|RX Invalid Paper - Green|Green|Paper|||8.5|11|in||47.15
+|Binding Cover - Black|Binding Cover - Black|Black|Paper|||8.5|11|in||390.5
+|Binding Cover - Clear|Binding Cover - Clear|Clear|Paper|||8.5|11|in||168.6
+|Image Clip Laser Light|Image Clip Laser Light||Paper|||11|17|in||1500
+|Integrated Cards|Integrated Cards||Paper|||8.5|11|in||840
+|Kan't Kopy Security Paper|Kan't Kopy Security Paper||Paper|||11|17|in||520
+|Kan't Kopy Security Paper - Cover|Kan't Kopy Security Paper - Cover||Paper|||18|23|in||784
+|24pt Chip Board|24pt Chip Board||Paper|||11|17|in||60.2
+|Matte Litho Opaque Label|Matte Litho Opaque Label||Paper|||12|18|in||361.5
+|10mil Synaps|10mil Synaps||Paper|||12|18|in||954.38
+|14mil DigiMag Plus|14mil DigiMag Plus||Paper|||12|18|in||1500
+|14mil Synaps|14mil Synaps||Paper|||12|18|in||1256.14
+|5mil Thermanent|5mil Thermanent||Paper|||12|18|in||920.05
+|8mil Synaps|8mil Synaps||Paper|||12|18|in||689.95
+|3.4 Mil White Flex Vinyl|3.4 Mil White Flex Vinyl||Paper|||12|18|in||720.1
+|60lb Dry Gum C1S|60lb Dry Gum C1S||Paper|||25|20|in||330
+|Metro High Gloss Label|Metro High Gloss Label||Paper|||12|18|in||283.5
+|105# Gold Smooth Stardream Digital|105# Gold Smooth Stardream Digital||Paper|||13|19|in||684.72
+|105# Pearlized Silver Smooth|105# Pearlized Silver Smooth||Paper|||12|18|in||552
+|84# Flash Cover|84# Flash Cover||Paper|||12|18|in||330
+|Kant Kopy - 60lb|Kant Kopy - 60lb||Paper|||12|18|in||210
+|Metro Offset Label|Metro Offset Label||Paper|||12|18|in||248
+|28# Curious Translucent|28# Curious Translucent||Paper|||12|18|in||100
+|48# Glama Translucent|48# Glama Translucent||Paper|||12|18|in||364.05
+|Diamond Print Glitter - white card stock (15 pt)|Diamond Print Glitter - white card stock (15 pt)||Paper|||13|19|in||800
+|Diamond Print Glitter - white paper stock|Diamond Print Glitter - white paper stock||Paper|||13|19|in||725
+|Starwhite Flash Pearl Cover (ivory)|Starwhite Flash Pearl Cover (ivory)||Paper|||26|40|in||1500
+|Starwhite Fash Pearl Text|Starwhite Fash Pearl Text||Paper|||12|18|in||158.64
+|Starwhite Fash White Text|Starwhite Fash White Text||Paper|||12|18|in||158.64
+|White Ultra Cling Adhesive|White Ultra Cling Adhesive||Paper|||12|18|in||1070
+|Spinnaker White Ultra Removable|Spinnaker White Ultra Removable||Paper|||13|19|in||1240
+|18pt SBS|18pt SBS||Paper|||17|11|in||1
+|20pt SBS|20pt SBS||Paper|||19|13|in||1
+|22pt Chip Board|22pt Chip Board||Paper|||22.5|34.5|in||281
+|40pt Chip Board|40pt Chip Board||Paper|||26|38|in||454
+|150lb Manilla Tag|150lb Manilla Tag||Paper|||24|36|in||477
+|150lb White Tag|150lb White Tag||Paper|||24|36|in||477
+|Starwhite Flash White Cover|Starwhite Flash White Cover||Paper|||26|40|in||1610
+|A2 Envelope for Panel folder note card - White|A2 Envelope for Panel folder note card - White||Paper|||4.375|5.75|in||48.17
+|A2 Panel Card|A2 Panel Card||Paper|||4.25|5.5|in||62.75
+|A2 Panel folder note card - White|A2 Panel folder note card - White||Paper|||4.25|5.5|in||84.08
+|Regular White 24#|Regular White 24#||Paper|||4.125|9.5|in||17.83
+|Regular Security Tint 24#|Regular Security Tint 24#||Paper|||4.125|9.5|in||24.2
+|Regular Kwik-Tac 24#|Regular Kwik-Tac 24#||Paper|||4.125|9.5|in||56.62
+|Regular Kwik-Tac Secure Tint 24#|Regular Kwik-Tac Secure Tint 24#||Paper|||4.125|9.5|in||60.64
+|Regular Pres-Stik 24#|Regular Pres-Stik 24#||Paper|||4.125|9.5|in||52.87
+|Thumb Cut Regular 24#|Thumb Cut Regular 24#||Paper|||4.125|9.5|in||100.67
+|Regular 60# Ivory Vellum|Regular 60# Ivory Vellum||Paper|||4.125|9.5|in||48.94
+|Regular PRISM Gray 24#|Regular PRISM Gray 24#|Prism Gray|Paper|||4.125|9.5|in||38.38
+|Regular STARBURST Yellow 24#|Regular STARBURST Yellow 24#|Starburst Yellow|Paper|||4.125|9.5|in||52.27
+|Antique Linen - Gray (Western) 24#|Antique Linen - Gray (Western) 24#|Gray|Paper|||4.125|9.5|in||68.41
+|Antique Linen - Natural 24#|Antique Linen - Natural 24#||Paper|||4.125|9.5|in||71.15
+|70# Warm White Smooth Via - sold only in 2,500|70# Warm White Smooth Via - sold only in 2,500||Paper|||4.125|9.5|in||101
+|Strathmore Soft White (sold only in 2,500 incr|Strathmore Soft White (sold only in 2,500 incr||Paper|||4.125|9.5|in||133.05
+|Antique Linen - White (Western) 24#|Antique Linen - White (Western) 24#||Paper|||4.125|9.5|in||71.15
+|Capitol Bond 24#|Capitol Bond 24#||Paper|||4.125|9.5|in||64.1
+|Classic Crest - Antique Gray 24#|Classic Crest - Antique Gray 24#|Antique Gray|Paper|||4.125|9.5|in||115.33
+|Classic Linen Natural White 24#|Classic Linen Natural White 24#|Natural White|Paper|||4.125|9.5|in||116
+|Laid - Soft Gray (Western) 24#|Laid - Soft Gray (Western) 24#|Soft Gray|Paper|||4.125|9.5|in||65.94
+|Laid - Soft Ivory (Western) 24#|Laid - Soft Ivory (Western) 24#|Soft Ivory|Paper|||4.125|9.5|in||65.94
+|Royal Sundance - White Fiber 24#|Royal Sundance - White Fiber 24#||Paper|||4.125|9.5|in||64.85
+|Whitecliff Western 24#|Whitecliff Western 24#||Paper|||4.125|9.5|in||62.56
+|Cougar Natural 24#|Cougar Natural 24#||Paper|||4.125|9.5|in||38.95
+|Howard Linen - Moonstone Blue 24#|Howard Linen - Moonstone Blue 24#||Paper|||4.125|9.5|in||75
+|24# Window White|24# Window White||Paper|||4.125|9.5|in||24.18
+|24# Window - RIGHT|24# Window - RIGHT||Paper|||4.125|9.5|in||29.85
+|24# Window C White - Security Tint|24# Window C White - Security Tint||Paper|||4.125|9.5|in||30.61
+|24# Window D White|24# Window D White||Paper|||4.125|9.5|in||21.88
+|24# Window H White|24# Window H White||Paper|||4.125|9.5|in||24.18
+24# Window STARBURST|24# Window STARBURST Blue|24# Window STARBURST Blue|Blue|Paper|||4.125|9.5|in|1|57.88
+24# Window STARBURST|24# Window STARBURST - Cherry|24# Window STARBURST - Cherry|Cherry|Paper|||4.125|9.5|in|1|57.88
+24# Window STARBURST|24# Window STARBURST - Tangerine|24# Window STARBURST - Tangerine|Tangerine|Paper|||4.125|9.5|in|1|57.88
+24# Window STARBURST|24# Window STARBURST - Lime|24# Window STARBURST - Lime|Lime|Paper|||4.125|9.5|in|1|57.88
+24# Window STARBURST|24# Window STARBURST - Yellow|24# Window STARBURST - Yellow|Yellow|Paper|||4.125|9.5|in|1|57.88
+|24# Window Kwik-Tac|24# Window Kwik-Tac||Paper|||4.125|9.5|in||64.11
+|24# Window Security tint w/Kwik-Tac|24# Window Security tint w/Kwik-Tac||Paper|||4.125|9.5|in||68.19
+|24# Postage Meter Window Secure Tint|24# Postage Meter Window Secure Tint||Paper|||4.125|9.5|in||38.72
+|24# Postage Meter Window White - Digi Clear|24# Postage Meter Window White - Digi Clear||Paper|||4.125|9.5|in||32.59
+|28# Cougar White|28# Cougar White||Paper|||4.125|9.5|in||36.95
+|24# Window Health Insurance Envelope|24# Window Health Insurance Envelope||Paper|||4.5|9.5|in||45.43
+|24# Regular White|24# Regular White||Paper|||4.5|10.375|in||38.73
+|24# Regular White #12 Oversize|24# Regular White #12 Oversize||Paper|||4.75|11|in||44.19
+|24# Regular White|24# Regular White||Paper|||3.5|6|in||24.59
+|24# Remittance White|24# Remittance White||Paper|||3.5|6|in||29.95
+|24# Regular White|24# Regular White||Paper|||3.625|6.5|in||18.68
+|24# Regular Pres-Stik|24# Regular Pres-Stik||Paper|||3.625|6.5|in||39.53
+|24# Regular Prism Gray|24# Regular Prism Gray|Gray|Paper|||3.625|6.5|in||32.13
+|24# Regular Prism Green|24# Regular Prism Green|Green|Paper|||3.625|6.5|in||32.13
+|24# Regular Starburts Yellow|24# Regular Starburts Yellow|Yellow|Paper|||3.625|6.5|in||42.6
+|24# Remittance White|24# Remittance White|Whte|Paper|||3.625|6.5|in||31.36
+|24# Remittance Blue|24# Remittance Blue|Blue|Paper|||3.625|6.5|in||50.65
+|24# Remittance Pink|24# Remittance Pink|Pink|Paper|||3.625|6.5|in||50.65
+|24# Dual Purpose Mailer|24# Dual Purpose Mailer||Paper|||3.625|6.5|in||57.79
+|24# Regular White|24# Regular White||Paper|||3.625|8.625|in||22.53
+|24# Regular White|24# Regular White||Paper|||3.75|6.75|in||25.05
+|24# Regular White|24# Regular White||Paper|||3.875|8.875|in||18.23
+|24# Window White|24# Window White||Paper|||3.875|8.875|in||25.45
+|24# F SHORT Window White (tint)|24# F SHORT Window White (tint)||Paper|||3.875|8.875|in||30.49
+|24# Remittance White|24# Remittance White||Paper|||3.875|8.875|in||37.5
+|24# Dual Purpose Mailer|24# Dual Purpose Mailer||Paper|||3.875|8.875|in||61.1
+|24# Regular Security Tint|24# Regular Security Tint||Paper|||3.875|8.875|in||26.59
+|24# Double Window Security tint|24# Double Window Security tint||Paper|||3.875|8.875|in||42.85
+|24# Flip-Stik Double Window Security Tint|24# Flip-Stik Double Window Security Tint||Paper|||3.875|8.875|in||60.25
+|24# Window Security tint|24# Window Security tint||Paper|||3.875|8.875|in||31.87
+|24# Church Offering|24# Church Offering||Paper|||3.125|6.25|in||37.11
+|24# Booklet|24# Booklet||Paper|||5.75|8.875|in||42.94
+|24# Booklet|24# Booklet||Paper|||6|9|in||37.11
+|24# Catalog|24# Catalog||Paper|||6|9|in||44.57
+|24# Catalog 7.5 x 10.5|24# Catalog 7.5 x 10.5||Paper|||7.5|10.5|in||68.81
+|24# Catalog Kwik-Tak|24# Catalog Kwik-Tak||Paper|||6|9|in||88.7
+|24# Kraft Catalog 6 x 9|24# Kraft Catalog 6 x 9||Paper|||6|9|in||49.35
+|28# Catalog Kwik-Tak|28# Catalog Kwik-Tak||Paper|||6.5|9.5|in||94.4
+|28# Custom Booklet|28# Custom Booklet||Paper|||6.5|9.5|in||98.55
+|24# Booklet|24# Booklet||Paper|||6|9.5|in||42.29
+|24# Booklet|24# Booklet||Paper|||6.125|9.5|in||73.74
+|24# Booklet #2 Window|24# Booklet #2 Window||Paper|||6|9|in||58.1
+|24# Booklet #4 Window|24# Booklet #4 Window||Paper|||6|9.5|in||59.59
+|28# Booklet|28# Booklet||Paper|||9|12|in||68.01
+|28# Booklet Kwick-Tac|28# Booklet Kwick-Tac||Paper|||9|12|in||103.46
+|28# Catalog Kwik-Tac|28# Catalog Kwik-Tac||Paper|||9|12|in||100.54
+|28# Kraft 11.5 x 14.5 with clasp|28# Kraft 11.5 x 14.5 with clasp||Paper|||11.5|14.5|in||158.02
+|28# Kraft Catalog|28# Kraft Catalog||Paper|||11.5|14.5|in||132.58
+|28# Kraft Catalog Kwick-Tac|28# Kraft Catalog Kwick-Tac||Paper|||9|12|in||107.64
+|28# Catalog|28# Catalog||Paper|||9|12|in||64.46
+|28# Catalog Gray|28# Catalog Gray|Gray|Paper|||9|12|in||126.97
+|28# Catalog Kraft|28# Catalog Kraft||Paper|||9|12|in||70
+|28# Catalog Digi-Clear Window|28# Catalog Digi-Clear Window||Paper|||9|12|in||132.62
+|28# Catalog|28# Catalog||Paper|||9.5|12.5|in||89.8
+|28# Catalog Kwik-Tak|28# Catalog Kwik-Tak||Paper|||9.5|12.5|in||125.33
+|28# Booklet|28# Booklet||Paper|||10|13|in||82.14
+|28# Catalog Kraft|28# Catalog Kraft||Paper|||10|13|in||91.34
+|28# Catalog Kwik-Tak Brown|28# Catalog Kwik-Tak Brown|Brown|Paper|||10|13|in||127.59
+|28# Catalog Kwik-Tak White|28# Catalog Kwik-Tak White||Paper|||10|13|in||121.45
+|28# Catalog White|28# Catalog White||Paper|||10|13|in||86.25
+|4 Bar Cougar|4 Bar Cougar||Paper|||3.625|5.125|in||49.04
+|4 Bar Cougar Natural|4 Bar Cougar Natural||Paper|||3.625|5.125|in||45.45
+|A2 24# Strathmore Soft White Smooth|A2 24# Strathmore Soft White Smooth||Paper|||4.375|5.75|in||179.36
+|A2 Antique Linen - gray|A2 Antique Linen - gray|Gray|Paper|||4.375|5.75|in||61.71
+|A2 Antique Linen - White|A2 Antique Linen - White|White|Paper|||4.375|5.75|in||61.71
+|A2 Cougar|A2 Cougar||Paper|||4.375|5.75|in||47.7
+|A2 Cougar Natural|A2 Cougar Natural||Paper|||4.375|5.75|in||47.7
+|A2 Machine Insertable|A2 Machine Insertable||Paper|||4.375|5.75|in||37.24
+|A6 Cougar|A6 Cougar||Paper|||4.75|6.5|in||57.88
+|A6 Cougar Natural|A6 Cougar Natural||Paper|||4.75|6.5|in||33.61
+|A6 Machine Insertable|A6 Machine Insertable||Paper|||4.75|6.5|in||37.77
+|A7 Colored Envelopes from C & P|A7 Colored Envelopes from C & P||Paper|||5.25|7.25|in||350
+|A7 Cougar Natural|A7 Cougar Natural||Paper|||5.25|7.25|in||61.25
+|A7 Cougar White|A7 Cougar White||Paper|||5.25|7.25|in||69.36
+|A7 Machine Insertable|A7 Machine Insertable||Paper|||5.25|7.25|in||41.46
+|A7 Starburst Color|A7 Starburst Color||Paper|||5.25|7.25|in||73.63
+|A8 Machine Insertable|A8 Machine Insertable||Paper|||5.5|8.125|in||45.75
+|A9 Colored Envelopes from C & P|A9 Colored Envelopes from C & P||Paper|||5.75|8.875|in||399.8
+|RSVP Colored Envelopes from C & P|RSVP Colored Envelopes from C & P||Paper|||3.625|5.125|in||200
+|28# Flush Cut 6 x 9|28# Flush Cut 6 x 9||Paper|||6|9|in||89.08
+|28# Thumb Cut 6 x 9|28# Thumb Cut 6 x 9||Paper|||6|9|in||89.23
+|3.75 x 7 Ungummed Open End Flap|3.75 x 7 Ungummed Open End Flap||Paper|||3.75|7|in||39.74
+|3.75 x 7 Ungummed Open End Flap (EM)|3.75 x 7 Ungummed Open End Flap (EM)||Paper|||3.75|7|in||
+|Clear Poly Envelopes|Clear Poly Envelopes||Paper|||2.6875|3.5|in||28
+|Clear Poly Envelopes|Clear Poly Envelopes||Paper|||8.25|10.12|in||76.33
+|Clear Poly Envelopes|Clear Poly Envelopes||Paper|||9|12|in||150
+|Coin Envelopes 2.5 x 4.25|Coin Envelopes 2.5 x 4.25||Paper|||2.5|4.25|in||33.17
+|Doorknob Hanger Envelope|Doorknob Hanger Envelope||Paper|||4.375|8.75|in||82.68
+|King Size|King Size||Paper|||13|19|in||416.73

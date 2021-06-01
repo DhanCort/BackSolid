@@ -1,0 +1,8 @@
+DescriptiveName,?,string,,Human readable description of the module.
+Manufacturer,?,string,,Manufacturer name.
+ManufacturerURL,?,URL,,Web site for manufacturer.
+ModuleID,,NMTOKEN,,"Identifier of the module. This is a unique identifier within the workflow. @ModuleID SHALL be the same over time for a specific Module instance (i.e., SHALL survive reboots). If multiple logical devices share a physical Module, @ModuleID SHALL be identical. @ModuleID SHOULD be used to specify machines that comprise a Device."
+ModuleType,?,NMTOKENS,NMSModuleTypes,"@ModuleType provides a classification of the module. Modules with multiple functions SHOULD provide all appropriate values. If known, @ModuleType SHOULD be provided. Values include those from: ?Module Types."
+Revision,?,string,,Hardware or software version of the Module. See Device/@Revision.
+SerialNumber,?,string,,Serial number of the Module.
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this Module.

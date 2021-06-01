@@ -1,0 +1,4 @@
+SheetLay,?,enumeration,SheetLay,Lay of the input Component.
+Cut,*,element,,Cut elements describe an individual cut. The cuts shall be performed in the same sequence as they occur in this CuttingParams. Cut elements SHALL NOT be specified if CutBlock elements are specified.
+CutBlock,*,element,,These CutBlock elements describe the output cut blocks that SHALL be cut out of the input Component. CutBlock elements SHALL NOT be specified if Cut elements are specified. CuttingParams SHALL NOT be partitioned by @BlockName values that match CutBlock/@BlockName.
+FileSpec,?,element,,"Reference to a CIP3 file that contains cutting instructions in the ?[CIP3 - PPF] format. If FileSpec(CIP3) is specified, Cut and CutBlock SHALL NOT be present."

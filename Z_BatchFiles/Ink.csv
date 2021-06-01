@@ -1,0 +1,3 @@
+InkType,?,NMTOKENS,NMSInkAndVarnishCoatings,"@InkType SHALL list specific ink type and qualities, e.g. @InkType=""Gloss Relief Varnish"". Values include those from: ?Ink and Varnish Coatings."
+SpecificYield,?,float,,Weight per area at total coverage in g/m2
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with the container of this Ink.

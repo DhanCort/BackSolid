@@ -1,0 +1,7 @@
+ColorantConvertProcess,?,NMTOKENS,,List of colors that SHALL be converted to process colors. If not specified then all colors that are not listed in @ColorantParams SHALL be converted. An application MAY issue a warning for all PDL colors that are not in either of @ColorantParams or @ColorantConvertProcess.
+ColorantOrder,?,NMTOKENS,,The ordering of the colorant identifiers to be processed. All of the colorants named SHALL occur in the @ColorantParams list.
+ColorantParams,?,NMTOKENS,,@ColorantParams defines all the colorant identifiers that are expected to be available on the printing device. Colorant identifiers found in the PDL that are not listed in @ColorantParams SHALL be implemented through their @ProcessColorModel equivalents. (See ColorSpaceConversion process.) The colorants implied by the value of @ProcessColorModel SHALL be specified in this list.
+MappingSelection,?,enumeration,MappingSelection,@MappingSelection specifies how a combination of process colorant values SHALL be obtained for any spot color when the separation spot colorant itself is not available.
+ProcessColorModel,?,enumeration,ProcessColorModel,Specifies the model to be used for rendering the colorants defined in color spaces into process colorants.
+ColorantAlias,*,element,,Each ColorantAlias is used to map a color name from the PDL to a separation.
+DeviceNSpace,?,element,,"DeviceNSpace defines the colorants that make up a DeviceN color space. DeviceNSpace SHALL be present if the @ProcessColorModel value is ""DeviceN"

@@ -1,0 +1,2 @@
+GluingProductionID,?,NMTOKEN,,Defines a gluing scheme for production
+Glue,*,element,,Definition of one or more Glue line applications.

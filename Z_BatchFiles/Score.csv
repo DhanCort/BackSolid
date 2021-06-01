@@ -1,0 +1,2 @@
+Offset,,float,,Position of scoring given in the operation coordinate system.
+Side,,enumeration,,Specifies the side from which the scoring tool works.

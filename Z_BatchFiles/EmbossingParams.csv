@@ -1,0 +1,2 @@
+ModuleID,?,NMTOKEN,,Identifier of the embossing module in a multi-function device such as a printing press. See Module for details.
+Emboss,+,element,,One Emboss element is specified for each impression.

@@ -1,0 +1,6 @@
+MediaRef,,IDREF,,@MediaRef SHALL reference a Media that specifies details of the original media such as size.
+PlateType,?,enumeration,PlateType,"Specifies whether a plate is exposed or a dummy plate. Allowed values are: Dummy – Specifies a dummy plate that has not been imaged. Usually, dummy plates are only needed on newspaper/web presses or for Varnishing. Exposed – The plate has been imaged."
+Polarity,?,enumeration,Polarity,@Polarity specifies the polarity of the image on the ExposedMedia. Allowed value is from: ?Polarity.
+PunchType,?,NMTOKEN,,"Name of the registration punch scheme. See Bending. If not specified, no holes have been punched. Values include: Bacher Stoesser"
+Resolution,?,XYPair,,Resolution of the output
+IdentificationField,*,element,,IdentificationField associates bar codes or labels with this ExposedMedia.

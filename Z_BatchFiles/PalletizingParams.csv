@@ -1,0 +1,6 @@
+LayerAmount,?,IntegerList,,"Ordered number of input components in a layer. The first number is the first layer on the bottom. If there are more layers than entries in the list, counting restarts at the first entry."
+MaxHeight,?,float,,Maximum height of a loaded pallet in points.
+MaxWeight,?,float,,Maximum weight of a loaded pallet in grams.
+Overhang,?,XYPair,,Overhang in x and y direction on each side
+OverhangOffset,?,XYPair,,Overhang offset if overhang is not centered.
+Pattern,?,NMTOKEN,,Name of the palletizing pattern. Used to store a predefined pattern that defines the layers and positioning of individual component on the pallet.

@@ -1,0 +1,2 @@
+StapleShape,?,enumeration,StapleShape,Specifies the shape of the staples to be used.
+StitchNumber,?,integer,,Number of stitches used for side stitching

@@ -1,0 +1,2 @@
+CollatingItem,*,element,,"Defines the collating sequence of the input Component(s). If a CollatingItem is not defined, then one Component in the order of input Resource list is consumed."
+Feeder,*,element,,"Defines the specifics of an individual Feeder. If a Component from the input resource list is not referenced from a Feeder in this list, a system defined Feeder will be used."

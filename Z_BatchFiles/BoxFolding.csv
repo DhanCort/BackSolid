@@ -1,0 +1,14 @@
+Input,BoxFoldingParams
+Input,Component
+Input,ApprovalDetails
+Input,Color
+Input,Contact
+Input,CustomerInfo
+Input,Device
+Input,MiscConsumable
+Input,NodeInfo
+Input,Preview
+Input,Tool
+Input,TransferCurve
+Input,UsageCounter
+Ouput,Component

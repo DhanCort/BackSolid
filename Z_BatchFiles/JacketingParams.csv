@@ -1,0 +1,2 @@
+FoldingDistance,?,float,,"Distance from the fold at @FoldingWidth to the other fold. If not specified, it defaults to the width of the jacket minus double the value of @FoldingWidth (symmetrical folds)."
+FoldingWidth,,float,,"Definition of the dimension of the folding width of the front cover fold. All other measurements are implied by the dimensions of the book."

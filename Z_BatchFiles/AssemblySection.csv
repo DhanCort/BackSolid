@@ -1,0 +1,2 @@
+BinderySignatureID,,NMTOKEN,,@BinderySignatureID identifies the BinderySignature that this AssemblySection represents.
+AssemblySection,*,element,,Additional child AssemblySection elements that SHALL be gathered. The resulting set of AssemblySection elements SHALL be collected inside this AssemblySection.

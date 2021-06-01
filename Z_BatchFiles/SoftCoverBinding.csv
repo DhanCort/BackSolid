@@ -1,0 +1,8 @@
+BlockThreadSewing,?,boolean,,Specifies whether the block is also thread sewn
+EndSheets,?,boolean,,"@EndSheets SHALL be specified if end sheets SHALL be applied. Additional details of the end sheets MAY be specified by supplying a Product that is referenced by the parent BindingIntent/@ChildRefs whose @ProductType=""EndSheet""."
+FoldingWidth,?,float,,Definition of the dimension of the folding width of the front cover fold. See JacketingParams for details.
+FoldingWidthBack,?,float,,"Definition of the dimension of the folding width of the back cover fold. If not specified, @FoldingWidthBack defaults to @FoldingWidth."
+GlueProcedure,?,enumeration,,Glue procedure used to glue the book block to the cover.
+Scoring,?,enumeration,,"Scoring option for SoftCoverBinding. Values are based on viewing the cover in its flat, pre-bound state."
+SpineGlue,?,enumeration,Glue,Glue type used to glue the book block to the cover.
+SpineOperations,?,NMTOKENS,NMSSpineOperations,@SpineOperations lists the operations that SHOULD be performed when preparing the spine.
