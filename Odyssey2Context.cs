@@ -81,10 +81,10 @@ namespace Odyssey2Backend
             //String strConnection = "Server=DESKTOP-V7N9AKM;Database=Odyssey2DB;User=DBUser;Password=DBUser2020";
             //String strConnection = "Server=DESKTOP-K1ISDPO;Database=Odyssey2DB;User=DBUser;Password=DBUser2020";
             //String strConnection = "Server=DESKTOP-77T6QPB;Database=Odyssey2DB;User=DBUser;Password=DBUser2020";
-            //String strConnection = "Server=DESKTOP-24FK2EH;Database=Odyssey2DB;User=DBUser;Password=DBUser2019";
+            String strConnection = "Server=LAPTOP-ABQDT25C;Database=Odyssey2DB;User=DBUser;Password=DBUser2019";
             //String strConnection = "Server=DESKTOP-H8G3C5J;Database=Odyssey2DB;User=DBUser;Password=DBUser2020";
             //String strConnection = "Server=TOWAAPP01;Database=Odyssey2DB;User=DBUser;Password=DBUser2019";
-            String strConnection = "Server=MI4P-Odyssey;Database=Odyssey2DB;User=DBUser;Password=DBUser2020";
+            //String strConnection = "Server=MI4P-Odyssey;Database=Odyssey2DB;User=DBUser;Password=DBUser2020";
 
             optionsBuilder.UseSqlServer(strConnection);
         }

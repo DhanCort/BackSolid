@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using TowaStandard;
 using Odyssey2Backend.Alert;
 using Microsoft.AspNetCore.SignalR;
+using Odyssey2Backend.Process.SRP;
 
 //                                                          //AUTHOR: Towa (LGF - Liliana Gutierrez).
 //                                                          //CO-AUTHOR: Towa (AQG - Andrea Quiroz).
@@ -100,7 +101,7 @@ namespace Odyssey2Backend.XJDF
             //                                              //      the XJDF to the clone.
             ProtypProcessType protypBelongsTo = protypBelongsTo_I;
             if (
-                ProProcess.boolIsValidType(ps, context, ref protypBelongsTo)
+                ValidateProcessType.boolIsValidType(ps, context, ref protypBelongsTo)
                 )
             {
                 intStatus_IO = 403;
@@ -128,80 +129,6 @@ namespace Odyssey2Backend.XJDF
                 }
             }
             return intPkProcessAdded;
-        }
-
-        //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-        public static bool boolIsValidType(
-            //                                              //Verify if the type for the process is not null 
-            //                                              //      and verify if the type is already a clone for the 
-            //                                              //      printshop, if it is not then create the clone and
-            //                                              //      add it to the printshop and update the type with the
-            //                                              //      clone.
-
-            //                                              //Printshop.
-            PsPrintShop ps_I,
-            Odyssey2Context context_M,
-            //                                              //Type.
-            ref ProtypProcessType protyp_M
-            )
-        {
-            bool boolValidType = false;
-
-            if (
-                protyp_M != null
-                )
-            {
-                //                                          //To easy code.
-                ProtypProcessType protyp = protyp_M;
-                //                                          //Search for a type with the same data.
-                EtentityElementTypeEntityDB etentityResourceType = context_M.ElementType.FirstOrDefault(
-                                et => et.strAddedBy == protyp.strAddedBy &&
-                                et.strCustomTypeId == protyp.strCustomTypeId &&
-                                et.intPrintshopPk == ps_I.intPk);
-
-                int intStatus = -1;
-                int intTypePk = protyp.intPk;
-                /*CASE*/
-                if (
-                    //                                      //The protyp is not a clone.
-                    (protyp.intPkPrintshop == null) &&
-                    //                                      //There is not a clone.
-                    (etentityResourceType == null)
-                    )
-                {
-                    Odyssey2.subAddTypeToPrintshop(protyp.intPk, ps_I, context_M, out intStatus, out intTypePk);
-                }
-                else if (
-                    //                                      //The printshop has the clone but the object is about the 
-                    //                                      //      generic type.
-                    //                                      //The protyp is not a clone.
-                    (protyp.intPkPrintshop == null) &&
-                    //                                      //There is a clone.
-                    (etentityResourceType != null)
-                    )
-                {
-                    intStatus = 0;
-                    intTypePk = etentityResourceType.intPk;
-                }
-                else if (
-                    //                                      //The printshop has the clone and the object is that clone.
-                    (protyp.intPkPrintshop != null) &&
-                    (protyp.intPkPrintshop == ps_I.intPk)
-                    )
-                {
-                    intStatus = 0;
-                }
-                /*END-CASE*/
-
-                if (
-                    intStatus == 0
-                    )
-                {
-                    boolValidType = true;
-                    protyp_M = (ProtypProcessType)EtElementTypeAbstract.etFromDB(context_M, intTypePk);
-                }
-            }
-            return boolValidType;
         }
 
         //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

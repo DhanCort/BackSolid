@@ -13,6 +13,7 @@ using System.Linq;
 using TowaStandard;
 using Microsoft.AspNetCore.SignalR;
 using Odyssey2Backend.Utilities;
+using Odyssey2Backend.Process.SRP;
 
 //                                                          //AUTHOR: Towa (AQG - Andrea Quiroz).
 //                                                          //CO-AUTHOR: Towa (LGF - Liliana Gutierrez).
@@ -2313,7 +2314,7 @@ namespace Odyssey2Backend.XJDF
                     if (
                         //                                  //The type is pass as ref, because it can be 
                         //                                  //      changed from the XJDF to the clone.
-                        ProProcess.boolIsValidType(ps_I, context_M, ref protyp)
+                        ValidateProcessType.boolIsValidType(ps_I, context_M, ref protyp)
                         )
                     {
                         if (
