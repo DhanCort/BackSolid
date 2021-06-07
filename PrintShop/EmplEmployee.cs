@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.SignalR;
 using Odyssey2Backend.Alert;
 using Odyssey2Backend.Customer;
 using System.Text.Json;
+using Odyssey2Backend.Process.SRP;
 //                                                          //AUTHOR: Towa (AQG - Andrea Quiroz).
 //                                                          //CO-AUTHOR: Towa ().
 //                                                          //DATE: June 22, 2020.
@@ -662,74 +663,7 @@ namespace Odyssey2Backend.PrintShop
                     roleentity != null
                     )
                 {
-                    if (
-                        //                                  //Set or unset Accountant.
-                        boolnIsSupervisor_I == null
-                        )
-                    {
-                        /*CASE*/
-                        if (
-                            //                              //Set accountant.
-                            boolnIsAccountant_I == true
-                            )
-                        {
-                            roleentity.boolAccountant = true;
-                            context.Role.Update(roleentity);
-                        }
-                        else if (
-                            //                              //Unset account whenever exist a supervisor.
-                            boolnIsAccountant_I == false &&
-                            roleentity.boolSupervisor == true
-                            )
-                        {
-                            roleentity.boolAccountant = false;
-                            context.Role.Update(roleentity);
-                        }
-                        else if (
-                            //                              //Unset account whenever not exist a supervisor.
-                            boolnIsAccountant_I == false &&
-                            roleentity.boolSupervisor == false
-                            )
-                        {
-                            //                              //Remove employee.
-                            context.Role.Remove(roleentity);
-                        }
-                        /*END-CASE*/
-                    }
-                    else
-                    //                                  //Set or unset supervisor.
-                    {
-                        /*CASE*/
-                        if (
-                            //                              //Set supervisor.
-                            boolnIsSupervisor_I == true
-                            )
-                        {
-                            roleentity.boolSupervisor = true;
-                            context.Role.Update(roleentity);
-                        }
-                        else if (
-                            //                              //Unset supervisor whenever exist a supervisor.
-                            boolnIsSupervisor_I == false &&
-                            roleentity.boolAccountant == true
-                            )
-                        {
-                            roleentity.boolSupervisor = false;
-                            context.Role.Update(roleentity);
-                        }
-                        else if (
-                            //                              //Unset supervisor whenever not exist a supervisor.
-                            boolnIsSupervisor_I == false &&
-                            roleentity.boolAccountant == false
-                            )
-                        {
-                            //                              //Remove employee
-                            context.Role.Remove(roleentity);
-                        }
-                        /*END-CASE*/
-                    }
-
-                    context.SaveChanges();
+                    UpdateRole.subUpdate(boolnIsSupervisor_I, boolnIsAccountant_I, roleentity, context);
 
                     intStatus_IO = 200;
                     strUserMessage_IO = "";
@@ -749,16 +683,8 @@ namespace Odyssey2Backend.PrintShop
                     else
                     {
                         //                                  //Add employee as supervisor or accountant.
-                        roleentity = new RolentityRoleEntityDB
-                        {
-                            intContactId = intContactId_I,
-                            intPkPrintshop = intPkPrintshop,
-                            boolSupervisor = (boolnIsSupervisor_I == null ? false : (bool)boolnIsSupervisor_I),
-                            boolAccountant = (boolnIsAccountant_I == null ? false : (bool)boolnIsAccountant_I)
-                        };
-
-                        context.Role.Add(roleentity);
-                        context.SaveChanges();
+                        SaveEmployeeToRoleTable.subSave(intContactId_I, intPkPrintshop, boolnIsSupervisor_I,
+                            boolnIsAccountant_I, context);
 
                         intStatus_IO = 200;
                         strUserMessage_IO = "";
