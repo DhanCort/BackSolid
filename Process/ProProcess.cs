@@ -108,20 +108,12 @@ namespace Odyssey2Backend.XJDF
                 strUserMessage_IO = "Invalid name.";
                 strDevMessage_IO = "Invalid name.";
                 if (
-                    ProProcess.boolIsValidProcessName(strName_I, (int)protypBelongsTo.intPkPrintshop,
+                    ValidateProcessName.isValid(strName_I, (int)protypBelongsTo.intPkPrintshop,
                     ref strUserMessage_IO)
                     )
                 {
                     //                                      //Add the process.
-                    EleentityElementEntityDB elentity = new EleentityElementEntityDB
-                    {
-                        strElementName = strName_I,
-                        intPkElementType = protypBelongsTo.intPk,
-                    };
-                    context.Element.Add(elentity);
-                    context.SaveChanges();
-
-                    intPkProcessAdded = elentity.intPk;
+                    SaveProcessToDB.subSave(strName_I, context, protypBelongsTo.intPk, out intPkProcessAdded);
 
                     intStatus_IO = 200;
                     strUserMessage_IO = "";
@@ -129,46 +121,6 @@ namespace Odyssey2Backend.XJDF
                 }
             }
             return intPkProcessAdded;
-        }
-
-        //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-        public static bool boolIsValidProcessName(
-
-            //                                              //Name of the process. There can not be more than one 
-            //                                              //      process with the same name in the same printshop.
-            String strName_I,
-            int intPkPrintshop_I,
-            ref String strUserMessage_IO
-            )
-        {
-            bool boolValidProcess = false;
-
-            strUserMessage_IO = "Name cannot be empty";
-            if (
-                (strName_I != null) &&
-                (strName_I != "")
-                )
-            {
-                Odyssey2Context context = new Odyssey2Context();
-
-                List<EleentityElementEntityDB> seteleentityProcess =
-                    (from eleentity in context.Element
-                     join eleetentity in context.ElementType
-                     on eleentity.intPkElementType equals eleetentity.intPk
-                     where eleetentity.intPrintshopPk == intPkPrintshop_I && eleentity.strElementName == strName_I &&
-                     eleetentity.strResOrPro == EtElementTypeAbstract.strProcess
-                     select eleentity).ToList();
-
-                strUserMessage_IO = "Name already exists.";
-                if (
-                    //                                      //There is not another process with the same name.
-                    seteleentityProcess.Count == 0
-                    )
-                {
-                    boolValidProcess = true;
-                }
-            }
-            return boolValidProcess;
         }
 
         //--------------------------------------------------------------------------------------------------------------
@@ -207,37 +159,20 @@ namespace Odyssey2Backend.XJDF
                 if (
                     //                                      //If the custom Process dont exists will create it.
                     etentity == null &&
-                    ProProcess.boolIsValidProcessName(strCustomProcessName_I, intPkPrintshop_I, ref strUserMessage_IO)
+                    ValidateProcessName.isValid(strCustomProcessName_I, intPkPrintshop_I, ref strUserMessage_IO)
                     )
                 {
-                    etentity = new EtentityElementTypeEntityDB
-                    {
-                        strXJDFTypeId = EtElementTypeAbstract.strNotXJDF,
-                        strResOrPro = EtElementTypeAbstract.strProcess,
-                        intPrintshopPk = intPkPrintshop_I,
-                        strAddedBy = strPrintshopId_I,
-                        strCustomTypeId = ProtypProcessType.strProCustomType
-                    };
-
-                    context.ElementType.Add(etentity);
-                    context.SaveChanges();
+                    SaveElementType.subSave(strPrintshopId_I, intPkPrintshop_I, context);
 
                     EtentityElementTypeEntityDB etentityPk = context.ElementType.FirstOrDefault(et =>
                         et.strCustomTypeId == ProtypProcessType.strProCustomType && et.strAddedBy == strPrintshopId_I);
+
                     //                                  //Create Element.
-                    EleentityElementEntityDB eleentityPro = new EleentityElementEntityDB
-                    {
-                        strElementName = strCustomProcessName_I,
-                        intPkElementType = etentityPk.intPk
-                    };
-                    //                                  //Add custom process.
-                    context.Element.Add(eleentityPro);
-                    context.SaveChanges();
+                    SaveProcessToDB.subSave(strCustomProcessName_I, context, etentityPk.intPk, out intProcessTypePk_O);
 
                     intStatus_IO = 200;
                     strUserMessage_IO = "";
                     strDevMessage_IO = "";
-                    intProcessTypePk_O = eleentityPro.intPk;
 
                 }
                 else
@@ -246,24 +181,16 @@ namespace Odyssey2Backend.XJDF
                     strUserMessage_IO = "Invalid name.";
                     strDevMessage_IO = "";
                     if (
-                        ProProcess.boolIsValidProcessName(strCustomProcessName_I, intPkPrintshop_I,
+                        ValidateProcessName.isValid(strCustomProcessName_I, intPkPrintshop_I,
                         ref strUserMessage_IO)
                         )
                     {
                         //                                  //Create Element.
-                        EleentityElementEntityDB eleentityPro = new EleentityElementEntityDB
-                        {
-                            strElementName = strCustomProcessName_I,
-                            intPkElementType = etentity.intPk
-                        };
-                        //                                  //Add custom process.
-                        context.Element.Add(eleentityPro);
-                        context.SaveChanges();
+                        SaveProcessToDB.subSave(strCustomProcessName_I, context, etentity.intPk, out intProcessTypePk_O);
 
                         intStatus_IO = 200;
                         strUserMessage_IO = "";
                         strDevMessage_IO = "";
-                        intProcessTypePk_O = eleentityPro.intPk;
                     }
                 }
             }
@@ -921,7 +848,7 @@ namespace Odyssey2Backend.XJDF
                 //                                          //No user message because this method returns that.
                 strDevMessage_IO = "";
                 if (
-                    ProProcess.boolIsValidProcessName(strProcessName_I, (int)pro.protypBelongsTo.intPkPrintshop, ref
+                    ValidateProcessName.isValid(strProcessName_I, (int)pro.protypBelongsTo.intPkPrintshop, ref
                         strUserMessage_IO)
                     )
                 {
