@@ -12,6 +12,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TowaStandard;
 using Odyssey2Backend.Customer;
+using Odyssey2Backend.PrintShop.sOlid_Cal;
 
 //                                                          //AUTHOR: Towa (CLGA-Cesar Garcia).
 //                                                          //CO-AUTHOR: Towa (LGF-Liliana Gutierrez).
@@ -593,8 +594,15 @@ namespace Odyssey2Backend.PrintShop
                     strCalculationType_I == CalCalculation.strProfit
                     )
                 {
-                    CalCalculation.subAddAProfitCalculation(prodtyp, pro, resI, strAscendantElements_I,
-                        strValue_I, numnProfit_I, strByX_I, strDescription_I, boolIsEnable_I, ref intStatus_IO,
+                    ProfitCalModel addProfitCal = new ProfitCalModel
+                    {
+                        boolIsEnable = boolIsEnable_I,
+                        strDescription = strDescription_I,
+                        numnProfit = numnProfit_I,
+                        intnPkProduct = prodtyp.intPk,
+                        strByX = strByX_I
+                    };
+                    addProfitCal.addProfitCal.AddCalculation(addProfitCal, ps_I, pro, resI, prodtyp, ref intStatus_IO,
                         ref strUserMessage_IO, ref strDevMessage_IO);
                 }
                 else if (
@@ -2975,7 +2983,7 @@ namespace Odyssey2Backend.PrintShop
         }
 
         //- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-        private static void subDisableOtherProfitCalculations(
+        public static void subDisableOtherProfitCalculations(
             CalentityCalculationEntityDB calentity_I
             )
         {
