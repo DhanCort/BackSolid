@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using TowaStandard;
 using Odyssey2Backend.Customer;
 using Odyssey2Backend.PrintShop.sOlid_Cal;
+using Odyssey2Backend.PrintShop.sOlid_cal_base;
 
 //                                                          //AUTHOR: Towa (CLGA-Cesar Garcia).
 //                                                          //CO-AUTHOR: Towa (LGF-Liliana Gutierrez).
@@ -610,11 +611,28 @@ namespace Odyssey2Backend.PrintShop
                     strCalculationType_I == CalCalculation.strBase
                     )
                 {
-                    CalCalculation.subAddBaseCalculation(ps_I, prodtyp, intnPkProduct_I, pro, intnPkProcess, resI,
-                        strAscendantElements_I, strValue_I, numnCost_I, strByX_I,
-                        strDescription_I, boolIsEnable_I, gpcondCondition_I, intnPkProcessInWorkflow_I, 
-                        intnPkElementElementTypeI, intnPkElementElementI, intnPkAccount_I, boolWorkflowIsBase, 
-                        ref intStatus_IO, ref strUserMessage_IO, ref strDevMessage_IO);
+                    //CalCalculation.subAddBaseCalculation(ps_I, prodtyp, intnPkProduct_I, pro, intnPkProcess, resI,
+                    //    strAscendantElements_I, strValue_I, numnCost_I, strByX_I,
+                    //    strDescription_I, boolIsEnable_I, gpcondCondition_I, intnPkProcessInWorkflow_I,
+                    //    intnPkElementElementTypeI, intnPkElementElementI, intnPkAccount_I, boolWorkflowIsBase,
+                    //    ref intStatus_IO, ref strUserMessage_IO, ref strDevMessage_IO);
+                    BaseCalModel addBaseCal = new BaseCalModel
+                    {
+                        numnCost = numnCost_I,
+                        boolIsEnable = boolIsEnable_I,
+                        strValue = strValue_I,
+                        strDescription = strDescription_I,
+                        intnPkProduct = intnPkProduct_I,
+                        intnPkProcess = intnPkProcess_I,
+                        intnPkProcessInWorkflow = intnPkProcessInWorkflow_I,
+                        intnPkEleetOrEleeleI = intnPkEleetOrEleeleI_I,
+                        boolnIsEleetI = boolnIsEleetI_I,
+                        strByX = strByX_I,
+                        intnPkAccount = intnPkAccount_I,
+                        boolnWorkflowIsBase = boolWorkflowIsBase
+                    };
+                    addBaseCal.addBaseCal.AddCalculation(addBaseCal, ps_I, pro, resI, prodtyp, ref intStatus_IO,
+                        ref strUserMessage_IO, ref strDevMessage_IO);
                 }
                 else if (
                     //                                      //It is a per quantity calculation.

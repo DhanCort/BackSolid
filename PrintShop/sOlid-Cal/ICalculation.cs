@@ -8,7 +8,6 @@ namespace Odyssey2Backend.PrintShop.sOlid_Cal
 {
     public interface ICalculation
     {
-
         String strUnit { get; set; }
         double? numnQuantity { get; set; }
         double? numnCost  { get; set; }
@@ -39,5 +38,6 @@ namespace Odyssey2Backend.PrintShop.sOlid_Cal
         bool? boolnFromThickness { get; set; }
         bool? boolnIsBlock { get; set; }
         bool? boolnByArea { get; set; }
+        bool? boolnWorkflowIsBase { get; set; }
     }
 }
